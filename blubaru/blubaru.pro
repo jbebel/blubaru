@@ -1,4 +1,4 @@
-update=Mon 06 Feb 2017 11:46:03 PM EST
+update=Mon 13 Feb 2017 11:20:10 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=library/blubaru
+LibName31=relays
+LibName32=switches
