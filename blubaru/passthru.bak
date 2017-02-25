@@ -1,0 +1,216 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:blubaru
+LIBS:relays
+LIBS:switches
+LIBS:blubaru-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 2 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4250 2350 5550 2350
+Wire Wire Line
+	4250 2550 5550 2550
+Wire Wire Line
+	4200 6050 5500 6050
+Wire Wire Line
+	4250 2950 5550 2950
+Wire Wire Line
+	4250 3050 5550 3050
+Wire Wire Line
+	4250 4100 5550 4100
+Wire Wire Line
+	4250 3250 5550 3250
+Wire Wire Line
+	4250 3350 5550 3350
+Wire Wire Line
+	4250 3450 5550 3450
+Wire Wire Line
+	4200 6250 5500 6250
+Wire Wire Line
+	4200 6150 5500 6150
+Text HLabel 4250 2350 0    60   Input ~ 0
+1_IN
+Text HLabel 3800 4950 0    60   Input ~ 0
+2_IN
+Text HLabel 4250 2550 0    60   Input ~ 0
+3_IN
+Text HLabel 3800 5050 0    60   Input ~ 0
+4_IN
+Text HLabel 4200 6050 0    60   Input ~ 0
+5_IN
+Text HLabel 3800 5150 0    60   Input ~ 0
+6_IN
+Text HLabel 4250 2950 0    60   Input ~ 0
+7_IN
+Text HLabel 4250 3050 0    60   Input ~ 0
+8_IN
+Text HLabel 4250 4100 0    60   Input ~ 0
+9_IN
+Text HLabel 4250 3250 0    60   Input ~ 0
+10_IN
+Text HLabel 4250 3350 0    60   Input ~ 0
+11_IN
+Text HLabel 4250 3450 0    60   Input ~ 0
+12_IN
+Text HLabel 4200 6250 0    60   Input ~ 0
+13_IN
+Text HLabel 4200 6150 0    60   Input ~ 0
+14_IN
+Text HLabel 5550 2350 2    60   Output ~ 0
+1_OUT
+Text HLabel 6150 4950 2    60   Output ~ 0
+2_OUT
+Text HLabel 5550 2550 2    60   Output ~ 0
+3_OUT
+Text HLabel 6150 5050 2    60   Output ~ 0
+4_OUT
+Text HLabel 5500 6050 2    60   Output ~ 0
+5_OUT
+Text HLabel 6150 5150 2    60   Output ~ 0
+6_OUT
+Text HLabel 5550 2950 2    60   Output ~ 0
+7_OUT
+Text HLabel 5550 3050 2    60   Output ~ 0
+8_OUT
+Text HLabel 5550 4100 2    60   Output ~ 0
+9_OUT
+Text HLabel 5550 3250 2    60   Output ~ 0
+10_OUT
+Text HLabel 5550 3350 2    60   Output ~ 0
+11_OUT
+Text HLabel 5550 3450 2    60   Output ~ 0
+12_OUT
+Text HLabel 5500 6250 2    60   Output ~ 0
+13_OUT
+Text HLabel 5500 6150 2    60   Output ~ 0
+14_OUT
+Text Label 4850 2350 2    60   ~ 0
+R?
+Text Label 4850 2550 2    60   ~ 0
+L?
+Text Label 4800 6050 2    60   ~ 0
+A_GND
+Text Label 4700 4100 2    60   ~ 0
+ACC
+Text Label 4850 3250 2    60   ~ 0
+MEM
+Text Label 4850 3350 2    60   ~ 0
+IN??
+Text Label 4800 6250 2    60   ~ 0
+CD_GND
+Text Label 4800 6150 2    60   ~ 0
+CHASSIS
+Wire Wire Line
+	3800 4950 4250 4950
+Wire Wire Line
+	3800 5050 4250 5050
+Wire Wire Line
+	3800 5150 4250 5150
+Wire Wire Line
+	5500 4950 6150 4950
+Wire Wire Line
+	5500 5050 6150 5050
+Wire Wire Line
+	5500 5150 6150 5150
+$Sheet
+S 4250 4550 1250 950 
+U 58B1273D
+F0 "Modules" 60
+F1 "modules.sch" 60
+F2 "L_CD" I L 4250 5050 60 
+F3 "R_CD" I L 4250 4950 60 
+F4 "L_STEREO" O R 5500 5050 60 
+F5 "R_STEREO" O R 5500 4950 60 
+F6 "TRG_STEREO" O R 5500 5150 60 
+F7 "TRG_CD" I L 4250 5150 60 
+$EndSheet
+$Comp
+L GND #PWR?
+U 1 1 58B1285E
+P 5000 6500
+F 0 "#PWR?" H 5000 6250 50  0001 C CNN
+F 1 "GND" H 5000 6350 50  0000 C CNN
+F 2 "" H 5000 6500 50  0000 C CNN
+F 3 "" H 5000 6500 50  0000 C CNN
+	1    5000 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6050 5000 6500
+Connection ~ 5000 6250
+Connection ~ 5000 6150
+Connection ~ 5000 6050
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 58B12AA7
+P 5300 4100
+F 0 "#FLG?" H 5300 4195 50  0001 C CNN
+F 1 "PWR_FLAG" H 5300 4280 50  0000 C CNN
+F 2 "" H 5300 4100 50  0000 C CNN
+F 3 "" H 5300 4100 50  0000 C CNN
+	1    5300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 58B12B41
+P 5000 6050
+F 0 "#FLG?" H 5000 6145 50  0001 C CNN
+F 1 "PWR_FLAG" H 5000 6230 50  0000 C CNN
+F 2 "" H 5000 6050 50  0000 C CNN
+F 3 "" H 5000 6050 50  0000 C CNN
+	1    5000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 58B12C1E
+P 4950 4100
+F 0 "#PWR?" H 4950 3950 50  0001 C CNN
+F 1 "+12V" H 4950 4240 50  0000 C CNN
+F 2 "" H 4950 4100 50  0000 C CNN
+F 3 "" H 4950 4100 50  0000 C CNN
+	1    4950 4100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

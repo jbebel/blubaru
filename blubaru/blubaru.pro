@@ -1,4 +1,4 @@
-update=Mon 13 Feb 2017 11:20:10 PM EST
+update=Thu 23 Feb 2017 11:16:26 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=valves
 LibName30=library/blubaru
 LibName31=relays
 LibName32=switches
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=/tmp
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

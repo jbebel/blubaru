@@ -1,0 +1,236 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:blubaru
+LIBS:relays
+LIBS:switches
+LIBS:blubaru-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 6 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RN52_BREAKOUT J2
+U 1 1 589AA2F8
+P 5100 2950
+F 0 "J2" H 5100 850 60  0000 C CNN
+F 1 "RN52_BREAKOUT" H 5100 2950 60  0000 C CNN
+F 2 "" H 5100 2950 60  0001 C CNN
+F 3 "" H 5100 2950 60  0001 C CNN
+	1    5100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 589AA392
+P 5800 5250
+F 0 "#PWR011" H 5800 5000 50  0001 C CNN
+F 1 "GND" H 5800 5100 50  0000 C CNN
+F 2 "" H 5800 5250 50  0000 C CNN
+F 3 "" H 5800 5250 50  0000 C CNN
+	1    5800 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR012
+U 1 1 589AA3E5
+P 4400 5250
+F 0 "#PWR012" H 4400 5100 50  0001 C CNN
+F 1 "VCC" H 4400 5400 50  0000 C CNN
+F 2 "" H 4400 5250 50  0000 C CNN
+F 3 "" H 4400 5250 50  0000 C CNN
+	1    4400 5250
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4400 3050
+NoConn ~ 4400 3250
+NoConn ~ 4400 3350
+Text Label 4050 3450 0    60   ~ 0
+VOL+
+Text Label 4050 3550 0    60   ~ 0
+NEXT
+Text Label 4050 3650 0    60   ~ 0
+PLAY
+Text Label 4050 3750 0    60   ~ 0
+PREV
+Text Label 4050 3850 0    60   ~ 0
+VOL-
+NoConn ~ 4400 4050
+NoConn ~ 4400 4150
+NoConn ~ 4400 4250
+NoConn ~ 4400 4350
+NoConn ~ 4400 4650
+NoConn ~ 4400 4750
+NoConn ~ 5800 4850
+NoConn ~ 5800 4750
+NoConn ~ 5800 4650
+NoConn ~ 5800 4550
+NoConn ~ 5800 4450
+NoConn ~ 5800 4350
+NoConn ~ 5800 4250
+NoConn ~ 5800 4150
+NoConn ~ 5800 4050
+NoConn ~ 5800 3950
+$Comp
+L C C12
+U 1 1 589BA198
+P 5100 5250
+F 0 "C12" H 5125 5350 50  0000 L CNN
+F 1 "0.1uF" H 5125 5150 50  0000 L CNN
+F 2 "" H 5138 5100 50  0000 C CNN
+F 3 "" H 5100 5250 50  0000 C CNN
+	1    5100 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 4850 4400 5250
+Wire Wire Line
+	3850 3450 4400 3450
+Wire Wire Line
+	3850 3550 4400 3550
+Wire Wire Line
+	3850 3650 4400 3650
+Wire Wire Line
+	3850 3750 4400 3750
+Wire Wire Line
+	3850 3850 4400 3850
+Connection ~ 4400 4950
+Wire Wire Line
+	5800 4950 5800 5250
+Wire Wire Line
+	5800 5250 5250 5250
+Wire Wire Line
+	4400 5250 4950 5250
+Connection ~ 5800 5250
+Connection ~ 4400 5250
+$Comp
+L CONN_01X06 P1
+U 1 1 589E7B79
+P 3650 3600
+F 0 "P1" H 3650 3950 50  0000 C CNN
+F 1 "CONN_01X06" V 3750 3600 50  0000 C CNN
+F 2 "" H 3650 3600 50  0000 C CNN
+F 3 "" H 3650 3600 50  0000 C CNN
+	1    3650 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 589E813D
+P 3950 3350
+F 0 "#PWR013" H 3950 3100 50  0001 C CNN
+F 1 "GND" H 3950 3200 50  0000 C CNN
+F 2 "" H 3950 3350 50  0000 C CNN
+F 3 "" H 3950 3350 50  0000 C CNN
+	1    3950 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 3350 3950 3350
+Wire Wire Line
+	5800 3050 6800 2900
+Wire Wire Line
+	5800 3150 6800 3000
+Wire Wire Line
+	5800 3250 6800 3100
+Wire Wire Line
+	5800 3350 6800 3200
+$Sheet
+S 6800 3550 750  600 
+U 58AE7D2D
+F0 "Microphone" 60
+F1 "mic.sch" 60
+F2 "MIC_R-" O L 6800 3650 60 
+F3 "MIC_L-" O L 6800 3750 60 
+F4 "MIC_R+" O L 6800 3850 60 
+F5 "MIC_L+" O L 6800 3950 60 
+F6 "MIC_BIAS" O L 6800 4050 60 
+$EndSheet
+Wire Wire Line
+	5800 3450 6800 3650
+Wire Wire Line
+	5800 3550 6800 3750
+Wire Wire Line
+	5800 3650 6800 3850
+Wire Wire Line
+	5800 3750 6800 3950
+Wire Wire Line
+	5800 3850 6800 4050
+$Sheet
+S 6800 2800 1100 500 
+U 58AE00D8
+F0 "Amp" 60
+F1 "amp.sch" 60
+F2 "LineOutL" O R 7900 2900 60 
+F3 "LineOutR" O R 7900 3000 60 
+F4 "L+" I L 6800 2900 60 
+F5 "R+" I L 6800 3000 60 
+F6 "L-" I L 6800 3100 60 
+F7 "R-" I L 6800 3200 60 
+$EndSheet
+Text HLabel 8250 2900 2    60   Output ~ 0
+LineOutL
+Text HLabel 8250 3000 2    60   Output ~ 0
+LineOutR
+Wire Wire Line
+	7900 2900 8250 2900
+Wire Wire Line
+	7900 3000 8250 3000
+Text HLabel 4000 4450 0    60   Output ~ 0
+UART_TX
+Text HLabel 4000 4550 0    60   Output ~ 0
+UART_RX
+Wire Wire Line
+	4400 4450 4000 4450
+Wire Wire Line
+	4400 4550 4000 4550
+Text HLabel 4100 3950 0    60   Input ~ 0
+CMD
+Text HLabel 4000 3100 0    60   Output ~ 0
+EVENT
+Wire Wire Line
+	4000 3100 4200 3100
+Wire Wire Line
+	4200 3100 4200 3150
+Wire Wire Line
+	4200 3150 4400 3150
+Wire Wire Line
+	4100 3950 4400 3950
+$EndSCHEMATC
