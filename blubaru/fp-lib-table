@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name blubaru)(type KiCad)(uri "$(KIPRJMOD)/blubaru.pretty")(options "")(descr ""))
+)
