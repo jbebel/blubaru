@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jbebel/blubaru/blubaru/blubaru.sch</source>
-    <date>Wed 01 Mar 2017 03:08:48 PM EST</date>
+    <date>Fri 03 Mar 2017 11:54:14 PM EST</date>
     <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -140,25 +140,28 @@
     </comp>
     <comp ref="J3">
       <value>FSA2269</value>
+      <footprint>blubaru:FSA2269</footprint>
       <libsource lib="blubaru" part="FSA2269"/>
       <sheetpath names="/DB-15 interconnects/Modules/Audio switch/" tstamps="/58B10FE0/58B1273D/58AEC71A/"/>
       <tstamp>58B3B18B</tstamp>
     </comp>
     <comp ref="U1">
       <value>DG419</value>
-      <footprint>Housings_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <footprint>Housings_DIP:DIP-8_W7.62mm</footprint>
       <libsource lib="analog_switches" part="DG419"/>
       <sheetpath names="/DB-15 interconnects/Modules/Audio switch/" tstamps="/58B10FE0/58B1273D/58AEC71A/"/>
       <tstamp>58B47B5A</tstamp>
     </comp>
     <comp ref="J4">
       <value>ProMicro</value>
+      <footprint>blubaru:ProMicro</footprint>
       <libsource lib="blubaru" part="ProMicro"/>
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/58B171C6/"/>
       <tstamp>589BEE21</tstamp>
     </comp>
     <comp ref="J5">
       <value>RN52_BREAKOUT</value>
+      <footprint>blubaru:RN52_Breakout</footprint>
       <libsource lib="blubaru" part="RN52_BREAKOUT"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/" tstamps="/58B10FE0/58B1273D/58B189CE/"/>
       <tstamp>589AA2F8</tstamp>
@@ -214,20 +217,21 @@
     </comp>
     <comp ref="R1">
       <value>2k2</value>
-      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
       <tstamp>589D2492</tstamp>
     </comp>
     <comp ref="R2">
       <value>2k2</value>
-      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
       <tstamp>589D2525</tstamp>
     </comp>
     <comp ref="J6">
       <value>JACK_TRS_6PINS</value>
+      <footprint>blubaru:SJ1-3523NG</footprint>
       <libsource lib="conn" part="JACK_TRS_6PINS"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
       <tstamp>589E55E1</tstamp>
@@ -269,35 +273,35 @@
     </comp>
     <comp ref="C7">
       <value>100uF</value>
-      <footprint>Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <footprint>Capacitors_THT:C_Rect_L4.6mm_W3.8mm_P2.50mm_MKS02_FKP02</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Amp/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE00D8/"/>
       <tstamp>5899493B</tstamp>
     </comp>
     <comp ref="C10">
       <value>100uF</value>
-      <footprint>Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <footprint>Capacitors_THT:C_Rect_L4.6mm_W3.8mm_P2.50mm_MKS02_FKP02</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Amp/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE00D8/"/>
       <tstamp>589949C4</tstamp>
     </comp>
     <comp ref="C14">
       <value>100uF</value>
-      <footprint>Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <footprint>Capacitors_THT:C_Rect_L4.6mm_W3.8mm_P2.50mm_MKS02_FKP02</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Amp/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE00D8/"/>
       <tstamp>58994A4D</tstamp>
     </comp>
     <comp ref="C17">
       <value>100uF</value>
-      <footprint>Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <footprint>Capacitors_THT:C_Rect_L4.6mm_W3.8mm_P2.50mm_MKS02_FKP02</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Amp/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE00D8/"/>
       <tstamp>58994AD0</tstamp>
     </comp>
     <comp ref="C15">
       <value>10uF</value>
-      <footprint>Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <footprint>Capacitors_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Amp/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE00D8/"/>
       <tstamp>58994B47</tstamp>
@@ -311,62 +315,63 @@
     </comp>
     <comp ref="R4">
       <value>22k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Amp/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE00D8/"/>
       <tstamp>58994C5E</tstamp>
     </comp>
     <comp ref="R5">
       <value>22k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Amp/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE00D8/"/>
       <tstamp>58994CF3</tstamp>
     </comp>
     <comp ref="R6">
       <value>47k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Amp/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE00D8/"/>
       <tstamp>58994D42</tstamp>
     </comp>
     <comp ref="R7">
       <value>47k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Amp/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE00D8/"/>
       <tstamp>58994D85</tstamp>
     </comp>
     <comp ref="R8">
       <value>22k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Amp/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE00D8/"/>
       <tstamp>58994DDE</tstamp>
     </comp>
     <comp ref="R9">
       <value>22k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Amp/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE00D8/"/>
       <tstamp>58994E2B</tstamp>
     </comp>
     <comp ref="R10">
       <value>47k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Amp/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE00D8/"/>
       <tstamp>58994E7A</tstamp>
     </comp>
     <comp ref="R3">
       <value>47k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Amp/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE00D8/"/>
       <tstamp>58994EB3</tstamp>
     </comp>
     <comp ref="J7">
       <value>TPA6112</value>
+      <footprint>blubaru:TPA6112</footprint>
       <libsource lib="blubaru" part="TPA6112"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Amp/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE00D8/"/>
       <tstamp>589956A8</tstamp>
@@ -619,11 +624,11 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="blubaru-cache">
-      <uri>/home/jbebel/blubaru/blubaru/blubaru-cache.lib</uri>
-    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="analog_switches">
       <uri>/usr/share/kicad/library/analog_switches.lib</uri>
@@ -631,8 +636,8 @@
     <library logical="blubaru">
       <uri>/home/jbebel/blubaru/blubaru/library/blubaru.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
+    <library logical="blubaru-cache">
+      <uri>/home/jbebel/blubaru/blubaru/blubaru-cache.lib</uri>
     </library>
   </libraries>
   <nets>
