@@ -48,4 +48,9 @@
   (pad "" np_thru_hole circle (at -5 -2.5) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 5 -2.5) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 5 0) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
+  (model /home/jbebel/blubaru/blubaru/packages3d/sj1-3523ng.wrl
+    (at (xyz 0 -0.02 0.04))
+    (scale (xyz 2.77 2.77 2.77))
+    (rotate (xyz 0 0 -90))
+  )
 )
