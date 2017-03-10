@@ -53,7 +53,7 @@ P 5100 2950
 F 0 "J5" H 5100 850 60  0000 C CNN
 F 1 "RN52_BREAKOUT" H 5100 2950 60  0000 C CNN
 F 2 "blubaru:RN52_Breakout" H 5100 2950 60  0001 C CNN
-F 3 "" H 5100 2950 60  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/70005120A.pdf" H 5100 2950 60  0001 C CNN
 	1    5100 2950
 	1    0    0    -1  
 $EndComp

@@ -53,7 +53,7 @@ P 5550 4600
 F 0 "J4" H 5550 3300 60  0000 C CNN
 F 1 "ProMicro" H 5550 4600 60  0000 C CNN
 F 2 "blubaru:ProMicro" H 5550 4600 60  0001 C CNN
-F 3 "" H 5550 4600 60  0001 C CNN
+F 3 "https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro8MHzv1.pdf" H 5550 4600 60  0001 C CNN
 	1    5550 4600
 	-1   0    0    1   
 $EndComp

@@ -262,7 +262,7 @@ P 5300 3200
 F 0 "J7" H 5300 2400 60  0000 C CNN
 F 1 "TPA6112" H 5300 3200 60  0000 C CNN
 F 2 "blubaru:TPA6112" H 5300 3200 60  0001 C CNN
-F 3 "" H 5300 3200 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpa6112a2.pdf" H 5300 3200 60  0001 C CNN
 	1    5300 3200
 	1    0    0    -1  
 $EndComp

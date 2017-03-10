@@ -1,8 +1,32 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP FSA2269
+D Audio switch
+K Dual SPDT analog audio switch negative swing
+F https://www.fairchildsemi.com/datasheets/FS/FSA2269.pdf
+$ENDCMP
+#
 $CMP JACK_TRS_5PINS
 D audio jack TRS 5 pins
 K audio jack connector TRS
+F http://www.cui.com/product/resource/sj1-352xng-series.pdf
+$ENDCMP
+#
+$CMP ProMicro
+D Sparkfun ProMicro
+K ATMega
+F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro8MHzv1.pdf
+$ENDCMP
+#
+$CMP RN52_BREAKOUT
+D Bluetooth Audio Module
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005120A.pdf
+$ENDCMP
+#
+$CMP TPA6112
+D Audio amplifier
+K Stereo Audio Power Amplifier
+F http://www.ti.com/lit/ds/symlink/tpa6112a2.pdf
 $ENDCMP
 #
 #End Doc Library

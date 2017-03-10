@@ -75,7 +75,7 @@ P 4550 4300
 F 0 "J3" H 4550 3700 60  0000 C CNN
 F 1 "FSA2269" H 4550 4300 60  0000 C CNN
 F 2 "blubaru:FSA2269" H 4550 4300 60  0001 C CNN
-F 3 "" H 4550 4300 60  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/FS/FSA2269.pdf" H 4550 4300 60  0001 C CNN
 	1    4550 4300
 	1    0    0    -1  
 $EndComp
@@ -125,7 +125,7 @@ P 6550 3650
 F 0 "U1" H 6650 3550 50  0000 L CNN
 F 1 "DG419" H 6650 3750 50  0000 L CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm" H 6550 3650 60  0001 C CNN
-F 3 "" H 6550 3650 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/70051/dg417.pdf" H 6550 3650 60  0001 C CNN
 	1    6550 3650
 	-1   0    0    -1  
 $EndComp
