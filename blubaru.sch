@@ -52,8 +52,8 @@ U 1 1 589BBD0D
 P 6850 4000
 F 0 "J2" H 6870 4850 50  0000 C CNN
 F 1 "DB15" H 6800 3150 50  0000 C CNN
-F 2 "Connectors:DB15MC" H 6850 4000 50  0001 C CNN
-F 3 "" H 6850 4000 50  0000 C CNN
+F 2 "blubaru:DB15MC" H 6850 4000 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Assmann%20PDFs/A-Dx%20-xx-A_KG-T4_T2_Dwg.pdf" H 6850 4000 50  0001 C CNN
 	1    6850 4000
 	1    0    0    1   
 $EndComp
@@ -63,8 +63,8 @@ U 1 1 589BBD68
 P 4100 4000
 F 0 "J1" H 4120 4850 50  0000 C CNN
 F 1 "DB15" H 4050 3150 50  0000 C CNN
-F 2 "Connectors:DB15FC" H 4100 4000 50  0001 C CNN
-F 3 "" H 4100 4000 50  0000 C CNN
+F 2 "blubaru:DB15FC" H 4100 4000 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Assmann%20PDFs/A-Dx%20-xx-A_KG-T4_T2_Dwg.pdf" H 4100 4000 50  0001 C CNN
 	1    4100 4000
 	-1   0    0    1   
 $EndComp

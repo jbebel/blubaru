@@ -52,8 +52,8 @@ U 1 1 58994736
 P 4150 5200
 F 0 "C8" H 4175 5300 50  0000 L CNN
 F 1 "1uF" H 4175 5100 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4188 5050 50  0001 C CNN
-F 3 "" H 4150 5200 50  0000 C CNN
+F 2 "blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm" H 4188 5050 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 4150 5200 50  0001 C CNN
 	1    4150 5200
 	1    0    0    -1  
 $EndComp
@@ -63,8 +63,8 @@ U 1 1 58994867
 P 4550 5200
 F 0 "C9" H 4575 5300 50  0000 L CNN
 F 1 "1uF" H 4575 5100 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4588 5050 50  0001 C CNN
-F 3 "" H 4550 5200 50  0000 C CNN
+F 2 "blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm" H 4588 5050 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 4550 5200 50  0001 C CNN
 	1    4550 5200
 	1    0    0    -1  
 $EndComp
@@ -74,8 +74,8 @@ U 1 1 589948AE
 P 5300 5150
 F 0 "C11" H 5325 5250 50  0000 L CNN
 F 1 "1uF" H 5325 5050 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 5338 5000 50  0001 C CNN
-F 3 "" H 5300 5150 50  0000 C CNN
+F 2 "blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm" H 5338 5000 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 5300 5150 50  0001 C CNN
 	1    5300 5150
 	1    0    0    -1  
 $EndComp
@@ -85,8 +85,8 @@ U 1 1 589948D5
 P 6250 5200
 F 0 "C13" H 6275 5300 50  0000 L CNN
 F 1 "1uF" H 6275 5100 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6288 5050 50  0001 C CNN
-F 3 "" H 6250 5200 50  0000 C CNN
+F 2 "blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm" H 6288 5050 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 6250 5200 50  0001 C CNN
 	1    6250 5200
 	1    0    0    -1  
 $EndComp
@@ -96,8 +96,8 @@ U 1 1 58994912
 P 6850 5200
 F 0 "C16" H 6875 5300 50  0000 L CNN
 F 1 "1uF" H 6875 5100 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6888 5050 50  0001 C CNN
-F 3 "" H 6850 5200 50  0000 C CNN
+F 2 "blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm" H 6888 5050 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 6850 5200 50  0001 C CNN
 	1    6850 5200
 	1    0    0    -1  
 $EndComp
@@ -107,8 +107,8 @@ U 1 1 5899493B
 P 4150 2650
 F 0 "C7" H 4175 2750 50  0000 L CNN
 F 1 "100uF" H 4175 2550 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L4.6mm_W3.8mm_P2.50mm_MKS02_FKP02" H 4188 2500 50  0001 C CNN
-F 3 "" H 4150 2650 50  0000 C CNN
+F 2 "blubaru:C_Disc_D5.5mm_W4mm_P2.50mm" H 4188 2500 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 4150 2650 50  0001 C CNN
 	1    4150 2650
 	1    0    0    -1  
 $EndComp
@@ -118,8 +118,8 @@ U 1 1 589949C4
 P 4650 2650
 F 0 "C10" H 4675 2750 50  0000 L CNN
 F 1 "100uF" H 4675 2550 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L4.6mm_W3.8mm_P2.50mm_MKS02_FKP02" H 4688 2500 50  0001 C CNN
-F 3 "" H 4650 2650 50  0000 C CNN
+F 2 "blubaru:C_Disc_D5.5mm_W4mm_P2.50mm" H 4688 2500 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 4650 2650 50  0001 C CNN
 	1    4650 2650
 	1    0    0    -1  
 $EndComp
@@ -129,8 +129,8 @@ U 1 1 58994A4D
 P 6300 2650
 F 0 "C14" H 6325 2750 50  0000 L CNN
 F 1 "100uF" H 6325 2550 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L4.6mm_W3.8mm_P2.50mm_MKS02_FKP02" H 6338 2500 50  0001 C CNN
-F 3 "" H 6300 2650 50  0000 C CNN
+F 2 "blubaru:C_Disc_D5.5mm_W4mm_P2.50mm" H 6338 2500 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 6300 2650 50  0001 C CNN
 	1    6300 2650
 	1    0    0    -1  
 $EndComp
@@ -140,20 +140,9 @@ U 1 1 58994AD0
 P 6950 2650
 F 0 "C17" H 6975 2750 50  0000 L CNN
 F 1 "100uF" H 6975 2550 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L4.6mm_W3.8mm_P2.50mm_MKS02_FKP02" H 6988 2500 50  0001 C CNN
-F 3 "" H 6950 2650 50  0000 C CNN
+F 2 "blubaru:C_Disc_D5.5mm_W4mm_P2.50mm" H 6988 2500 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 6950 2650 50  0001 C CNN
 	1    6950 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C15
-U 1 1 58994B47
-P 6350 3250
-F 0 "C15" H 6375 3350 50  0000 L CNN
-F 1 "10uF" H 6375 3150 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 6388 3100 50  0001 C CNN
-F 3 "" H 6350 3250 50  0000 C CNN
-	1    6350 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -162,8 +151,8 @@ U 1 1 58994B88
 P 6050 3250
 F 0 "C12" H 6075 3350 50  0000 L CNN
 F 1 "0.1uF" H 6075 3150 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6088 3100 50  0001 C CNN
-F 3 "" H 6050 3250 50  0000 C CNN
+F 2 "blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm" H 6088 3100 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 6050 3250 50  0001 C CNN
 	1    6050 3250
 	1    0    0    -1  
 $EndComp
@@ -173,8 +162,8 @@ U 1 1 58994C5E
 P 4150 4900
 F 0 "R4" V 4230 4900 50  0000 C CNN
 F 1 "22k" V 4150 4900 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4080 4900 50  0001 C CNN
-F 3 "" H 4150 4900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4080 4900 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 4150 4900 50  0001 C CNN
 	1    4150 4900
 	1    0    0    -1  
 $EndComp
@@ -184,8 +173,8 @@ U 1 1 58994CF3
 P 4550 4900
 F 0 "R5" V 4630 4900 50  0000 C CNN
 F 1 "22k" V 4550 4900 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4480 4900 50  0001 C CNN
-F 3 "" H 4550 4900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4480 4900 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 4550 4900 50  0001 C CNN
 	1    4550 4900
 	1    0    0    -1  
 $EndComp
@@ -195,8 +184,8 @@ U 1 1 58994D42
 P 5000 4550
 F 0 "R6" V 5080 4550 50  0000 C CNN
 F 1 "47k" V 5000 4550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4930 4550 50  0001 C CNN
-F 3 "" H 5000 4550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4930 4550 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5000 4550 50  0001 C CNN
 	1    5000 4550
 	0    1    1    0   
 $EndComp
@@ -206,8 +195,8 @@ U 1 1 58994D85
 P 5650 4550
 F 0 "R7" V 5730 4550 50  0000 C CNN
 F 1 "47k" V 5650 4550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5580 4550 50  0001 C CNN
-F 3 "" H 5650 4550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5580 4550 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5650 4550 50  0001 C CNN
 	1    5650 4550
 	0    1    1    0   
 $EndComp
@@ -217,8 +206,8 @@ U 1 1 58994DDE
 P 6250 4900
 F 0 "R8" V 6330 4900 50  0000 C CNN
 F 1 "22k" V 6250 4900 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6180 4900 50  0001 C CNN
-F 3 "" H 6250 4900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 6180 4900 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 6250 4900 50  0001 C CNN
 	1    6250 4900
 	1    0    0    -1  
 $EndComp
@@ -228,8 +217,8 @@ U 1 1 58994E2B
 P 6850 4900
 F 0 "R9" V 6930 4900 50  0000 C CNN
 F 1 "22k" V 6850 4900 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6780 4900 50  0001 C CNN
-F 3 "" H 6850 4900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 6780 4900 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 6850 4900 50  0001 C CNN
 	1    6850 4900
 	1    0    0    -1  
 $EndComp
@@ -239,8 +228,8 @@ U 1 1 58994E7A
 P 7500 3650
 F 0 "R10" V 7580 3650 50  0000 C CNN
 F 1 "47k" V 7500 3650 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7430 3650 50  0001 C CNN
-F 3 "" H 7500 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 7430 3650 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 7500 3650 50  0001 C CNN
 	1    7500 3650
 	1    0    0    -1  
 $EndComp
@@ -250,8 +239,8 @@ U 1 1 58994EB3
 P 3550 3550
 F 0 "R3" V 3630 3550 50  0000 C CNN
 F 1 "47k" V 3550 3550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3480 3550 50  0001 C CNN
-F 3 "" H 3550 3550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 3480 3550 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 3550 3550 50  0001 C CNN
 	1    3550 3550
 	1    0    0    -1  
 $EndComp
@@ -455,4 +444,15 @@ Text HLabel 6250 5600 3    60   Input ~ 0
 R+
 Text HLabel 6850 5600 3    60   Input ~ 0
 R-
+$Comp
+L CP C15
+U 1 1 58CE0FB5
+P 6350 3250
+F 0 "C15" H 6375 3350 50  0000 L CNN
+F 1 "CP" H 6375 3150 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 6388 3100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/ww/products/capacitors/aluminum-capacitors/aluminum-cap-lead/ks/ECEA1CKS100" H 6350 3250 50  0001 C CNN
+	1    6350 3250
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

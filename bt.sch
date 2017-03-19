@@ -114,8 +114,8 @@ U 1 1 589BA198
 P 5100 5250
 F 0 "C1" H 5125 5350 50  0000 L CNN
 F 1 "0.1uF" H 5125 5150 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 5138 5100 50  0001 C CNN
-F 3 "" H 5100 5250 50  0000 C CNN
+F 2 "blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm" H 5138 5100 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 5100 5250 50  0001 C CNN
 	1    5100 5250
 	0    1    1    0   
 $EndComp
