@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DRV632
+D Audio Line Driver
+F http://www.ti.com/lit/ds/symlink/drv632.pdf
+$ENDCMP
+#
 $CMP FSA2269
 D Audio switch
 K Dual SPDT analog audio switch negative swing
