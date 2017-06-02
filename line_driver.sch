@@ -539,7 +539,7 @@ P 5800 3000
 F 0 "J7" H 5800 2200 60  0000 C CNN
 F 1 "DRV632" H 5800 3000 60  0000 C CNN
 F 2 "" H 5800 3000 60  0001 C CNN
-F 3 "" H 5800 3000 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv632.pdf" H 5800 3000 60  0001 C CNN
 	1    5800 3000
 	1    0    0    -1  
 $EndComp

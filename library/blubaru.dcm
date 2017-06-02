@@ -2,6 +2,7 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP DRV632
 D Audio Line Driver
+K Audio Line Driver
 F http://www.ti.com/lit/ds/symlink/drv632.pdf
 $ENDCMP
 #
