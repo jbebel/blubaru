@@ -50,74 +50,48 @@ Wire Wire Line
 	6250 3600 6150 3600
 Wire Wire Line
 	6850 3650 7000 3650
-Text HLabel 5100 4400 2    60   Input ~ 0
+Text HLabel 4300 4750 0    60   Input ~ 0
 L_CD
-Text HLabel 4000 4500 0    60   Input ~ 0
+Text HLabel 5400 4650 2    60   Input ~ 0
 R_CD
 Text HLabel 6150 3600 0    60   Input ~ 0
 TRG_CD
-Text HLabel 4000 4400 0    60   Input ~ 0
+Text HLabel 4300 4550 0    60   Input ~ 0
 BT_L
-Text HLabel 4000 4600 0    60   Input ~ 0
+Text HLabel 5400 4450 2    60   Input ~ 0
 BT_R
 Text HLabel 7650 4750 2    60   Input ~ 0
 BT_TRG
-Text HLabel 5100 4600 2    60   Output ~ 0
+Text HLabel 4300 4650 0    60   Output ~ 0
 L_STEREO
-Text HLabel 4000 4800 0    60   Output ~ 0
+Text HLabel 5400 4550 2    60   Output ~ 0
 R_STEREO
 Text HLabel 7000 3650 2    60   Output ~ 0
 TRG_STEREO
 $Comp
-L FSA2269 J3
-U 1 1 58B3B18B
-P 4550 4300
-F 0 "J3" H 4550 3700 60  0000 C CNN
-F 1 "FSA2269" H 4550 4300 60  0000 C CNN
-F 2 "blubaru:FSA2269" H 4550 4300 60  0001 C CNN
-F 3 "https://www.fairchildsemi.com/datasheets/FS/FSA2269.pdf" H 4550 4300 60  0001 C CNN
-	1    4550 4300
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR08
 U 1 1 58B3B20A
-P 3250 4750
-F 0 "#PWR08" H 3250 4500 50  0001 C CNN
-F 1 "GND" H 3250 4600 50  0000 C CNN
-F 2 "" H 3250 4750 50  0000 C CNN
-F 3 "" H 3250 4750 50  0000 C CNN
-	1    3250 4750
+P 5650 4900
+F 0 "#PWR08" H 5650 4650 50  0001 C CNN
+F 1 "GND" H 5650 4750 50  0000 C CNN
+F 2 "" H 5650 4900 50  0000 C CNN
+F 3 "" H 5650 4900 50  0000 C CNN
+	1    5650 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 4700 3250 4700
-Wire Wire Line
-	3250 4700 3250 4750
 $Comp
 L VCC #PWR09
 U 1 1 58B3B22E
-P 5550 4400
-F 0 "#PWR09" H 5550 4250 50  0001 C CNN
-F 1 "VCC" H 5550 4550 50  0000 C CNN
-F 2 "" H 5550 4400 50  0000 C CNN
-F 3 "" H 5550 4400 50  0000 C CNN
-	1    5550 4400
+P 4100 4350
+F 0 "#PWR09" H 4100 4200 50  0001 C CNN
+F 1 "VCC" H 4100 4500 50  0000 C CNN
+F 2 "" H 4100 4350 50  0000 C CNN
+F 3 "" H 4100 4350 50  0000 C CNN
+	1    4100 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 4500 5550 4500
-Wire Wire Line
-	5550 4500 5550 4400
-Wire Wire Line
 	5400 4750 7650 4750
-Wire Wire Line
-	5100 4700 5400 4700
-Wire Wire Line
-	5400 4700 5400 4800
-Wire Wire Line
-	5400 4800 5100 4800
-Connection ~ 5400 4750
 $Comp
 L DG419 U1
 U 1 1 58B47B5A
@@ -184,4 +158,30 @@ F 3 "" H 5750 3700 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	5750 3700 6250 3700
+$Comp
+L TS5A22364-Q1 J?
+U 1 1 59323EF4
+P 4850 4350
+F 0 "J?" H 4850 3750 60  0000 C CNN
+F 1 "TS5A22364-Q1" H 4850 4350 60  0000 C CNN
+F 2 "" H 4850 4350 60  0001 C CNN
+F 3 "" H 4850 4350 60  0001 C CNN
+	1    4850 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4350 4100 4450
+Wire Wire Line
+	4100 4450 4300 4450
+Wire Wire Line
+	5650 4900 5650 4850
+Wire Wire Line
+	5650 4850 5400 4850
+Wire Wire Line
+	6000 4750 6000 5250
+Wire Wire Line
+	6000 5250 4300 5250
+Wire Wire Line
+	4300 5250 4300 4850
+Connection ~ 6000 4750
 $EndSCHEMATC

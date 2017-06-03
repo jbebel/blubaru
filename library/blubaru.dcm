@@ -35,4 +35,10 @@ K Stereo Audio Power Amplifier
 F http://www.ti.com/lit/ds/symlink/tpa6112a2.pdf
 $ENDCMP
 #
+$CMP TS5A22364-Q1
+D TS5A22364-Q1 0.65-Ω Dual SPDT Analog Switch with Negative Signaling Capability
+K TS5A22364-Q1 0.65-Ω Dual SPDT Analog Switch with Negative Signaling Capability
+F http://www.ti.com/lit/ds/symlink/ts5a22364-q1.pdf
+$ENDCMP
+#
 #End Doc Library
