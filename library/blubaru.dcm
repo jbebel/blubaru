@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ArduinoProMini
+D Sparkfun ProMini
+K ATMega328
+F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMini8MHzv1.pdf
+$ENDCMP
+#
 $CMP DRV632
 D Audio Line Driver
 K Audio Line Driver

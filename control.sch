@@ -109,11 +109,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 4200 6400 4200
 Wire Wire Line
-	6050 4300 6200 4300
-Wire Wire Line
-	6200 4300 6200 4200
-Connection ~ 6200 4200
-Wire Wire Line
 	4750 4400 5050 4400
 Wire Wire Line
 	4750 4200 5050 4200
@@ -148,4 +143,5 @@ Text HLabel 6550 3400 2    60   Output ~ 0
 BT_TRG
 Wire Wire Line
 	6050 3400 6550 3400
+NoConn ~ 6050 4300
 $EndSCHEMATC
