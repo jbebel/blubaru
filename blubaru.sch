@@ -160,4 +160,8 @@ Wire Wire Line
 	4550 4500 4850 4500
 Wire Wire Line
 	4550 4700 4850 4700
+Text Notes 3700 4600 1    600  ~ 0
+CD
+Text Notes 7850 5600 1    600  ~ 0
+Stereo
 $EndSCHEMATC

@@ -261,4 +261,8 @@ F 3 "" H 5450 5700 50  0000 C CNN
 	1    5450 5700
 	1    0    0    -1  
 $EndComp
+Text Notes 3750 4450 1    600  ~ 0
+CD
+Text Notes 7700 5300 1    600  ~ 0
+Stereo
 $EndSCHEMATC
