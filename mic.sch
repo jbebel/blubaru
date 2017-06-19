@@ -57,10 +57,10 @@ MIC_L+
 Text Label 4750 4050 2    60   ~ 0
 MIC_BIAS
 $Comp
-L C C5
+L C C7
 U 1 1 589D21D3
 P 5500 3750
-F 0 "C5" H 5525 3850 50  0000 L CNN
+F 0 "C7" H 5525 3850 50  0000 L CNN
 F 1 "0.047uF" H 5525 3650 50  0000 L CNN
 F 2 "blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm" H 5538 3600 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 5500 3750 50  0001 C CNN
@@ -68,10 +68,10 @@ F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en
 	0    1    1    0   
 $EndComp
 $Comp
-L C C4
+L C C6
 U 1 1 589D223D
 P 5150 4100
-F 0 "C4" H 5175 4200 50  0000 L CNN
+F 0 "C6" H 5175 4200 50  0000 L CNN
 F 1 "0.047uF" H 5175 4000 50  0000 L CNN
 F 2 "blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm" H 5188 3950 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 5150 4100 50  0001 C CNN
@@ -79,10 +79,10 @@ F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L C C8
 U 1 1 589D230D
 P 5500 4100
-F 0 "C6" H 5525 4200 50  0000 L CNN
+F 0 "C8" H 5525 4200 50  0000 L CNN
 F 1 "0.047uF" H 5525 4000 50  0000 L CNN
 F 2 "blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm" H 5538 3950 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 5500 4100 50  0001 C CNN
@@ -90,10 +90,10 @@ F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C C4
 U 1 1 589D2382
 P 4900 4500
-F 0 "C2" H 4925 4600 50  0000 L CNN
+F 0 "C4" H 4925 4600 50  0000 L CNN
 F 1 "1uF" H 4925 4400 50  0000 L CNN
 F 2 "blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm" H 4938 4350 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 4900 4500 50  0001 C CNN
@@ -101,10 +101,10 @@ F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C C5
 U 1 1 589D23FA
 P 5150 3650
-F 0 "C3" H 5175 3750 50  0000 L CNN
+F 0 "C5" H 5175 3750 50  0000 L CNN
 F 1 "0.047uF" H 5175 3550 50  0000 L CNN
 F 2 "blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm" H 5188 3500 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 5150 3650 50  0001 C CNN
@@ -112,10 +112,10 @@ F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en
 	0    1    1    0   
 $EndComp
 $Comp
-L R R5
+L R R4
 U 1 1 589D2492
 P 5750 4000
-F 0 "R5" V 5830 4000 50  0000 C CNN
+F 0 "R4" V 5830 4000 50  0000 C CNN
 F 1 "2k2" V 5750 4000 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5680 4000 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5750 4000 50  0001 C CNN
@@ -123,10 +123,10 @@ F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5750 4000 50  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L R R5
 U 1 1 589D2525
 P 5950 3950
-F 0 "R6" V 6030 3950 50  0000 C CNN
+F 0 "R5" V 6030 3950 50  0000 C CNN
 F 1 "2k2" V 5950 3950 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5880 3950 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5950 3950 50  0001 C CNN
@@ -134,10 +134,10 @@ F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5950 3950 50  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR22
+L GND #PWR026
 U 1 1 589D259B
 P 4900 4750
-F 0 "#PWR22" H 4900 4500 50  0001 C CNN
+F 0 "#PWR026" H 4900 4500 50  0001 C CNN
 F 1 "GND" H 4900 4600 50  0000 C CNN
 F 2 "" H 4900 4750 50  0000 C CNN
 F 3 "" H 4900 4750 50  0000 C CNN
@@ -145,10 +145,10 @@ F 3 "" H 4900 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR23
+L GND #PWR027
 U 1 1 589E6671
 P 6250 4300
-F 0 "#PWR23" H 6250 4050 50  0001 C CNN
+F 0 "#PWR027" H 6250 4050 50  0001 C CNN
 F 1 "GND" H 6250 4150 50  0000 C CNN
 F 2 "" H 6250 4300 50  0000 C CNN
 F 3 "" H 6250 4300 50  0000 C CNN
