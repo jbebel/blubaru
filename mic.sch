@@ -112,10 +112,10 @@ F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L R R5
 U 1 1 589D2492
 P 5750 4000
-F 0 "R2" V 5830 4000 50  0000 C CNN
+F 0 "R5" V 5830 4000 50  0000 C CNN
 F 1 "2k2" V 5750 4000 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5680 4000 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5750 4000 50  0001 C CNN
@@ -123,10 +123,10 @@ F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5750 4000 50  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L R R6
 U 1 1 589D2525
 P 5950 3950
-F 0 "R3" V 6030 3950 50  0000 C CNN
+F 0 "R6" V 6030 3950 50  0000 C CNN
 F 1 "2k2" V 5950 3950 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5880 3950 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5950 3950 50  0001 C CNN
@@ -134,10 +134,10 @@ F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5950 3950 50  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L GND #PWR22
 U 1 1 589D259B
 P 4900 4750
-F 0 "#PWR021" H 4900 4500 50  0001 C CNN
+F 0 "#PWR22" H 4900 4500 50  0001 C CNN
 F 1 "GND" H 4900 4600 50  0000 C CNN
 F 2 "" H 4900 4750 50  0000 C CNN
 F 3 "" H 4900 4750 50  0000 C CNN
@@ -145,10 +145,10 @@ F 3 "" H 4900 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L GND #PWR23
 U 1 1 589E6671
 P 6250 4300
-F 0 "#PWR022" H 6250 4050 50  0001 C CNN
+F 0 "#PWR23" H 6250 4050 50  0001 C CNN
 F 1 "GND" H 6250 4150 50  0000 C CNN
 F 2 "" H 6250 4300 50  0000 C CNN
 F 3 "" H 6250 4300 50  0000 C CNN
