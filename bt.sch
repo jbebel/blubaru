@@ -58,26 +58,26 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/70005120A.pdf" H 5100 2950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L GND #PWR022
 U 1 1 589AA392
-P 5800 5250
-F 0 "#PWR023" H 5800 5000 50  0001 C CNN
-F 1 "GND" H 5800 5100 50  0000 C CNN
-F 2 "" H 5800 5250 50  0000 C CNN
-F 3 "" H 5800 5250 50  0000 C CNN
-	1    5800 5250
+P 5800 5350
+F 0 "#PWR022" H 5800 5100 50  0001 C CNN
+F 1 "GND" H 5800 5200 50  0000 C CNN
+F 2 "" H 5800 5350 50  0000 C CNN
+F 3 "" H 5800 5350 50  0000 C CNN
+	1    5800 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR024
+L VCC #PWR023
 U 1 1 589AA3E5
-P 4400 5250
-F 0 "#PWR024" H 4400 5100 50  0001 C CNN
-F 1 "VCC" H 4400 5400 50  0000 C CNN
-F 2 "" H 4400 5250 50  0000 C CNN
-F 3 "" H 4400 5250 50  0000 C CNN
-	1    4400 5250
-	-1   0    0    1   
+P 4250 4800
+F 0 "#PWR023" H 4250 4650 50  0001 C CNN
+F 1 "VCC" H 4250 4950 50  0000 C CNN
+F 2 "" H 4250 4800 50  0000 C CNN
+F 3 "" H 4250 4800 50  0000 C CNN
+	1    4250 4800
+	1    0    0    -1  
 $EndComp
 NoConn ~ 4400 3050
 NoConn ~ 4400 3250
@@ -109,18 +109,16 @@ NoConn ~ 5800 4150
 NoConn ~ 5800 4050
 NoConn ~ 5800 3950
 $Comp
-L C C3
+L C C4
 U 1 1 589BA198
-P 5100 5250
-F 0 "C3" H 5125 5350 50  0000 L CNN
-F 1 "0.1uF" H 5125 5150 50  0000 L CNN
-F 2 "blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm" H 5138 5100 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 5100 5250 50  0001 C CNN
-	1    5100 5250
-	0    1    1    0   
+P 4250 5150
+F 0 "C4" H 4275 5250 50  0000 L CNN
+F 1 "0.1uF" H 4275 5050 50  0000 L CNN
+F 2 "blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm" H 4288 5000 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 4250 5150 50  0001 C CNN
+	1    4250 5150
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4400 4850 4400 5250
 Wire Wire Line
 	3850 3450 4400 3450
 Wire Wire Line
@@ -131,15 +129,8 @@ Wire Wire Line
 	3850 3750 4400 3750
 Wire Wire Line
 	3850 3850 4400 3850
-Connection ~ 4400 4950
 Wire Wire Line
-	5800 4950 5800 5250
-Wire Wire Line
-	5800 5250 5250 5250
-Wire Wire Line
-	4400 5250 4950 5250
-Connection ~ 5800 5250
-Connection ~ 4400 5250
+	5800 4950 5800 5350
 $Comp
 L CONN_01X06 P1
 U 1 1 589E7B79
@@ -152,10 +143,10 @@ F 3 "" H 3650 3600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR025
+L GND #PWR024
 U 1 1 589E813D
 P 3950 3350
-F 0 "#PWR025" H 3950 3100 50  0001 C CNN
+F 0 "#PWR024" H 3950 3100 50  0001 C CNN
 F 1 "GND" H 3950 3200 50  0000 C CNN
 F 2 "" H 3950 3350 50  0000 C CNN
 F 3 "" H 3950 3350 50  0000 C CNN
@@ -253,4 +244,25 @@ F5 "L+" I L 6700 3050 60
 F6 "R-" I L 6700 3350 60 
 F7 "R+" I L 6700 3150 60 
 $EndSheet
+Wire Wire Line
+	4400 4850 4250 4850
+Wire Wire Line
+	4250 4800 4250 5000
+Connection ~ 4250 4850
+Connection ~ 4250 4950
+Wire Wire Line
+	4250 4950 4400 4950
+$Comp
+L GND #PWR025
+U 1 1 594F3947
+P 4250 5350
+F 0 "#PWR025" H 4250 5100 50  0001 C CNN
+F 1 "GND" H 4250 5200 50  0000 C CNN
+F 2 "" H 4250 5350 50  0001 C CNN
+F 3 "" H 4250 5350 50  0001 C CNN
+	1    4250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5300 4250 5350
 $EndSCHEMATC

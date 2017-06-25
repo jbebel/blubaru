@@ -125,9 +125,9 @@ Text HLabel 5950 5300 2    60   Output ~ 0
 Text HLabel 5950 6250 2    60   Output ~ 0
 14_OUT
 Text Label 5300 1200 2    60   ~ 0
-R?
+R
 Text Label 5300 1400 2    60   ~ 0
-L?
+L
 Text Label 5250 4600 2    60   ~ 0
 A_GND
 Text Label 5150 2950 2    60   ~ 0
@@ -135,7 +135,7 @@ ACC
 Text Label 5300 2100 2    60   ~ 0
 MEM
 Text Label 5300 2200 2    60   ~ 0
-IN??
+IN
 Text Label 5250 5300 2    60   ~ 0
 CD_GND
 Text Label 5250 6250 2    60   ~ 0
