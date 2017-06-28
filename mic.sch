@@ -63,7 +63,7 @@ P 5500 3750
 F 0 "C8" H 5525 3850 50  0000 L CNN
 F 1 "0.047uF" H 5525 3650 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 5538 3600 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 5500 3750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 5500 3750 50  0001 C CNN
 	1    5500 3750
 	0    1    1    0   
 $EndComp
@@ -74,7 +74,7 @@ P 5150 4100
 F 0 "C7" H 5175 4200 50  0000 L CNN
 F 1 "0.047uF" H 5175 4000 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 5188 3950 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 5150 4100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 5150 4100 50  0001 C CNN
 	1    5150 4100
 	1    0    0    -1  
 $EndComp
@@ -85,7 +85,7 @@ P 5500 4100
 F 0 "C9" H 5525 4200 50  0000 L CNN
 F 1 "0.047uF" H 5525 4000 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 5538 3950 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 5500 4100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 5500 4100 50  0001 C CNN
 	1    5500 4100
 	1    0    0    -1  
 $EndComp
@@ -96,7 +96,7 @@ P 4900 4500
 F 0 "C5" H 4925 4600 50  0000 L CNN
 F 1 "1uF" H 4925 4400 50  0000 L CNN
 F 2 "blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm" H 4938 4350 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 4900 4500 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4900 4500 50  0001 C CNN
 	1    4900 4500
 	1    0    0    -1  
 $EndComp
@@ -107,7 +107,7 @@ P 5150 3650
 F 0 "C6" H 5175 3750 50  0000 L CNN
 F 1 "0.047uF" H 5175 3550 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 5188 3500 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 5150 3650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 5150 3650 50  0001 C CNN
 	1    5150 3650
 	0    1    1    0   
 $EndComp

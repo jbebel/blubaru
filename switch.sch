@@ -191,7 +191,7 @@ P 3550 4650
 F 0 "C3" H 3575 4750 50  0000 L CNN
 F 1 "0.1uF" H 3575 4550 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 3588 4500 50  0001 C CNN
-F 3 "" H 3550 4650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 3550 4650 50  0001 C CNN
 	1    3550 4650
 	1    0    0    -1  
 $EndComp

@@ -75,7 +75,7 @@ P 5800 3950
 F 0 "C17" H 5825 4050 50  0000 L CNN
 F 1 "1uF" H 5825 3850 50  0000 L CNN
 F 2 "blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm" H 5838 3800 50  0001 C CNN
-F 3 "" H 5800 3950 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 5800 3950 50  0001 C CNN
 	1    5800 3950
 	0    1    1    0   
 $EndComp
@@ -98,7 +98,7 @@ P 5150 3800
 F 0 "C14" H 5175 3900 50  0000 L CNN
 F 1 "1uF" H 5175 3700 50  0000 L CNN
 F 2 "blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm" H 5188 3650 50  0001 C CNN
-F 3 "" H 5150 3800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 5150 3800 50  0001 C CNN
 	1    5150 3800
 	1    0    0    -1  
 $EndComp
@@ -124,7 +124,7 @@ P 6450 3800
 F 0 "C20" H 6475 3900 50  0000 L CNN
 F 1 "1uF" H 6475 3700 50  0000 L CNN
 F 2 "blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm" H 6488 3650 50  0001 C CNN
-F 3 "" H 6450 3800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 6450 3800 50  0001 C CNN
 	1    6450 3800
 	1    0    0    -1  
 $EndComp
@@ -184,7 +184,7 @@ P 6800 3100
 F 0 "C23" H 6825 3200 50  0000 L CNN
 F 1 "47pF" H 6825 3000 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 6838 2950 50  0001 C CNN
-F 3 "" H 6800 3100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 6800 3100 50  0001 C CNN
 	1    6800 3100
 	1    0    0    -1  
 $EndComp
@@ -195,7 +195,7 @@ P 4800 3100
 F 0 "C12" H 4825 3200 50  0000 L CNN
 F 1 "47pF" H 4825 3000 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 4838 2950 50  0001 C CNN
-F 3 "" H 4800 3100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4800 3100 50  0001 C CNN
 	1    4800 3100
 	1    0    0    -1  
 $EndComp
@@ -210,7 +210,7 @@ P 6050 2750
 F 0 "C18" H 6075 2850 50  0000 L CNN
 F 1 "47pF" H 6075 2650 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 6088 2600 50  0001 C CNN
-F 3 "" H 6050 2750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 6050 2750 50  0001 C CNN
 	1    6050 2750
 	0    1    1    0   
 $EndComp
@@ -221,7 +221,7 @@ P 5550 2750
 F 0 "C16" H 5575 2850 50  0000 L CNN
 F 1 "47pF" H 5575 2650 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 5588 2600 50  0001 C CNN
-F 3 "" H 5550 2750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 5550 2750 50  0001 C CNN
 	1    5550 2750
 	0    1    1    0   
 $EndComp
@@ -232,7 +232,7 @@ P 5550 2350
 F 0 "R12" V 5630 2350 50  0000 C CNN
 F 1 "30k" V 5550 2350 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5480 2350 50  0001 C CNN
-F 3 "" H 5550 2350 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5550 2350 50  0001 C CNN
 	1    5550 2350
 	0    1    1    0   
 $EndComp
@@ -243,7 +243,7 @@ P 6050 2350
 F 0 "R13" V 6130 2350 50  0000 C CNN
 F 1 "30k" V 6050 2350 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5980 2350 50  0001 C CNN
-F 3 "" H 6050 2350 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 6050 2350 50  0001 C CNN
 	1    6050 2350
 	0    1    1    0   
 $EndComp
@@ -273,7 +273,7 @@ P 6300 2550
 F 0 "R15" V 6380 2550 50  0000 C CNN
 F 1 "43k" V 6300 2550 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 6230 2550 50  0001 C CNN
-F 3 "" H 6300 2550 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 6300 2550 50  0001 C CNN
 	1    6300 2550
 	1    0    0    -1  
 $EndComp
@@ -284,7 +284,7 @@ P 5300 2550
 F 0 "R11" V 5380 2550 50  0000 C CNN
 F 1 "43k" V 5300 2550 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5230 2550 50  0001 C CNN
-F 3 "" H 5300 2550 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5300 2550 50  0001 C CNN
 	1    5300 2550
 	1    0    0    -1  
 $EndComp
@@ -299,7 +299,7 @@ P 6300 2150
 F 0 "R14" V 6380 2150 50  0000 C CNN
 F 1 "15k" V 6300 2150 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 6230 2150 50  0001 C CNN
-F 3 "" H 6300 2150 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 6300 2150 50  0001 C CNN
 	1    6300 2150
 	1    0    0    -1  
 $EndComp
@@ -310,7 +310,7 @@ P 5300 2150
 F 0 "R10" V 5380 2150 50  0000 C CNN
 F 1 "15k" V 5300 2150 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5230 2150 50  0001 C CNN
-F 3 "" H 5300 2150 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5300 2150 50  0001 C CNN
 	1    5300 2150
 	1    0    0    -1  
 $EndComp
@@ -335,7 +335,7 @@ P 5050 2350
 F 0 "C13" H 5075 2450 50  0000 L CNN
 F 1 "180pF" H 5075 2250 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 5088 2200 50  0001 C CNN
-F 3 "" H 5050 2350 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 5050 2350 50  0001 C CNN
 	1    5050 2350
 	0    1    1    0   
 $EndComp
@@ -346,7 +346,7 @@ P 6550 2350
 F 0 "C21" H 6575 2450 50  0000 L CNN
 F 1 "180pF" H 6575 2250 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 6588 2200 50  0001 C CNN
-F 3 "" H 6550 2350 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 6550 2350 50  0001 C CNN
 	1    6550 2350
 	0    1    1    0   
 $EndComp
@@ -361,7 +361,7 @@ P 6800 2550
 F 0 "R17" V 6880 2550 50  0000 C CNN
 F 1 "43k" V 6800 2550 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 6730 2550 50  0001 C CNN
-F 3 "" H 6800 2550 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 6800 2550 50  0001 C CNN
 	1    6800 2550
 	1    0    0    -1  
 $EndComp
@@ -372,7 +372,7 @@ P 4800 2550
 F 0 "R9" V 4880 2550 50  0000 C CNN
 F 1 "43k" V 4800 2550 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4730 2550 50  0001 C CNN
-F 3 "" H 4800 2550 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 4800 2550 50  0001 C CNN
 	1    4800 2550
 	1    0    0    -1  
 $EndComp
@@ -385,7 +385,7 @@ P 6800 2150
 F 0 "R16" V 6880 2150 50  0000 C CNN
 F 1 "15k" V 6800 2150 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 6730 2150 50  0001 C CNN
-F 3 "" H 6800 2150 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 6800 2150 50  0001 C CNN
 	1    6800 2150
 	1    0    0    -1  
 $EndComp
@@ -396,7 +396,7 @@ P 4800 2150
 F 0 "R8" V 4880 2150 50  0000 C CNN
 F 1 "15k" V 4800 2150 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4730 2150 50  0001 C CNN
-F 3 "" H 4800 2150 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 4800 2150 50  0001 C CNN
 	1    4800 2150
 	1    0    0    -1  
 $EndComp
@@ -415,7 +415,7 @@ P 7050 2550
 F 0 "R18" V 7130 2550 50  0000 C CNN
 F 1 "30k" V 7050 2550 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 6980 2550 50  0001 C CNN
-F 3 "" H 7050 2550 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 7050 2550 50  0001 C CNN
 	1    7050 2550
 	1    0    0    -1  
 $EndComp
@@ -426,7 +426,7 @@ P 4550 2550
 F 0 "R7" V 4630 2550 50  0000 C CNN
 F 1 "30k" V 4550 2550 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4480 2550 50  0001 C CNN
-F 3 "" H 4550 2550 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 4550 2550 50  0001 C CNN
 	1    4550 2550
 	1    0    0    -1  
 $EndComp
@@ -506,7 +506,7 @@ P 7500 3450
 F 0 "C24" H 7525 3550 50  0000 L CNN
 F 1 "1000pF" H 7525 3350 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 7538 3300 50  0001 C CNN
-F 3 "" H 7500 3450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 7500 3450 50  0001 C CNN
 	1    7500 3450
 	1    0    0    -1  
 $EndComp
@@ -517,7 +517,7 @@ P 4100 3450
 F 0 "C10" H 4125 3550 50  0000 L CNN
 F 1 "1000pF" H 4125 3350 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 4138 3300 50  0001 C CNN
-F 3 "" H 4100 3450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4100 3450 50  0001 C CNN
 	1    4100 3450
 	1    0    0    -1  
 $EndComp
@@ -528,7 +528,7 @@ P 7250 3300
 F 0 "R19" V 7330 3300 50  0000 C CNN
 F 1 "33" V 7250 3300 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 7180 3300 50  0001 C CNN
-F 3 "" H 7250 3300 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 7250 3300 50  0001 C CNN
 	1    7250 3300
 	0    1    1    0   
 $EndComp
@@ -539,7 +539,7 @@ P 4350 3300
 F 0 "R6" V 4430 3300 50  0000 C CNN
 F 1 "33" V 4350 3300 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4280 3300 50  0001 C CNN
-F 3 "" H 4350 3300 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 4350 3300 50  0001 C CNN
 	1    4350 3300
 	0    1    1    0   
 $EndComp
@@ -582,7 +582,7 @@ P 4800 1800
 F 0 "C11" H 4825 1900 50  0000 L CNN
 F 1 "1uF" H 4825 1700 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 4838 1650 50  0001 C CNN
-F 3 "" H 4800 1800 50  0001 C CNN
+F 3 "http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf" H 4800 1800 50  0001 C CNN
 	1    4800 1800
 	1    0    0    -1  
 $EndComp
@@ -593,7 +593,7 @@ P 5300 1800
 F 0 "C15" H 5325 1900 50  0000 L CNN
 F 1 "1uF" H 5325 1700 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 5338 1650 50  0001 C CNN
-F 3 "" H 5300 1800 50  0001 C CNN
+F 3 "http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf" H 5300 1800 50  0001 C CNN
 	1    5300 1800
 	1    0    0    -1  
 $EndComp
@@ -604,7 +604,7 @@ P 6300 1800
 F 0 "C19" H 6325 1900 50  0000 L CNN
 F 1 "1uF" H 6325 1700 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 6338 1650 50  0001 C CNN
-F 3 "" H 6300 1800 50  0001 C CNN
+F 3 "http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf" H 6300 1800 50  0001 C CNN
 	1    6300 1800
 	1    0    0    -1  
 $EndComp
@@ -615,7 +615,7 @@ P 6800 1800
 F 0 "C22" H 6825 1900 50  0000 L CNN
 F 1 "1uF" H 6825 1700 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 6838 1650 50  0001 C CNN
-F 3 "" H 6800 1800 50  0001 C CNN
+F 3 "http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf" H 6800 1800 50  0001 C CNN
 	1    6800 1800
 	1    0    0    -1  
 $EndComp

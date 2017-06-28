@@ -169,7 +169,7 @@ P 3300 3850
 F 0 "C1" H 3325 3950 50  0000 L CNN
 F 1 "10uF" H 3325 3750 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 3338 3700 50  0001 C CNN
-F 3 "" H 3300 3850 50  0001 C CNN
+F 3 "http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf" H 3300 3850 50  0001 C CNN
 	1    3300 3850
 	1    0    0    -1  
 $EndComp
@@ -180,7 +180,7 @@ P 4200 3850
 F 0 "C2" H 4225 3950 50  0000 L CNN
 F 1 "100uF" H 4225 3750 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 4238 3700 50  0001 C CNN
-F 3 "" H 4200 3850 50  0001 C CNN
+F 3 "http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf" H 4200 3850 50  0001 C CNN
 	1    4200 3850
 	1    0    0    -1  
 $EndComp
@@ -224,7 +224,7 @@ P 4400 3650
 F 0 "R1" V 4480 3650 50  0000 C CNN
 F 1 "750" V 4400 3650 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4330 3650 50  0001 C CNN
-F 3 "" H 4400 3650 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-CF_CFM.pdf" H 4400 3650 50  0001 C CNN
 	1    4400 3650
 	0    1    1    0   
 $EndComp
@@ -235,7 +235,7 @@ P 4600 3850
 F 0 "D1" H 4600 3950 50  0000 C CNN
 F 1 "R LED" H 4600 3750 50  0000 C CNN
 F 2 "LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm" H 4600 3850 50  0001 C CNN
-F 3 "" H 4600 3850 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LSECK-J3.pdf" H 4600 3850 50  0001 C CNN
 	1    4600 3850
 	0    -1   -1   0   
 $EndComp
@@ -253,7 +253,7 @@ P 5150 3650
 F 0 "R2" V 5230 3650 50  0000 C CNN
 F 1 "330" V 5150 3650 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5080 3650 50  0001 C CNN
-F 3 "" H 5150 3650 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-CF_CFM.pdf" H 5150 3650 50  0001 C CNN
 	1    5150 3650
 	0    1    1    0   
 $EndComp
@@ -264,7 +264,7 @@ P 4950 3850
 F 0 "D2" H 4950 3950 50  0000 C CNN
 F 1 "B LED" H 4950 3750 50  0000 C CNN
 F 2 "LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm" H 4950 3850 50  0001 C CNN
-F 3 "" H 4950 3850 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LVBC-D.pdf" H 4950 3850 50  0001 C CNN
 	1    4950 3850
 	0    -1   -1   0   
 $EndComp
