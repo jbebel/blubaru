@@ -114,7 +114,7 @@ U 1 1 589BA198
 P 4250 5150
 F 0 "C4" H 4275 5250 50  0000 L CNN
 F 1 "0.1uF" H 4275 5050 50  0000 L CNN
-F 2 "blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm" H 4288 5000 50  0001 C CNN
+F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 4288 5000 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf" H 4250 5150 50  0001 C CNN
 	1    4250 5150
 	1    0    0    -1  
