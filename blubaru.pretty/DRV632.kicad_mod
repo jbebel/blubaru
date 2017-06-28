@@ -1,6 +1,6 @@
 (module DRV632 (layer F.Cu) (tedit 59337ACE)
   (descr http://www.proto-advantage.com/store/datasheets/PA0033.pdf)
-  (tags DRV632)
+  (tags "DRV632 TSSOP-14 to DIP-14 SMT Adapter (0.65 mm pitch) ")
   (fp_text reference REF** (at 0 -2.54) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

@@ -1,5 +1,5 @@
 (module RN52_Breakout (layer F.Cu) (tedit 58C2372A)
-  (descr "RN52 Breakout")
+  (descr "RN52 Breakout, https://cdn.sparkfun.com/datasheets/Wireless/Bluetooth/RN-52%20Breakout_v11.pdf")
   (tags "RN52 Breakout")
   (fp_text reference REF** (at 0 -2.54) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
