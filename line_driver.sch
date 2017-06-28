@@ -581,7 +581,7 @@ U 1 1 5939D955
 P 4800 1800
 F 0 "C11" H 4825 1900 50  0000 L CNN
 F 1 "1uF" H 4825 1700 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 4838 1650 50  0001 C CNN
+F 2 "blubaru:CP_Radial_D4.0mm_P1.50mm" H 4838 1650 50  0001 C CNN
 F 3 "http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf" H 4800 1800 50  0001 C CNN
 	1    4800 1800
 	1    0    0    -1  
@@ -592,7 +592,7 @@ U 1 1 5939DA1E
 P 5300 1800
 F 0 "C15" H 5325 1900 50  0000 L CNN
 F 1 "1uF" H 5325 1700 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 5338 1650 50  0001 C CNN
+F 2 "blubaru:CP_Radial_D4.0mm_P1.50mm" H 5338 1650 50  0001 C CNN
 F 3 "http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf" H 5300 1800 50  0001 C CNN
 	1    5300 1800
 	1    0    0    -1  
@@ -603,7 +603,7 @@ U 1 1 5939DA7F
 P 6300 1800
 F 0 "C19" H 6325 1900 50  0000 L CNN
 F 1 "1uF" H 6325 1700 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 6338 1650 50  0001 C CNN
+F 2 "blubaru:CP_Radial_D4.0mm_P1.50mm" H 6338 1650 50  0001 C CNN
 F 3 "http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf" H 6300 1800 50  0001 C CNN
 	1    6300 1800
 	1    0    0    -1  
@@ -614,7 +614,7 @@ U 1 1 5939DADA
 P 6800 1800
 F 0 "C22" H 6825 1900 50  0000 L CNN
 F 1 "1uF" H 6825 1700 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 6838 1650 50  0001 C CNN
+F 2 "blubaru:CP_Radial_D4.0mm_P1.50mm" H 6838 1650 50  0001 C CNN
 F 3 "http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf" H 6800 1800 50  0001 C CNN
 	1    6800 1800
 	1    0    0    -1  

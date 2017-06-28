@@ -168,7 +168,7 @@ U 1 1 59484D99
 P 3300 3850
 F 0 "C1" H 3325 3950 50  0000 L CNN
 F 1 "10uF" H 3325 3750 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 3338 3700 50  0001 C CNN
+F 2 "blubaru:CP_Radial_D4.0mm_P1.50mm" H 3338 3700 50  0001 C CNN
 F 3 "http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf" H 3300 3850 50  0001 C CNN
 	1    3300 3850
 	1    0    0    -1  
@@ -179,7 +179,7 @@ U 1 1 59484E96
 P 4200 3850
 F 0 "C2" H 4225 3950 50  0000 L CNN
 F 1 "100uF" H 4225 3750 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 4238 3700 50  0001 C CNN
+F 2 "blubaru:CP_Radial_D6.3mm_P2.50mm" H 4238 3700 50  0001 C CNN
 F 3 "http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf" H 4200 3850 50  0001 C CNN
 	1    4200 3850
 	1    0    0    -1  

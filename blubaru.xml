@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jbebel/blubaru/blubaru.sch</source>
-    <date>Wed 28 Jun 2017 11:39:40 AM EDT</date>
+    <date>Wed 28 Jun 2017 04:33:33 PM EDT</date>
     <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -142,7 +142,7 @@
     </comp>
     <comp ref="C1">
       <value>10uF</value>
-      <footprint>Capacitors_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <footprint>blubaru:CP_Radial_D4.0mm_P1.50mm</footprint>
       <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/" tstamps="/58B10FE0/58B1273D/"/>
@@ -150,7 +150,7 @@
     </comp>
     <comp ref="C2">
       <value>100uF</value>
-      <footprint>Capacitors_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <footprint>blubaru:CP_Radial_D6.3mm_P2.50mm</footprint>
       <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/" tstamps="/58B10FE0/58B1273D/"/>
@@ -541,7 +541,7 @@
     </comp>
     <comp ref="C11">
       <value>1uF</value>
-      <footprint>Capacitors_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <footprint>blubaru:CP_Radial_D4.0mm_P1.50mm</footprint>
       <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -549,7 +549,7 @@
     </comp>
     <comp ref="C15">
       <value>1uF</value>
-      <footprint>Capacitors_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <footprint>blubaru:CP_Radial_D4.0mm_P1.50mm</footprint>
       <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -557,7 +557,7 @@
     </comp>
     <comp ref="C19">
       <value>1uF</value>
-      <footprint>Capacitors_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <footprint>blubaru:CP_Radial_D4.0mm_P1.50mm</footprint>
       <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -565,7 +565,7 @@
     </comp>
     <comp ref="C22">
       <value>1uF</value>
-      <footprint>Capacitors_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <footprint>blubaru:CP_Radial_D4.0mm_P1.50mm</footprint>
       <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -883,20 +883,20 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
     </library>
     <library logical="analog_switches">
       <uri>/usr/share/kicad/library/analog_switches.lib</uri>
     </library>
     <library logical="blubaru">
       <uri>/home/jbebel/blubaru/library/blubaru.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="blubaru-cache">
       <uri>/home/jbebel/blubaru/blubaru-cache.lib</uri>
