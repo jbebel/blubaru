@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jbebel/blubaru/blubaru.sch</source>
-    <date>Wed 28 Jun 2017 12:40:37 AM EDT</date>
+    <date>Wed 28 Jun 2017 11:39:40 AM EDT</date>
     <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -143,6 +143,7 @@
     <comp ref="C1">
       <value>10uF</value>
       <footprint>Capacitors_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/" tstamps="/58B10FE0/58B1273D/"/>
       <tstamp>59484D99</tstamp>
@@ -150,6 +151,7 @@
     <comp ref="C2">
       <value>100uF</value>
       <footprint>Capacitors_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/" tstamps="/58B10FE0/58B1273D/"/>
       <tstamp>59484E96</tstamp>
@@ -165,6 +167,7 @@
     <comp ref="R1">
       <value>750</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/" tstamps="/58B10FE0/58B1273D/"/>
       <tstamp>594DE951</tstamp>
@@ -172,6 +175,7 @@
     <comp ref="D1">
       <value>R LED</value>
       <footprint>LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LSECK-J3.pdf</datasheet>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/DB-15 interconnects/Modules/" tstamps="/58B10FE0/58B1273D/"/>
       <tstamp>594DE9F6</tstamp>
@@ -179,6 +183,7 @@
     <comp ref="R2">
       <value>330</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/" tstamps="/58B10FE0/58B1273D/"/>
       <tstamp>594DF732</tstamp>
@@ -186,6 +191,7 @@
     <comp ref="D2">
       <value>B LED</value>
       <footprint>LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LVBC-D.pdf</datasheet>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/DB-15 interconnects/Modules/" tstamps="/58B10FE0/58B1273D/"/>
       <tstamp>594DFA15</tstamp>
@@ -209,6 +215,7 @@
     <comp ref="C3">
       <value>0.1uF</value>
       <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Audio switch/" tstamps="/58B10FE0/58B1273D/58AEC71A/"/>
       <tstamp>594EA706</tstamp>
@@ -216,6 +223,7 @@
     <comp ref="D3">
       <value>G LED</value>
       <footprint>LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LZGCK.pdf</datasheet>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/58B171C6/"/>
       <tstamp>59385827</tstamp>
@@ -223,6 +231,7 @@
     <comp ref="R3">
       <value>330</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/58B171C6/"/>
       <tstamp>5939E4C5</tstamp>
@@ -246,7 +255,7 @@
     <comp ref="C4">
       <value>0.1uF</value>
       <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf</datasheet>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/" tstamps="/58B10FE0/58B1273D/58B189CE/"/>
       <tstamp>589BA198</tstamp>
@@ -261,7 +270,7 @@
     <comp ref="C8">
       <value>0.047uF</value>
       <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf</datasheet>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
       <tstamp>589D21D3</tstamp>
@@ -269,7 +278,7 @@
     <comp ref="C7">
       <value>0.047uF</value>
       <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf</datasheet>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
       <tstamp>589D223D</tstamp>
@@ -277,7 +286,7 @@
     <comp ref="C9">
       <value>0.047uF</value>
       <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf</datasheet>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
       <tstamp>589D230D</tstamp>
@@ -285,7 +294,7 @@
     <comp ref="C5">
       <value>1uF</value>
       <footprint>blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm</footprint>
-      <datasheet>https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf</datasheet>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
       <tstamp>589D2382</tstamp>
@@ -293,7 +302,7 @@
     <comp ref="C6">
       <value>0.047uF</value>
       <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf</datasheet>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
       <tstamp>589D23FA</tstamp>
@@ -325,6 +334,7 @@
     <comp ref="C17">
       <value>1uF</value>
       <footprint>blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm</footprint>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59178EA2</tstamp>
@@ -332,6 +342,7 @@
     <comp ref="C14">
       <value>1uF</value>
       <footprint>blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm</footprint>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59178EFD</tstamp>
@@ -339,6 +350,7 @@
     <comp ref="C20">
       <value>1uF</value>
       <footprint>blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm</footprint>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59178FC9</tstamp>
@@ -346,6 +358,7 @@
     <comp ref="C23">
       <value>47pF</value>
       <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59179109</tstamp>
@@ -353,6 +366,7 @@
     <comp ref="C12">
       <value>47pF</value>
       <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917915A</tstamp>
@@ -360,6 +374,7 @@
     <comp ref="C18">
       <value>47pF</value>
       <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>591791B6</tstamp>
@@ -367,6 +382,7 @@
     <comp ref="C16">
       <value>47pF</value>
       <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>591791EB</tstamp>
@@ -374,6 +390,7 @@
     <comp ref="R12">
       <value>30k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59179216</tstamp>
@@ -381,6 +398,7 @@
     <comp ref="R13">
       <value>30k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59179241</tstamp>
@@ -388,6 +406,7 @@
     <comp ref="R15">
       <value>43k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59179384</tstamp>
@@ -395,6 +414,7 @@
     <comp ref="R11">
       <value>43k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>591793C1</tstamp>
@@ -402,6 +422,7 @@
     <comp ref="R14">
       <value>15k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917A21C</tstamp>
@@ -409,6 +430,7 @@
     <comp ref="R10">
       <value>15k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917A253</tstamp>
@@ -416,6 +438,7 @@
     <comp ref="C13">
       <value>180pF</value>
       <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917A56B</tstamp>
@@ -423,6 +446,7 @@
     <comp ref="C21">
       <value>180pF</value>
       <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917A5AC</tstamp>
@@ -430,6 +454,7 @@
     <comp ref="R17">
       <value>43k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917A8A8</tstamp>
@@ -437,6 +462,7 @@
     <comp ref="R9">
       <value>43k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917A8FF</tstamp>
@@ -444,6 +470,7 @@
     <comp ref="R16">
       <value>15k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917AA6A</tstamp>
@@ -451,6 +478,7 @@
     <comp ref="R8">
       <value>15k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917AAD3</tstamp>
@@ -458,6 +486,7 @@
     <comp ref="R18">
       <value>30k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917AD17</tstamp>
@@ -465,6 +494,7 @@
     <comp ref="R7">
       <value>30k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917AD78</tstamp>
@@ -480,6 +510,7 @@
     <comp ref="C24">
       <value>1000pF</value>
       <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5933924A</tstamp>
@@ -487,6 +518,7 @@
     <comp ref="C10">
       <value>1000pF</value>
       <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>593392DF</tstamp>
@@ -494,6 +526,7 @@
     <comp ref="R19">
       <value>33</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59339334</tstamp>
@@ -501,6 +534,7 @@
     <comp ref="R6">
       <value>33</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>593393C3</tstamp>
@@ -508,6 +542,7 @@
     <comp ref="C11">
       <value>1uF</value>
       <footprint>Capacitors_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5939D955</tstamp>
@@ -515,6 +550,7 @@
     <comp ref="C15">
       <value>1uF</value>
       <footprint>Capacitors_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5939DA1E</tstamp>
@@ -522,6 +558,7 @@
     <comp ref="C19">
       <value>1uF</value>
       <footprint>Capacitors_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5939DA7F</tstamp>
@@ -529,6 +566,7 @@
     <comp ref="C22">
       <value>1uF</value>
       <footprint>Capacitors_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5939DADA</tstamp>
