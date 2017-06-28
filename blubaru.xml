@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jbebel/blubaru/blubaru.sch</source>
-    <date>Sat 24 Jun 2017 11:48:23 PM EDT</date>
+    <date>Wed 28 Jun 2017 12:40:37 AM EDT</date>
     <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -208,7 +208,7 @@
     </comp>
     <comp ref="C3">
       <value>0.1uF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Audio switch/" tstamps="/58B10FE0/58B1273D/58AEC71A/"/>
       <tstamp>594EA706</tstamp>
@@ -245,7 +245,7 @@
     </comp>
     <comp ref="C4">
       <value>0.1uF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
       <datasheet>https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/" tstamps="/58B10FE0/58B1273D/58B189CE/"/>
@@ -260,7 +260,7 @@
     </comp>
     <comp ref="C8">
       <value>0.047uF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
       <datasheet>https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
@@ -268,7 +268,7 @@
     </comp>
     <comp ref="C7">
       <value>0.047uF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
       <datasheet>https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
@@ -276,7 +276,7 @@
     </comp>
     <comp ref="C9">
       <value>0.047uF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
       <datasheet>https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
@@ -284,7 +284,7 @@
     </comp>
     <comp ref="C5">
       <value>1uF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm</footprint>
       <datasheet>https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
@@ -292,7 +292,7 @@
     </comp>
     <comp ref="C6">
       <value>0.047uF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
       <datasheet>https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf</datasheet>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
@@ -324,49 +324,49 @@
     </comp>
     <comp ref="C17">
       <value>1uF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59178EA2</tstamp>
     </comp>
     <comp ref="C14">
       <value>1uF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59178EFD</tstamp>
     </comp>
     <comp ref="C20">
       <value>1uF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59178FC9</tstamp>
     </comp>
     <comp ref="C23">
       <value>47pF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59179109</tstamp>
     </comp>
     <comp ref="C12">
       <value>47pF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917915A</tstamp>
     </comp>
     <comp ref="C18">
       <value>47pF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>591791B6</tstamp>
     </comp>
     <comp ref="C16">
       <value>47pF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>591791EB</tstamp>
@@ -415,14 +415,14 @@
     </comp>
     <comp ref="C13">
       <value>180pF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917A56B</tstamp>
     </comp>
     <comp ref="C21">
       <value>180pF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917A5AC</tstamp>
@@ -479,14 +479,14 @@
     </comp>
     <comp ref="C24">
       <value>1000pF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5933924A</tstamp>
     </comp>
     <comp ref="C10">
       <value>1000pF</value>
-      <footprint>blubaru:C_Disc_D5.5mm_W2.5mm_P2.50mm</footprint>
+      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>593392DF</tstamp>
@@ -848,20 +848,20 @@
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="blubaru">
-      <uri>/home/jbebel/blubaru/library/blubaru.lib</uri>
-    </library>
-    <library logical="blubaru-cache">
-      <uri>/home/jbebel/blubaru/blubaru-cache.lib</uri>
-    </library>
-    <library logical="analog_switches">
-      <uri>/usr/share/kicad/library/analog_switches.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="regul">
       <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="analog_switches">
+      <uri>/usr/share/kicad/library/analog_switches.lib</uri>
+    </library>
+    <library logical="blubaru">
+      <uri>/home/jbebel/blubaru/library/blubaru.lib</uri>
+    </library>
+    <library logical="blubaru-cache">
+      <uri>/home/jbebel/blubaru/blubaru-cache.lib</uri>
     </library>
   </libraries>
   <nets>
