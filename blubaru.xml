@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jbebel/blubaru/blubaru.sch</source>
-    <date>Wed 28 Jun 2017 04:33:33 PM EDT</date>
+    <date>Tue 04 Jul 2017 03:25:16 PM EDT</date>
     <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -166,7 +166,7 @@
     </comp>
     <comp ref="R1">
       <value>750</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/" tstamps="/58B10FE0/58B1273D/"/>
@@ -182,7 +182,7 @@
     </comp>
     <comp ref="R2">
       <value>330</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/" tstamps="/58B10FE0/58B1273D/"/>
@@ -230,7 +230,7 @@
     </comp>
     <comp ref="R3">
       <value>330</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/58B171C6/"/>
@@ -309,7 +309,7 @@
     </comp>
     <comp ref="R4">
       <value>2k2</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
@@ -317,7 +317,7 @@
     </comp>
     <comp ref="R5">
       <value>2k2</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
@@ -389,7 +389,7 @@
     </comp>
     <comp ref="R12">
       <value>30k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -397,7 +397,7 @@
     </comp>
     <comp ref="R13">
       <value>30k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -405,7 +405,7 @@
     </comp>
     <comp ref="R15">
       <value>43k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -413,7 +413,7 @@
     </comp>
     <comp ref="R11">
       <value>43k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -421,7 +421,7 @@
     </comp>
     <comp ref="R14">
       <value>15k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -429,7 +429,7 @@
     </comp>
     <comp ref="R10">
       <value>15k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -453,7 +453,7 @@
     </comp>
     <comp ref="R17">
       <value>43k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -461,7 +461,7 @@
     </comp>
     <comp ref="R9">
       <value>43k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -469,7 +469,7 @@
     </comp>
     <comp ref="R16">
       <value>15k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -477,7 +477,7 @@
     </comp>
     <comp ref="R8">
       <value>15k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -485,7 +485,7 @@
     </comp>
     <comp ref="R18">
       <value>30k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -493,7 +493,7 @@
     </comp>
     <comp ref="R7">
       <value>30k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -525,7 +525,7 @@
     </comp>
     <comp ref="R19">
       <value>33</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -533,7 +533,7 @@
     </comp>
     <comp ref="R6">
       <value>33</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
@@ -883,23 +883,23 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="blubaru-cache">
+      <uri>/home/jbebel/blubaru/blubaru-cache.lib</uri>
+    </library>
+    <library logical="blubaru">
+      <uri>/home/jbebel/blubaru/library/blubaru.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="analog_switches">
       <uri>/usr/share/kicad/library/analog_switches.lib</uri>
-    </library>
-    <library logical="blubaru">
-      <uri>/home/jbebel/blubaru/library/blubaru.lib</uri>
-    </library>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
-    <library logical="blubaru-cache">
-      <uri>/home/jbebel/blubaru/blubaru-cache.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -1122,19 +1122,19 @@
       <node ref="J4" pin="20"/>
     </net>
     <net code="47" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/L-">
-      <node ref="C19" pin="1"/>
+      <node ref="C22" pin="1"/>
       <node ref="J5" pin="38"/>
     </net>
     <net code="48" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/R-">
-      <node ref="J5" pin="37"/>
       <node ref="C11" pin="1"/>
+      <node ref="J5" pin="37"/>
     </net>
     <net code="49" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/R+">
       <node ref="C15" pin="1"/>
       <node ref="J5" pin="39"/>
     </net>
     <net code="50" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/L+">
-      <node ref="C22" pin="1"/>
+      <node ref="C19" pin="1"/>
       <node ref="J5" pin="40"/>
     </net>
     <net code="51" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_BIAS">

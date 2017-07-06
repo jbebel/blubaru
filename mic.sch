@@ -117,7 +117,7 @@ U 1 1 589D2492
 P 5750 4000
 F 0 "R4" V 5830 4000 50  0000 C CNN
 F 1 "2k2" V 5750 4000 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5680 4000 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5680 4000 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5750 4000 50  0001 C CNN
 	1    5750 4000
 	1    0    0    -1  
@@ -128,7 +128,7 @@ U 1 1 589D2525
 P 5950 3950
 F 0 "R5" V 6030 3950 50  0000 C CNN
 F 1 "2k2" V 5950 3950 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5880 3950 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5880 3950 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5950 3950 50  0001 C CNN
 	1    5950 3950
 	1    0    0    -1  

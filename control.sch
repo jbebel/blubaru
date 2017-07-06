@@ -136,7 +136,7 @@ U 1 1 5939E4C5
 P 4650 3400
 F 0 "R3" V 4730 3400 50  0000 C CNN
 F 1 "330" V 4650 3400 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4580 3400 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4580 3400 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-CF_CFM.pdf" H 4650 3400 50  0001 C CNN
 	1    4650 3400
 	0    1    1    0   

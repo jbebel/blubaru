@@ -231,7 +231,7 @@ U 1 1 59179216
 P 5550 2350
 F 0 "R12" V 5630 2350 50  0000 C CNN
 F 1 "30k" V 5550 2350 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5480 2350 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5480 2350 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5550 2350 50  0001 C CNN
 	1    5550 2350
 	0    1    1    0   
@@ -242,7 +242,7 @@ U 1 1 59179241
 P 6050 2350
 F 0 "R13" V 6130 2350 50  0000 C CNN
 F 1 "30k" V 6050 2350 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5980 2350 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5980 2350 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 6050 2350 50  0001 C CNN
 	1    6050 2350
 	0    1    1    0   
@@ -272,7 +272,7 @@ U 1 1 59179384
 P 6300 2550
 F 0 "R15" V 6380 2550 50  0000 C CNN
 F 1 "43k" V 6300 2550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 6230 2550 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6230 2550 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 6300 2550 50  0001 C CNN
 	1    6300 2550
 	1    0    0    -1  
@@ -283,7 +283,7 @@ U 1 1 591793C1
 P 5300 2550
 F 0 "R11" V 5380 2550 50  0000 C CNN
 F 1 "43k" V 5300 2550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5230 2550 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5230 2550 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5300 2550 50  0001 C CNN
 	1    5300 2550
 	1    0    0    -1  
@@ -298,7 +298,7 @@ U 1 1 5917A21C
 P 6300 2150
 F 0 "R14" V 6380 2150 50  0000 C CNN
 F 1 "15k" V 6300 2150 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 6230 2150 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6230 2150 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 6300 2150 50  0001 C CNN
 	1    6300 2150
 	1    0    0    -1  
@@ -309,7 +309,7 @@ U 1 1 5917A253
 P 5300 2150
 F 0 "R10" V 5380 2150 50  0000 C CNN
 F 1 "15k" V 5300 2150 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5230 2150 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5230 2150 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5300 2150 50  0001 C CNN
 	1    5300 2150
 	1    0    0    -1  
@@ -360,7 +360,7 @@ U 1 1 5917A8A8
 P 6800 2550
 F 0 "R17" V 6880 2550 50  0000 C CNN
 F 1 "43k" V 6800 2550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 6730 2550 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6730 2550 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 6800 2550 50  0001 C CNN
 	1    6800 2550
 	1    0    0    -1  
@@ -371,7 +371,7 @@ U 1 1 5917A8FF
 P 4800 2550
 F 0 "R9" V 4880 2550 50  0000 C CNN
 F 1 "43k" V 4800 2550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4730 2550 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4730 2550 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 4800 2550 50  0001 C CNN
 	1    4800 2550
 	1    0    0    -1  
@@ -384,7 +384,7 @@ U 1 1 5917AA6A
 P 6800 2150
 F 0 "R16" V 6880 2150 50  0000 C CNN
 F 1 "15k" V 6800 2150 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 6730 2150 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6730 2150 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 6800 2150 50  0001 C CNN
 	1    6800 2150
 	1    0    0    -1  
@@ -395,7 +395,7 @@ U 1 1 5917AAD3
 P 4800 2150
 F 0 "R8" V 4880 2150 50  0000 C CNN
 F 1 "15k" V 4800 2150 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4730 2150 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4730 2150 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 4800 2150 50  0001 C CNN
 	1    4800 2150
 	1    0    0    -1  
@@ -414,7 +414,7 @@ U 1 1 5917AD17
 P 7050 2550
 F 0 "R18" V 7130 2550 50  0000 C CNN
 F 1 "30k" V 7050 2550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 6980 2550 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6980 2550 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 7050 2550 50  0001 C CNN
 	1    7050 2550
 	1    0    0    -1  
@@ -425,7 +425,7 @@ U 1 1 5917AD78
 P 4550 2550
 F 0 "R7" V 4630 2550 50  0000 C CNN
 F 1 "30k" V 4550 2550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4480 2550 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4480 2550 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 4550 2550 50  0001 C CNN
 	1    4550 2550
 	1    0    0    -1  
@@ -440,9 +440,9 @@ Connection ~ 4550 3300
 Wire Wire Line
 	7050 2700 7050 3300
 Connection ~ 7050 3300
-Text HLabel 6300 1600 1    60   Input ~ 0
-L-
 Text HLabel 6800 1600 1    60   Input ~ 0
+L-
+Text HLabel 6300 1600 1    60   Input ~ 0
 L+
 Text HLabel 4800 1600 1    60   Input ~ 0
 R-
@@ -527,7 +527,7 @@ U 1 1 59339334
 P 7250 3300
 F 0 "R19" V 7330 3300 50  0000 C CNN
 F 1 "33" V 7250 3300 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 7180 3300 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7180 3300 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 7250 3300 50  0001 C CNN
 	1    7250 3300
 	0    1    1    0   
@@ -538,7 +538,7 @@ U 1 1 593393C3
 P 4350 3300
 F 0 "R6" V 4430 3300 50  0000 C CNN
 F 1 "33" V 4350 3300 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4280 3300 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4280 3300 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 4350 3300 50  0001 C CNN
 	1    4350 3300
 	0    1    1    0   

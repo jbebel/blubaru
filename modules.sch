@@ -223,7 +223,7 @@ U 1 1 594DE951
 P 4400 3650
 F 0 "R1" V 4480 3650 50  0000 C CNN
 F 1 "750" V 4400 3650 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4330 3650 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4330 3650 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-CF_CFM.pdf" H 4400 3650 50  0001 C CNN
 	1    4400 3650
 	0    1    1    0   
@@ -252,7 +252,7 @@ U 1 1 594DF732
 P 5150 3650
 F 0 "R2" V 5230 3650 50  0000 C CNN
 F 1 "330" V 5150 3650 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5080 3650 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5080 3650 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-CF_CFM.pdf" H 5150 3650 50  0001 C CNN
 	1    5150 3650
 	0    1    1    0   
