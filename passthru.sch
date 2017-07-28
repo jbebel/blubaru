@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 8
+Sheet 2 10
 Title "Blubaru"
 Date "2017-02-28"
 Rev ""

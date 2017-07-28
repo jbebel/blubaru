@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 6 8
+Sheet 6 10
 Title "Blubaru"
 Date "2017-02-28"
 Rev ""
@@ -47,10 +47,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RN52_BREAKOUT J5
+L RN52_BREAKOUT J6
 U 1 1 589AA2F8
 P 5100 2950
-F 0 "J5" H 5100 850 60  0000 C CNN
+F 0 "J6" H 5100 850 60  0000 C CNN
 F 1 "RN52_BREAKOUT" H 5100 2950 60  0000 C CNN
 F 2 "blubaru:RN52_Breakout" H 5100 2950 60  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/70005120A.pdf" H 5100 2950 60  0001 C CNN
@@ -109,10 +109,10 @@ NoConn ~ 5800 4150
 NoConn ~ 5800 4050
 NoConn ~ 5800 3950
 $Comp
-L C C4
+L C C3
 U 1 1 589BA198
 P 4250 5150
-F 0 "C4" H 4275 5250 50  0000 L CNN
+F 0 "C3" H 4275 5250 50  0000 L CNN
 F 1 "0.1uF" H 4275 5050 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 4288 5000 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4250 5150 50  0001 C CNN
@@ -175,9 +175,9 @@ F5 "MIC_L+" O L 7000 4300 60
 F6 "MIC_BIAS" O L 7000 4400 60 
 $EndSheet
 Text HLabel 8150 3050 2    60   Output ~ 0
-LineOutL
+BT_L
 Text HLabel 8150 3150 2    60   Output ~ 0
-LineOutR
+BT_R
 Wire Wire Line
 	7800 3050 8150 3050
 Wire Wire Line
