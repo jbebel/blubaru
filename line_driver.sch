@@ -293,9 +293,9 @@ F 3 "" H 4800 3000 50  0001 C CNN
 	1    4800 3000
 	1    0    0    -1  
 $EndComp
-Text HLabel 6300 2050 1    60   Input ~ 0
-L-
 Text HLabel 6550 2050 1    60   Input ~ 0
+L-
+Text HLabel 6300 2050 1    60   Input ~ 0
 L+
 Text HLabel 5050 2050 1    60   Input ~ 0
 R-
