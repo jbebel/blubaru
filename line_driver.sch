@@ -484,9 +484,9 @@ Connection ~ 4550 3300
 Wire Wire Line
 	7050 2700 7050 3300
 Connection ~ 7050 3300
-Text HLabel 6300 1600 1    60   Input ~ 0
-L-
 Text HLabel 6800 1600 1    60   Input ~ 0
+L-
+Text HLabel 6300 1600 1    60   Input ~ 0
 L+
 Text HLabel 4800 1600 1    60   Input ~ 0
 R-
