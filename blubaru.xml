@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/jbebel/blubaru/blubaru.sch</source>
-    <date>Thu 27 Jul 2017 10:17:03 PM EDT</date>
-    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
+    <date>Wed 13 Sep 2017 12:11:38 AM EDT</date>
+    <tool>Eeschema 4.0.5+dfsg1-4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Blubaru</title>
@@ -140,7 +140,7 @@
       <value>DB15</value>
       <footprint>blubaru:DB15MC</footprint>
       <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Assmann%20PDFs/A-Dx%20-xx-A_KG-T4_T2_Dwg.pdf</datasheet>
-      <libsource lib="blubaru-cache" part="DB15"/>
+      <libsource lib="conn" part="DB15"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589BBD0D</tstamp>
     </comp>
@@ -148,7 +148,7 @@
       <value>DB15</value>
       <footprint>blubaru:DB15FC</footprint>
       <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Assmann%20PDFs/A-Dx%20-xx-A_KG-T4_T2_Dwg.pdf</datasheet>
-      <libsource lib="blubaru-cache" part="DB15"/>
+      <libsource lib="conn" part="DB15"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589BBD68</tstamp>
     </comp>
@@ -333,7 +333,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
       <tstamp>58BF91C1</tstamp>
     </comp>
-    <comp ref="C16">
+    <comp ref="C12">
       <value>1uF</value>
       <footprint>blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm</footprint>
       <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
@@ -341,7 +341,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59178EA2</tstamp>
     </comp>
-    <comp ref="C13">
+    <comp ref="C10">
       <value>1uF</value>
       <footprint>blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm</footprint>
       <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
@@ -349,7 +349,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59178EFD</tstamp>
     </comp>
-    <comp ref="C19">
+    <comp ref="C14">
       <value>1uF</value>
       <footprint>blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm</footprint>
       <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
@@ -357,144 +357,64 @@
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59178FC9</tstamp>
     </comp>
-    <comp ref="C22">
-      <value>47pF</value>
-      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>59179109</tstamp>
-    </comp>
-    <comp ref="C11">
-      <value>47pF</value>
-      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>5917915A</tstamp>
-    </comp>
-    <comp ref="C17">
-      <value>47pF</value>
-      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>591791B6</tstamp>
-    </comp>
-    <comp ref="C15">
-      <value>47pF</value>
-      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>591791EB</tstamp>
-    </comp>
-    <comp ref="R11">
-      <value>30k</value>
+    <comp ref="R8">
+      <value>8.2k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59179216</tstamp>
     </comp>
-    <comp ref="R12">
-      <value>30k</value>
+    <comp ref="R9">
+      <value>8.2k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59179241</tstamp>
     </comp>
-    <comp ref="R14">
-      <value>43k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>59179384</tstamp>
-    </comp>
     <comp ref="R10">
-      <value>43k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>591793C1</tstamp>
-    </comp>
-    <comp ref="R13">
-      <value>15k</value>
+      <value>11k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917A21C</tstamp>
     </comp>
-    <comp ref="R9">
-      <value>15k</value>
+    <comp ref="R7">
+      <value>11k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917A253</tstamp>
     </comp>
-    <comp ref="C12">
-      <value>180pF</value>
-      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>5917A56B</tstamp>
-    </comp>
-    <comp ref="C20">
-      <value>180pF</value>
-      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>5917A5AC</tstamp>
-    </comp>
-    <comp ref="R16">
-      <value>43k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>5917A8A8</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>43k</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>5917A8FF</tstamp>
-    </comp>
-    <comp ref="R15">
-      <value>15k</value>
+    <comp ref="R11">
+      <value>11k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917AA6A</tstamp>
     </comp>
-    <comp ref="R7">
-      <value>15k</value>
+    <comp ref="R6">
+      <value>11k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917AAD3</tstamp>
     </comp>
-    <comp ref="R17">
-      <value>30k</value>
+    <comp ref="R12">
+      <value>8.2k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917AD17</tstamp>
     </comp>
-    <comp ref="R6">
-      <value>30k</value>
+    <comp ref="R5">
+      <value>8.2k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
       <libsource lib="device" part="R"/>
@@ -504,74 +424,41 @@
     <comp ref="J8">
       <value>DRV632</value>
       <footprint>blubaru:DRV632</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/drv632.pdf</datasheet>
       <libsource lib="blubaru" part="DRV632"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>592F828F</tstamp>
-    </comp>
-    <comp ref="C23">
-      <value>1000pF</value>
-      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>5933924A</tstamp>
+      <tstamp>592F8229</tstamp>
     </comp>
     <comp ref="C9">
-      <value>1000pF</value>
-      <footprint>blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>593392DF</tstamp>
-    </comp>
-    <comp ref="R18">
-      <value>33</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>59339334</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>33</value>
-      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>593393C3</tstamp>
-    </comp>
-    <comp ref="C10">
       <value>1uF</value>
       <footprint>blubaru:CP_Radial_D4.0mm_P1.50mm</footprint>
       <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>5939D955</tstamp>
+      <tstamp>59B8B0A8</tstamp>
     </comp>
-    <comp ref="C14">
+    <comp ref="C11">
       <value>1uF</value>
       <footprint>blubaru:CP_Radial_D4.0mm_P1.50mm</footprint>
       <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>5939DA1E</tstamp>
+      <tstamp>59B8B129</tstamp>
     </comp>
-    <comp ref="C18">
+    <comp ref="C13">
       <value>1uF</value>
       <footprint>blubaru:CP_Radial_D4.0mm_P1.50mm</footprint>
       <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>5939DA7F</tstamp>
+      <tstamp>59B8B18D</tstamp>
     </comp>
-    <comp ref="C21">
+    <comp ref="C15">
       <value>1uF</value>
       <footprint>blubaru:CP_Radial_D4.0mm_P1.50mm</footprint>
       <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
-      <tstamp>5939DADA</tstamp>
+      <tstamp>59B8B1FC</tstamp>
     </comp>
     <comp ref="J9">
       <value>JACK_TRS_5PINS</value>
@@ -581,7 +468,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Line In/" tstamps="/58B10FE0/58B1273D/595F0252/"/>
       <tstamp>595D415D</tstamp>
     </comp>
-    <comp ref="R19">
+    <comp ref="R13">
       <value>100k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -589,7 +476,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Line In/" tstamps="/58B10FE0/58B1273D/595F0252/"/>
       <tstamp>595F0365</tstamp>
     </comp>
-    <comp ref="R20">
+    <comp ref="R14">
       <value>100k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -597,7 +484,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Line In/" tstamps="/58B10FE0/58B1273D/595F0252/"/>
       <tstamp>595F054E</tstamp>
     </comp>
-    <comp ref="R21">
+    <comp ref="R15">
       <value>1M</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -605,7 +492,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Line In/" tstamps="/58B10FE0/58B1273D/595F0252/"/>
       <tstamp>595F0435</tstamp>
     </comp>
-    <comp ref="C24">
+    <comp ref="C16">
       <value>10uF</value>
       <footprint>blubaru:CP_Radial_D4.0mm_P1.50mm</footprint>
       <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
@@ -613,7 +500,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Voltage Regulator/" tstamps="/58B10FE0/58B1273D/597565F8/"/>
       <tstamp>59484D99</tstamp>
     </comp>
-    <comp ref="C25">
+    <comp ref="C17">
       <value>100uF</value>
       <footprint>blubaru:CP_Radial_D6.3mm_P2.50mm</footprint>
       <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf</datasheet>
@@ -629,7 +516,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Voltage Regulator/" tstamps="/58B10FE0/58B1273D/597565F8/"/>
       <tstamp>5949FB36</tstamp>
     </comp>
-    <comp ref="R22">
+    <comp ref="R16">
       <value>750</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
@@ -691,7 +578,11 @@
     <libpart lib="device" part="C">
       <description>Unpolarized capacitor</description>
       <footprints>
-        <fp>C_*</fp>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
@@ -703,15 +594,15 @@
       </pins>
     </libpart>
     <libpart lib="conn" part="CONN_01X06">
-      <description>Connector, single row, 01x06, pin header</description>
+      <description>Connector, single row, 01x06</description>
       <footprints>
-        <fp>Pin_Header_Straight_1X*</fp>
-        <fp>Pin_Header_Angled_1X*</fp>
-        <fp>Socket_Strip_Straight_1X*</fp>
-        <fp>Socket_Strip_Angled_1X*</fp>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
       </footprints>
       <fields>
-        <field name="Reference">J</field>
+        <field name="Reference">P</field>
         <field name="Value">CONN_01X06</field>
       </fields>
       <pins>
@@ -726,7 +617,13 @@
     <libpart lib="device" part="CP">
       <description>Polarised capacitor</description>
       <footprints>
-        <fp>CP_*</fp>
+        <fp>CP*</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
@@ -740,7 +637,8 @@
     <libpart lib="device" part="D">
       <description>Diode</description>
       <footprints>
-        <fp>TO-???*</fp>
+        <fp>Diode_*</fp>
+        <fp>D-*</fp>
         <fp>*SingleDiode</fp>
         <fp>*_Diode_*</fp>
         <fp>*SingleDiode*</fp>
@@ -755,7 +653,7 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="blubaru-cache" part="DB15">
+    <libpart lib="conn" part="DB15">
       <footprints>
         <fp>DB15*</fp>
       </footprints>
@@ -824,14 +722,10 @@
       </pins>
     </libpart>
     <libpart lib="conn" part="GS2">
-      <description>2-pin jumper/solder bridge</description>
-      <footprints>
-        <fp>GS*</fp>
-      </footprints>
       <fields>
-        <field name="Reference">J</field>
+        <field name="Reference">GS</field>
         <field name="Value">GS2</field>
-        <field name="Footprint">Connectors:GS2</field>
+        <field name="Footprint">GS2</field>
       </fields>
       <pins>
         <pin num="1" name="G1" type="passive"/>
@@ -873,7 +767,7 @@
       <fields>
         <field name="Reference">U</field>
         <field name="Value">LD1117S33TR</field>
-        <field name="Footprint">TO_SOT_Packages_SMD:SOT-223</field>
+        <field name="Footprint">SOT-223</field>
       </fields>
       <pins>
         <pin num="1" name="GND" type="power_in"/>
@@ -899,7 +793,7 @@
       <description>Resistor</description>
       <footprints>
         <fp>R_*</fp>
-        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
@@ -982,20 +876,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
-    </library>
-    <library logical="analog_switches">
-      <uri>/usr/share/kicad/library/analog_switches.lib</uri>
-    </library>
-    <library logical="blubaru-cache">
-      <uri>/home/jbebel/blubaru/blubaru-cache.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="analog_switches">
+      <uri>/usr/share/kicad/library/analog_switches.lib</uri>
     </library>
     <library logical="blubaru">
       <uri>/home/jbebel/blubaru/library/blubaru.lib</uri>
@@ -1003,108 +894,104 @@
   </libraries>
   <nets>
     <net code="1" name="/DB-15 interconnects/4_OUT">
-      <node ref="J4" pin="3"/>
       <node ref="J2" pin="4"/>
+      <node ref="J4" pin="3"/>
     </net>
     <net code="2" name="/DB-15 interconnects/2_OUT">
-      <node ref="J2" pin="2"/>
       <node ref="J4" pin="9"/>
+      <node ref="J2" pin="2"/>
     </net>
     <net code="3" name="/DB-15 interconnects/6_OUT">
-      <node ref="U1" pin="1"/>
       <node ref="J2" pin="6"/>
+      <node ref="U1" pin="1"/>
     </net>
     <net code="4" name="GND">
-      <node ref="C9" pin="2"/>
+      <node ref="J5" pin="4"/>
       <node ref="D2" pin="1"/>
-      <node ref="C23" pin="2"/>
-      <node ref="J8" pin="10"/>
-      <node ref="J8" pin="4"/>
-      <node ref="J3" pin="6"/>
-      <node ref="C4" pin="2"/>
-      <node ref="J7" pin="1"/>
-      <node ref="R12" pin="2"/>
-      <node ref="C15" pin="1"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C19" pin="2"/>
-      <node ref="R11" pin="1"/>
-      <node ref="C13" pin="2"/>
-      <node ref="J9" pin="1"/>
+      <node ref="D1" pin="1"/>
       <node ref="C3" pin="2"/>
+      <node ref="J3" pin="6"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J5" pin="23"/>
+      <node ref="C1" pin="2"/>
       <node ref="U1" pin="7"/>
       <node ref="U1" pin="3"/>
-      <node ref="P1" pin="6"/>
-      <node ref="R20" pin="2"/>
-      <node ref="J5" pin="23"/>
       <node ref="J4" pin="6"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J7" pin="1"/>
       <node ref="U2" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C24" pin="2"/>
-      <node ref="C25" pin="2"/>
+      <node ref="J8" pin="10"/>
+      <node ref="J8" pin="4"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="R14" pin="2"/>
       <node ref="J6" pin="21"/>
-      <node ref="C1" pin="2"/>
+      <node ref="P1" pin="6"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C17" pin="2"/>
       <node ref="D4" pin="1"/>
-      <node ref="R19" pin="2"/>
-      <node ref="J5" pin="4"/>
-      <node ref="J2" pin="14"/>
-      <node ref="J1" pin="14"/>
+      <node ref="R13" pin="2"/>
       <node ref="GS2" pin="2"/>
+      <node ref="J2" pin="14"/>
       <node ref="GS1" pin="2"/>
+      <node ref="J1" pin="14"/>
     </net>
     <net code="5" name="/DB-15 interconnects/3_IN">
-      <node ref="J2" pin="3"/>
       <node ref="J1" pin="3"/>
+      <node ref="J2" pin="3"/>
     </net>
     <net code="6" name="/DB-15 interconnects/8_IN">
-      <node ref="J1" pin="8"/>
       <node ref="J2" pin="8"/>
+      <node ref="J1" pin="8"/>
     </net>
     <net code="7" name="/DB-15 interconnects/7_IN">
-      <node ref="J1" pin="7"/>
       <node ref="J2" pin="7"/>
+      <node ref="J1" pin="7"/>
     </net>
     <net code="8" name="/DB-15 interconnects/6_IN">
-      <node ref="J1" pin="6"/>
       <node ref="U1" pin="2"/>
+      <node ref="J1" pin="6"/>
     </net>
     <net code="9" name="/DB-15 interconnects/13_IN">
       <node ref="GS2" pin="1"/>
-      <node ref="J2" pin="13"/>
       <node ref="J1" pin="13"/>
+      <node ref="J2" pin="13"/>
     </net>
     <net code="10" name="/DB-15 interconnects/5_IN">
+      <node ref="J1" pin="5"/>
       <node ref="J2" pin="5"/>
       <node ref="GS1" pin="1"/>
-      <node ref="J1" pin="5"/>
     </net>
     <net code="11" name="/DB-15 interconnects/12_IN">
       <node ref="J1" pin="12"/>
       <node ref="J2" pin="12"/>
     </net>
     <net code="12" name="/DB-15 interconnects/4_IN">
-      <node ref="J4" pin="4"/>
       <node ref="J1" pin="4"/>
+      <node ref="J4" pin="4"/>
     </net>
     <net code="13" name="/DB-15 interconnects/11_IN">
       <node ref="J2" pin="11"/>
       <node ref="J1" pin="11"/>
     </net>
     <net code="14" name="/DB-15 interconnects/10_IN">
-      <node ref="J1" pin="10"/>
       <node ref="J2" pin="10"/>
+      <node ref="J1" pin="10"/>
     </net>
     <net code="15" name="/DB-15 interconnects/2_IN">
-      <node ref="J1" pin="2"/>
       <node ref="J4" pin="8"/>
+      <node ref="J1" pin="2"/>
     </net>
     <net code="16" name="+12V">
+      <node ref="D3" pin="2"/>
+      <node ref="J2" pin="9"/>
       <node ref="J5" pin="24"/>
       <node ref="J1" pin="9"/>
-      <node ref="D3" pin="2"/>
-      <node ref="U1" pin="8"/>
-      <node ref="J2" pin="9"/>
       <node ref="U1" pin="4"/>
+      <node ref="U1" pin="8"/>
     </net>
     <net code="17" name="/DB-15 interconnects/1_IN">
       <node ref="J2" pin="1"/>
@@ -1116,79 +1003,79 @@
     <net code="19" name="Net-(J1-Pad15)">
       <node ref="J1" pin="15"/>
     </net>
-    <net code="20" name="/DB-15 interconnects/Modules/Line In/JACK_SENSE">
-      <node ref="J9" pin="4"/>
-      <node ref="J5" pin="10"/>
-      <node ref="R21" pin="1"/>
+    <net code="20" name="/DB-15 interconnects/Modules/Audio switch/LINE_R">
+      <node ref="J3" pin="10"/>
+      <node ref="R13" pin="1"/>
+      <node ref="J9" pin="3"/>
     </net>
-    <net code="21" name="/DB-15 interconnects/Modules/Audio switch/LINE_TRG">
-      <node ref="J5" pin="11"/>
+    <net code="21" name="/DB-15 interconnects/Modules/Line In/JACK_SENSE">
+      <node ref="J5" pin="10"/>
+      <node ref="R15" pin="1"/>
+      <node ref="J9" pin="4"/>
+    </net>
+    <net code="22" name="/DB-15 interconnects/Modules/Audio switch/LINE_TRG">
       <node ref="J3" pin="7"/>
+      <node ref="J5" pin="11"/>
       <node ref="J3" pin="5"/>
     </net>
-    <net code="22" name="/DB-15 interconnects/Modules/Bluetooth Module/UART_RX">
-      <node ref="J5" pin="1"/>
+    <net code="23" name="/DB-15 interconnects/Modules/Bluetooth Module/UART_RX">
       <node ref="J6" pin="16"/>
+      <node ref="J5" pin="1"/>
     </net>
-    <net code="23" name="/DB-15 interconnects/Modules/Bluetooth Module/UART_TX">
+    <net code="24" name="/DB-15 interconnects/Modules/Bluetooth Module/UART_TX">
       <node ref="J5" pin="2"/>
       <node ref="J6" pin="15"/>
     </net>
-    <net code="24" name="/DB-15 interconnects/Modules/Bluetooth Module/CMD">
-      <node ref="J5" pin="5"/>
+    <net code="25" name="/DB-15 interconnects/Modules/Bluetooth Module/CMD">
       <node ref="J6" pin="10"/>
+      <node ref="J5" pin="5"/>
     </net>
-    <net code="25" name="/DB-15 interconnects/Modules/Bluetooth Module/EVENT">
-      <node ref="J5" pin="6"/>
+    <net code="26" name="/DB-15 interconnects/Modules/Bluetooth Module/EVENT">
       <node ref="J6" pin="2"/>
+      <node ref="J5" pin="6"/>
     </net>
-    <net code="26" name="/DB-15 interconnects/Modules/Audio switch/BT_TRG">
-      <node ref="J4" pin="5"/>
+    <net code="27" name="/DB-15 interconnects/Modules/Audio switch/BT_TRG">
       <node ref="U1" pin="6"/>
+      <node ref="R2" pin="2"/>
       <node ref="J5" pin="12"/>
       <node ref="J4" pin="7"/>
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="27" name="/DB-15 interconnects/Modules/Audio switch/LINE_R">
-      <node ref="R19" pin="1"/>
-      <node ref="J9" pin="3"/>
-      <node ref="J3" pin="10"/>
+      <node ref="J4" pin="5"/>
     </net>
     <net code="28" name="/DB-15 interconnects/Modules/Audio switch/LINE_L">
       <node ref="J3" pin="2"/>
-      <node ref="R20" pin="1"/>
+      <node ref="R14" pin="1"/>
       <node ref="J9" pin="2"/>
     </net>
     <net code="29" name="/DB-15 interconnects/Modules/Audio switch/BT_L">
-      <node ref="J3" pin="4"/>
-      <node ref="C9" pin="1"/>
+      <node ref="J8" pin="3"/>
       <node ref="R5" pin="2"/>
+      <node ref="J3" pin="4"/>
     </net>
     <net code="30" name="/DB-15 interconnects/Modules/Audio switch/BT_R">
       <node ref="J3" pin="8"/>
-      <node ref="C23" pin="1"/>
-      <node ref="R18" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="J8" pin="12"/>
     </net>
     <net code="31" name="Net-(J3-Pad3)">
-      <node ref="J3" pin="3"/>
       <node ref="J4" pin="2"/>
+      <node ref="J3" pin="3"/>
     </net>
     <net code="32" name="VCC">
-      <node ref="R22" pin="2"/>
-      <node ref="J6" pin="19"/>
-      <node ref="C1" pin="1"/>
-      <node ref="J8" pin="5"/>
       <node ref="U1" pin="5"/>
-      <node ref="R21" pin="2"/>
-      <node ref="C19" pin="1"/>
-      <node ref="J4" pin="1"/>
-      <node ref="J8" pin="9"/>
       <node ref="C3" pin="1"/>
-      <node ref="U2" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="J6" pin="19"/>
+      <node ref="J8" pin="5"/>
+      <node ref="J8" pin="9"/>
+      <node ref="J4" pin="1"/>
+      <node ref="R15" pin="2"/>
       <node ref="J6" pin="20"/>
       <node ref="J3" pin="1"/>
+      <node ref="U2" pin="2"/>
       <node ref="C2" pin="1"/>
-      <node ref="C25" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C17" pin="1"/>
     </net>
     <net code="33" name="Net-(J3-Pad9)">
       <node ref="J3" pin="9"/>
@@ -1225,15 +1112,15 @@
       <node ref="J5" pin="3"/>
     </net>
     <net code="44" name="Net-(D2-Pad2)">
-      <node ref="R2" pin="1"/>
       <node ref="D2" pin="2"/>
+      <node ref="R2" pin="1"/>
     </net>
     <net code="45" name="Net-(J5-Pad17)">
       <node ref="J5" pin="17"/>
     </net>
     <net code="46" name="/DB-15 interconnects/Modules/Microcontroller/DBG">
-      <node ref="J5" pin="13"/>
       <node ref="R1" pin="1"/>
+      <node ref="J5" pin="13"/>
     </net>
     <net code="47" name="Net-(J5-Pad19)">
       <node ref="J5" pin="19"/>
@@ -1242,90 +1129,90 @@
       <node ref="J5" pin="18"/>
     </net>
     <net code="49" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2"/>
       <node ref="R1" pin="2"/>
+      <node ref="D1" pin="2"/>
     </net>
-    <net code="50" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/R+">
-      <node ref="C14" pin="1"/>
-      <node ref="J6" pin="39"/>
+    <net code="50" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/L+">
+      <node ref="C13" pin="1"/>
+      <node ref="J6" pin="40"/>
     </net>
     <net code="51" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/L-">
+      <node ref="C15" pin="1"/>
       <node ref="J6" pin="38"/>
-      <node ref="C21" pin="1"/>
     </net>
     <net code="52" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/R-">
-      <node ref="C10" pin="1"/>
       <node ref="J6" pin="37"/>
+      <node ref="C9" pin="1"/>
     </net>
-    <net code="53" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/L+">
-      <node ref="C18" pin="1"/>
-      <node ref="J6" pin="40"/>
+    <net code="53" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/R+">
+      <node ref="J6" pin="39"/>
+      <node ref="C11" pin="1"/>
     </net>
     <net code="54" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_BIAS">
       <node ref="C6" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C4" pin="1"/>
       <node ref="R3" pin="2"/>
-      <node ref="J6" pin="32"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C8" pin="2"/>
       <node ref="R4" pin="2"/>
+      <node ref="J6" pin="32"/>
     </net>
-    <net code="55" name="Net-(J6-Pad31)">
-      <node ref="J6" pin="31"/>
-    </net>
-    <net code="56" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_R-">
-      <node ref="C5" pin="2"/>
+    <net code="55" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_R-">
       <node ref="J6" pin="36"/>
+      <node ref="C5" pin="2"/>
     </net>
-    <net code="57" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_L-">
-      <node ref="J6" pin="35"/>
+    <net code="56" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_L-">
       <node ref="C7" pin="2"/>
+      <node ref="J6" pin="35"/>
     </net>
-    <net code="58" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_R+">
+    <net code="57" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_R+">
       <node ref="C8" pin="1"/>
       <node ref="J6" pin="34"/>
     </net>
-    <net code="59" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_L+">
-      <node ref="J6" pin="33"/>
+    <net code="58" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_L+">
       <node ref="C6" pin="1"/>
+      <node ref="J6" pin="33"/>
     </net>
-    <net code="60" name="Net-(J6-Pad22)">
+    <net code="59" name="Net-(J6-Pad22)">
       <node ref="J6" pin="22"/>
     </net>
-    <net code="61" name="Net-(J6-Pad13)">
+    <net code="60" name="Net-(J6-Pad13)">
       <node ref="J6" pin="13"/>
     </net>
-    <net code="62" name="Net-(J6-Pad23)">
+    <net code="61" name="Net-(J6-Pad23)">
       <node ref="J6" pin="23"/>
     </net>
-    <net code="63" name="Net-(J6-Pad14)">
+    <net code="62" name="Net-(J6-Pad14)">
       <node ref="J6" pin="14"/>
     </net>
-    <net code="64" name="Net-(J6-Pad24)">
+    <net code="63" name="Net-(J6-Pad24)">
       <node ref="J6" pin="24"/>
     </net>
-    <net code="65" name="Net-(J6-Pad12)">
+    <net code="64" name="Net-(J6-Pad12)">
       <node ref="J6" pin="12"/>
     </net>
-    <net code="66" name="Net-(J6-Pad25)">
+    <net code="65" name="Net-(J6-Pad25)">
       <node ref="J6" pin="25"/>
     </net>
-    <net code="67" name="Net-(J6-Pad26)">
+    <net code="66" name="Net-(J6-Pad26)">
       <node ref="J6" pin="26"/>
     </net>
-    <net code="68" name="Net-(J6-Pad17)">
+    <net code="67" name="Net-(J6-Pad17)">
       <node ref="J6" pin="17"/>
     </net>
-    <net code="69" name="Net-(J6-Pad27)">
+    <net code="68" name="Net-(J6-Pad27)">
       <node ref="J6" pin="27"/>
     </net>
-    <net code="70" name="Net-(J6-Pad1)">
+    <net code="69" name="Net-(J6-Pad1)">
       <node ref="J6" pin="1"/>
     </net>
-    <net code="71" name="Net-(J6-Pad3)">
+    <net code="70" name="Net-(J6-Pad3)">
       <node ref="J6" pin="3"/>
     </net>
-    <net code="72" name="Net-(J6-Pad4)">
+    <net code="71" name="Net-(J6-Pad4)">
       <node ref="J6" pin="4"/>
+    </net>
+    <net code="72" name="Net-(J6-Pad31)">
+      <node ref="J6" pin="31"/>
     </net>
     <net code="73" name="Net-(J6-Pad30)">
       <node ref="J6" pin="30"/>
@@ -1333,30 +1220,30 @@
     <net code="74" name="Net-(J6-Pad11)">
       <node ref="J6" pin="11"/>
     </net>
-    <net code="75" name="Net-(J6-Pad18)">
+    <net code="75" name="/DB-15 interconnects/Modules/Bluetooth Module/VOL-">
+      <node ref="J6" pin="9"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="76" name="Net-(J6-Pad18)">
       <node ref="J6" pin="18"/>
     </net>
-    <net code="76" name="Net-(J6-Pad28)">
+    <net code="77" name="Net-(J6-Pad28)">
       <node ref="J6" pin="28"/>
     </net>
-    <net code="77" name="Net-(J6-Pad29)">
+    <net code="78" name="Net-(J6-Pad29)">
       <node ref="J6" pin="29"/>
     </net>
-    <net code="78" name="/DB-15 interconnects/Modules/Bluetooth Module/PREV">
+    <net code="79" name="/DB-15 interconnects/Modules/Bluetooth Module/PREV">
       <node ref="P1" pin="2"/>
       <node ref="J6" pin="8"/>
     </net>
-    <net code="79" name="/DB-15 interconnects/Modules/Bluetooth Module/VOL-">
-      <node ref="P1" pin="1"/>
-      <node ref="J6" pin="9"/>
-    </net>
     <net code="80" name="/DB-15 interconnects/Modules/Bluetooth Module/VOL+">
-      <node ref="J6" pin="5"/>
       <node ref="P1" pin="5"/>
+      <node ref="J6" pin="5"/>
     </net>
     <net code="81" name="/DB-15 interconnects/Modules/Bluetooth Module/NEXT">
-      <node ref="J6" pin="6"/>
       <node ref="P1" pin="4"/>
+      <node ref="J6" pin="6"/>
     </net>
     <net code="82" name="/DB-15 interconnects/Modules/Bluetooth Module/PLAY">
       <node ref="P1" pin="3"/>
@@ -1366,23 +1253,23 @@
       <node ref="J9" pin="5"/>
     </net>
     <net code="84" name="Net-(D4-Pad2)">
-      <node ref="R22" pin="1"/>
       <node ref="D4" pin="2"/>
+      <node ref="R16" pin="1"/>
     </net>
-    <net code="85" name="Net-(C24-Pad1)">
-      <node ref="D3" pin="1"/>
+    <net code="85" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
       <node ref="U2" pin="3"/>
-      <node ref="C24" pin="1"/>
+      <node ref="D3" pin="1"/>
     </net>
     <net code="86" name="Net-(C7-Pad1)">
-      <node ref="C7" pin="1"/>
       <node ref="R3" pin="1"/>
+      <node ref="C7" pin="1"/>
       <node ref="J7" pin="2"/>
     </net>
     <net code="87" name="Net-(C5-Pad1)">
-      <node ref="R4" pin="1"/>
       <node ref="C5" pin="1"/>
       <node ref="J7" pin="3"/>
+      <node ref="R4" pin="1"/>
     </net>
     <net code="88" name="Net-(J7-Pad5)">
       <node ref="J7" pin="5"/>
@@ -1390,92 +1277,56 @@
     <net code="89" name="Net-(J7-Pad4)">
       <node ref="J7" pin="4"/>
     </net>
-    <net code="90" name="Net-(J8-Pad11)">
+    <net code="90" name="Net-(C12-Pad1)">
+      <node ref="J8" pin="8"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="91" name="Net-(C12-Pad2)">
+      <node ref="J8" pin="7"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="92" name="Net-(C10-Pad1)">
+      <node ref="J8" pin="6"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="93" name="Net-(J8-Pad11)">
       <node ref="J8" pin="11"/>
     </net>
-    <net code="91" name="Net-(C16-Pad1)">
-      <node ref="C16" pin="1"/>
-      <node ref="J8" pin="8"/>
-    </net>
-    <net code="92" name="Net-(C16-Pad2)">
-      <node ref="C16" pin="2"/>
-      <node ref="J8" pin="7"/>
-    </net>
-    <net code="93" name="Net-(C13-Pad1)">
-      <node ref="J8" pin="6"/>
-      <node ref="C13" pin="1"/>
-    </net>
-    <net code="94" name="Net-(C10-Pad2)">
-      <node ref="R7" pin="1"/>
-      <node ref="C10" pin="2"/>
-    </net>
-    <net code="95" name="Net-(C15-Pad2)">
+    <net code="94" name="Net-(J8-Pad1)">
       <node ref="J8" pin="1"/>
-      <node ref="C15" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="95" name="Net-(J8-Pad14)">
+      <node ref="J8" pin="14"/>
+      <node ref="R9" pin="1"/>
       <node ref="R10" pin="2"/>
     </net>
-    <net code="96" name="Net-(C18-Pad2)">
-      <node ref="C18" pin="2"/>
-      <node ref="R13" pin="1"/>
-    </net>
-    <net code="97" name="Net-(C14-Pad2)">
-      <node ref="R9" pin="1"/>
-      <node ref="C14" pin="2"/>
-    </net>
-    <net code="98" name="Net-(C12-Pad1)">
-      <node ref="R11" pin="2"/>
-      <node ref="C12" pin="1"/>
+    <net code="96" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2"/>
       <node ref="R10" pin="1"/>
-      <node ref="R9" pin="2"/>
     </net>
-    <net code="99" name="Net-(C20-Pad2)">
-      <node ref="R13" pin="2"/>
-      <node ref="R14" pin="1"/>
-      <node ref="R12" pin="1"/>
-      <node ref="C20" pin="2"/>
-    </net>
-    <net code="100" name="Net-(C22-Pad1)">
-      <node ref="R16" pin="2"/>
-      <node ref="C22" pin="1"/>
-      <node ref="J8" pin="13"/>
-    </net>
-    <net code="101" name="Net-(C11-Pad1)">
-      <node ref="R8" pin="2"/>
-      <node ref="C11" pin="1"/>
-      <node ref="J8" pin="2"/>
-    </net>
-    <net code="102" name="Net-(C17-Pad1)">
-      <node ref="J8" pin="14"/>
-      <node ref="R14" pin="2"/>
-      <node ref="C17" pin="1"/>
-    </net>
-    <net code="103" name="Net-(C22-Pad2)">
-      <node ref="J8" pin="12"/>
-      <node ref="C22" pin="2"/>
-      <node ref="R18" pin="2"/>
-      <node ref="R17" pin="2"/>
-    </net>
-    <net code="104" name="Net-(C21-Pad2)">
-      <node ref="C21" pin="2"/>
-      <node ref="R15" pin="1"/>
-    </net>
-    <net code="105" name="Net-(C20-Pad1)">
-      <node ref="R15" pin="2"/>
-      <node ref="C20" pin="1"/>
-      <node ref="R17" pin="1"/>
-      <node ref="R16" pin="1"/>
-    </net>
-    <net code="106" name="Net-(C12-Pad2)">
-      <node ref="R8" pin="1"/>
-      <node ref="C12" pin="2"/>
-      <node ref="R7" pin="2"/>
-      <node ref="R6" pin="1"/>
-    </net>
-    <net code="107" name="Net-(C11-Pad2)">
+    <net code="97" name="Net-(C11-Pad2)">
       <node ref="C11" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="98" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="99" name="Net-(C9-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="100" name="Net-(J8-Pad2)">
+      <node ref="J8" pin="2"/>
       <node ref="R6" pin="2"/>
       <node ref="R5" pin="1"/>
-      <node ref="J8" pin="3"/>
+    </net>
+    <net code="101" name="Net-(J8-Pad13)">
+      <node ref="R12" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="J8" pin="13"/>
     </net>
   </nets>
 </export>
