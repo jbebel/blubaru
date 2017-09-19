@@ -173,17 +173,6 @@ F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 6000 2800 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR034
-U 1 1 5917926C
-P 5800 2550
-F 0 "#PWR034" H 5800 2300 50  0001 C CNN
-F 1 "GND" H 5800 2400 50  0000 C CNN
-F 2 "" H 5800 2550 50  0001 C CNN
-F 3 "" H 5800 2550 50  0001 C CNN
-	1    5800 2550
-	-1   0    0    1   
-$EndComp
-$Comp
 L R R10
 U 1 1 5917A21C
 P 6300 2600
@@ -399,5 +388,16 @@ F 2 "blubaru:CP_Radial_D4.0mm_P1.50mm" H 6588 2100 50  0001 C CNN
 F 3 "http://www.nichicon.co.jp/english/products/pdfs/e-usw.pdf" H 6550 2250 50  0001 C CNN
 	1    6550 2250
 	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR034
+U 1 1 59C097AE
+P 5800 2550
+F 0 "#PWR034" H 5800 2300 50  0001 C CNN
+F 1 "GNDA" H 5800 2400 50  0000 C CNN
+F 2 "" H 5800 2550 50  0000 C CNN
+F 3 "" H 5800 2550 50  0000 C CNN
+	1    5800 2550
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

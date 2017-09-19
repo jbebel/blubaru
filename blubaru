@@ -1,8 +1,6 @@
 Reference, Value, Footprint, Datasheet
 "J2","DB15","blubaru:DB15MC","http://media.digikey.com/pdf/Data%20Sheets/Assmann%20PDFs/A-Dx%20-xx-A_KG-T4_T2_Dwg.pdf"
 "J1","DB15","blubaru:DB15FC","http://media.digikey.com/pdf/Data%20Sheets/Assmann%20PDFs/A-Dx%20-xx-A_KG-T4_T2_Dwg.pdf"
-"GS1","GS2","Connectors:GS2",""
-"GS2","GS2","Connectors:GS2",""
 "U1","DG419","Housings_DIP:DIP-8_W7.62mm","http://www.vishay.com/docs/70051/dg417.pdf"
 "J4","TS5A22364-Q1","blubaru:TS5A22364-Q1","http://www.ti.com/lit/ds/symlink/ts5a22364-q1.pdf"
 "C2","0.1uF","blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm","http://www.vishay.com/docs/45171/kseries.pdf"
