@@ -104,8 +104,6 @@ NoConn ~ 5800 4450
 NoConn ~ 5800 4350
 NoConn ~ 5800 4250
 NoConn ~ 5800 4150
-NoConn ~ 5800 4050
-NoConn ~ 5800 3950
 $Comp
 L C C4
 U 1 1 589BA198
@@ -136,7 +134,7 @@ P 3100 3600
 F 0 "P1" H 3100 3950 50  0000 C CNN
 F 1 "CONN_01X06" V 3200 3600 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 3100 3600 50  0001 C CNN
-F 3 "" H 3100 3600 50  0000 C CNN
+F 3 "http://www.chipquik.com/datasheets/HDR100IMP40M-G-V-TH.pdf" H 3100 3600 50  0000 C CNN
 	1    3100 3600
 	-1   0    0    1   
 $EndComp
@@ -288,4 +286,82 @@ Text HLabel 4000 4850 0    60   Input ~ 0
 PWR_EN
 Wire Wire Line
 	4250 4950 4250 5000
+$Comp
+L LED D1
+U 1 1 5A165420
+P 7150 4850
+F 0 "D1" H 7150 4950 50  0000 C CNN
+F 1 "B LED" H 7150 4750 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 7150 4850 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LVBC-D.pdf" H 7150 4850 50  0001 C CNN
+	1    7150 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 5A16549D
+P 7150 5150
+F 0 "D2" H 7150 5250 50  0000 C CNN
+F 1 "R LED" H 7150 5050 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 7150 5150 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LSECK-J3.pdf" H 7150 5150 50  0001 C CNN
+	1    7150 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5A165502
+P 7500 4850
+F 0 "R1" V 7580 4850 50  0000 C CNN
+F 1 "330" V 7500 4850 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7430 4850 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-CF_CFM.pdf" H 7500 4850 50  0001 C CNN
+	1    7500 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5A16556D
+P 7500 5150
+F 0 "R2" V 7580 5150 50  0000 C CNN
+F 1 "750" V 7500 5150 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7430 5150 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-CF_CFM.pdf" H 7500 5150 50  0001 C CNN
+	1    7500 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 4850 7350 4850
+Wire Wire Line
+	7300 5150 7350 5150
+$Comp
+L VCC #PWR021
+U 1 1 5A1658A5
+P 7700 4800
+F 0 "#PWR021" H 7700 4650 50  0001 C CNN
+F 1 "VCC" H 7700 4950 50  0000 C CNN
+F 2 "" H 7700 4800 50  0001 C CNN
+F 3 "" H 7700 4800 50  0001 C CNN
+	1    7700 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4800 7700 5150
+Wire Wire Line
+	7700 5150 7650 5150
+Wire Wire Line
+	7650 4850 7700 4850
+Connection ~ 7700 4850
+Wire Wire Line
+	7000 4850 6050 4850
+Wire Wire Line
+	6050 4850 6050 3950
+Wire Wire Line
+	6050 3950 5800 3950
+Wire Wire Line
+	7000 5150 5950 5150
+Wire Wire Line
+	5950 5150 5950 4050
+Wire Wire Line
+	5950 4050 5800 4050
 $EndSCHEMATC

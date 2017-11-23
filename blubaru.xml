@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jbebel/blubaru/blubaru.sch</source>
-    <date>Fri 03 Nov 2017 12:57:39 AM EDT</date>
+    <date>Wed 22 Nov 2017 11:30:45 PM EST</date>
     <tool>Eeschema 4.0.7+dfsg1-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -211,6 +211,7 @@
     <comp ref="P1">
       <value>CONN_01X06</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <datasheet>http://www.chipquik.com/datasheets/HDR100IMP40M-G-V-TH.pdf</datasheet>
       <libsource lib="blubaru-cache" part="CONN_01X06"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/" tstamps="/58B10FE0/58B1273D/58B189CE/"/>
       <tstamp>589E7B79</tstamp>
@@ -222,6 +223,38 @@
       <libsource lib="device" part="CP"/>
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/" tstamps="/58B10FE0/58B1273D/58B189CE/"/>
       <tstamp>59F2DEF7</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>B LED</value>
+      <footprint>LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LVBC-D.pdf</datasheet>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/" tstamps="/58B10FE0/58B1273D/58B189CE/"/>
+      <tstamp>5A165420</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>R LED</value>
+      <footprint>LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LSECK-J3.pdf</datasheet>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/" tstamps="/58B10FE0/58B1273D/58B189CE/"/>
+      <tstamp>5A16549D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/" tstamps="/58B10FE0/58B1273D/58B189CE/"/>
+      <tstamp>5A165502</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>750</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/" tstamps="/58B10FE0/58B1273D/58B189CE/"/>
+      <tstamp>5A16556D</tstamp>
     </comp>
     <comp ref="C8">
       <value>0.047uF</value>
@@ -263,7 +296,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
       <tstamp>589D23FA</tstamp>
     </comp>
-    <comp ref="R1">
+    <comp ref="R3">
       <value>2k2</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -271,7 +304,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/" tstamps="/58B10FE0/58B1273D/58B189CE/58AE7D2D/"/>
       <tstamp>589D2492</tstamp>
     </comp>
-    <comp ref="R2">
+    <comp ref="R4">
       <value>2k2</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -311,7 +344,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59178FC9</tstamp>
     </comp>
-    <comp ref="R6">
+    <comp ref="R8">
       <value>8.2k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -319,7 +352,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59179216</tstamp>
     </comp>
-    <comp ref="R7">
+    <comp ref="R9">
       <value>8.2k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -327,7 +360,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>59179241</tstamp>
     </comp>
-    <comp ref="R8">
+    <comp ref="R10">
       <value>11k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -335,7 +368,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917A21C</tstamp>
     </comp>
-    <comp ref="R5">
+    <comp ref="R7">
       <value>11k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -343,7 +376,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917A253</tstamp>
     </comp>
-    <comp ref="R9">
+    <comp ref="R11">
       <value>11k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -351,7 +384,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917AA6A</tstamp>
     </comp>
-    <comp ref="R4">
+    <comp ref="R6">
       <value>11k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -359,7 +392,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917AAD3</tstamp>
     </comp>
-    <comp ref="R10">
+    <comp ref="R12">
       <value>8.2k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -367,7 +400,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/" tstamps="/58B10FE0/58B1273D/58B189CE/590D0DAE/"/>
       <tstamp>5917AD17</tstamp>
     </comp>
-    <comp ref="R3">
+    <comp ref="R5">
       <value>8.2k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -423,7 +456,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Line In/" tstamps="/58B10FE0/58B1273D/595F0252/"/>
       <tstamp>595D415D</tstamp>
     </comp>
-    <comp ref="R11">
+    <comp ref="R13">
       <value>100k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -431,7 +464,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Line In/" tstamps="/58B10FE0/58B1273D/595F0252/"/>
       <tstamp>595F0365</tstamp>
     </comp>
-    <comp ref="R12">
+    <comp ref="R14">
       <value>100k</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -439,7 +472,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Line In/" tstamps="/58B10FE0/58B1273D/595F0252/"/>
       <tstamp>595F054E</tstamp>
     </comp>
-    <comp ref="R13">
+    <comp ref="R15">
       <value>1M</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf</datasheet>
@@ -471,7 +504,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Voltage Regulator/" tstamps="/58B10FE0/58B1273D/597565F8/"/>
       <tstamp>5949FB36</tstamp>
     </comp>
-    <comp ref="D1">
+    <comp ref="D3">
       <value>D</value>
       <footprint>Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>http://www.onsemi.com/pub/Collateral/1N4001-D.PDF</datasheet>
@@ -479,15 +512,15 @@
       <sheetpath names="/DB-15 interconnects/Modules/Voltage Regulator/" tstamps="/58B10FE0/58B1273D/597565F8/"/>
       <tstamp>5975834F</tstamp>
     </comp>
-    <comp ref="D4">
+    <comp ref="D6">
       <value>Y LED</value>
-      <footprint>LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm</footprint>
+      <footprint>LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm</footprint>
       <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LZGCK.pdf</datasheet>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/59F28ACC/"/>
       <tstamp>59385827</tstamp>
     </comp>
-    <comp ref="R16">
+    <comp ref="R18">
       <value>750</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
@@ -495,7 +528,7 @@
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/59F28ACC/"/>
       <tstamp>5939E4C5</tstamp>
     </comp>
-    <comp ref="R17">
+    <comp ref="R19">
       <value>330</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
@@ -503,9 +536,9 @@
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/59F28ACC/"/>
       <tstamp>5975727A</tstamp>
     </comp>
-    <comp ref="D5">
+    <comp ref="D7">
       <value>G LED</value>
-      <footprint>LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm</footprint>
+      <footprint>LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm</footprint>
       <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LVBC-D.pdf</datasheet>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/59F28ACC/"/>
@@ -513,7 +546,7 @@
     </comp>
     <comp ref="IC1">
       <value>ATTINY4313-P</value>
-      <footprint>Housings_DIP:DIP-20_W7.62mm_Socket</footprint>
+      <footprint>blubaru:DIP-20_W7.62mm_Socket</footprint>
       <datasheet>http://www.atmel.com/images/doc8246.pdf</datasheet>
       <fields>
         <field name="Socket">http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf</field>
@@ -549,6 +582,7 @@
     <comp ref="SW1">
       <value>SW_Push</value>
       <footprint>Buttons_Switches_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS</footprint>
+      <datasheet>https://www.ckswitches.com/media/1471/pts645.pdf</datasheet>
       <libsource lib="switches" part="SW_Push"/>
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/59F28ACC/"/>
       <tstamp>59F2968A</tstamp>
@@ -568,46 +602,46 @@
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/59F28ACC/"/>
       <tstamp>59F2A3F9</tstamp>
     </comp>
-    <comp ref="D6">
+    <comp ref="D8">
       <value>B LED</value>
-      <footprint>LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm</footprint>
+      <footprint>LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm</footprint>
       <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LVBC-D.pdf</datasheet>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/59F28ACC/"/>
       <tstamp>59F2C4A1</tstamp>
     </comp>
-    <comp ref="D3">
+    <comp ref="D5">
       <value>O LED</value>
-      <footprint>LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm</footprint>
+      <footprint>LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm</footprint>
       <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LSECK-J4.pdf</datasheet>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/59F28ACC/"/>
       <tstamp>59F2C6B4</tstamp>
     </comp>
-    <comp ref="R18">
+    <comp ref="R20">
       <value>330</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/59F28ACC/"/>
       <tstamp>59F2C711</tstamp>
     </comp>
-    <comp ref="R15">
+    <comp ref="R17">
       <value>750</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/59F28ACC/"/>
       <tstamp>59F2C754</tstamp>
     </comp>
-    <comp ref="R14">
+    <comp ref="R16">
       <value>750</value>
       <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/59F28ACC/"/>
       <tstamp>59F2C832</tstamp>
     </comp>
-    <comp ref="D2">
+    <comp ref="D4">
       <value>R LED</value>
-      <footprint>LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm</footprint>
+      <footprint>LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm</footprint>
       <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LSECK-J3.pdf</datasheet>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/DB-15 interconnects/Modules/Microcontroller/" tstamps="/58B10FE0/58B1273D/59F28ACC/"/>
@@ -1005,72 +1039,72 @@
       <node ref="J4" pin="9"/>
     </net>
     <net code="3" name="/DB-15 interconnects/6_OUT">
-      <node ref="J2" pin="6"/>
       <node ref="U1" pin="1"/>
+      <node ref="J2" pin="6"/>
     </net>
     <net code="4" name="GND">
-      <node ref="J3" pin="6"/>
-      <node ref="J4" pin="6"/>
-      <node ref="D5" pin="1"/>
-      <node ref="C19" pin="2"/>
-      <node ref="P1" pin="6"/>
-      <node ref="C5" pin="2"/>
-      <node ref="P2" pin="6"/>
-      <node ref="IC1" pin="10"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="J6" pin="1"/>
-      <node ref="C20" pin="2"/>
-      <node ref="C21" pin="2"/>
       <node ref="U1" pin="7"/>
+      <node ref="C19" pin="2"/>
+      <node ref="SW1" pin="1"/>
       <node ref="U1" pin="3"/>
-      <node ref="D4" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="R11" pin="2"/>
-      <node ref="R12" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="P2" pin="6"/>
+      <node ref="D7" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="J3" pin="6"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J5" pin="21"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R13" pin="2"/>
       <node ref="J7" pin="10"/>
       <node ref="J7" pin="4"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C18" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="P1" pin="6"/>
       <node ref="C15" pin="2"/>
-      <node ref="D6" pin="1"/>
-      <node ref="SW1" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="IC1" pin="10"/>
+      <node ref="D5" pin="1"/>
+      <node ref="J4" pin="6"/>
+      <node ref="D4" pin="1"/>
       <node ref="C3" pin="2"/>
-      <node ref="J5" pin="21"/>
-      <node ref="D3" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="J1" pin="14"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
       <node ref="J2" pin="14"/>
+      <node ref="J1" pin="14"/>
     </net>
     <net code="5" name="/DB-15 interconnects/3_IN">
-      <node ref="J2" pin="3"/>
       <node ref="J1" pin="3"/>
+      <node ref="J2" pin="3"/>
     </net>
     <net code="6" name="/DB-15 interconnects/8_IN">
       <node ref="J1" pin="8"/>
       <node ref="J2" pin="8"/>
     </net>
     <net code="7" name="/DB-15 interconnects/7_IN">
-      <node ref="J2" pin="7"/>
       <node ref="J1" pin="7"/>
+      <node ref="J2" pin="7"/>
     </net>
     <net code="8" name="/DB-15 interconnects/6_IN">
       <node ref="U1" pin="2"/>
       <node ref="J1" pin="6"/>
     </net>
     <net code="9" name="/DB-15 interconnects/13_IN">
-      <node ref="J1" pin="13"/>
       <node ref="J2" pin="13"/>
+      <node ref="J1" pin="13"/>
     </net>
     <net code="10" name="/DB-15 interconnects/5_IN">
-      <node ref="J1" pin="5"/>
       <node ref="J2" pin="5"/>
+      <node ref="J1" pin="5"/>
     </net>
     <net code="11" name="/DB-15 interconnects/12_IN">
-      <node ref="J1" pin="12"/>
       <node ref="J2" pin="12"/>
+      <node ref="J1" pin="12"/>
     </net>
     <net code="12" name="/DB-15 interconnects/4_IN">
       <node ref="J4" pin="4"/>
@@ -1085,19 +1119,19 @@
       <node ref="J1" pin="10"/>
     </net>
     <net code="15" name="/DB-15 interconnects/2_IN">
-      <node ref="J4" pin="8"/>
       <node ref="J1" pin="2"/>
+      <node ref="J4" pin="8"/>
     </net>
     <net code="16" name="+12V">
-      <node ref="J2" pin="9"/>
-      <node ref="D1" pin="2"/>
-      <node ref="J1" pin="9"/>
-      <node ref="U1" pin="8"/>
       <node ref="U1" pin="4"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J2" pin="9"/>
+      <node ref="J1" pin="9"/>
+      <node ref="D3" pin="2"/>
     </net>
     <net code="17" name="/DB-15 interconnects/1_IN">
-      <node ref="J2" pin="1"/>
       <node ref="J1" pin="1"/>
+      <node ref="J2" pin="1"/>
     </net>
     <net code="18" name="Net-(J2-Pad15)">
       <node ref="J2" pin="15"/>
@@ -1106,38 +1140,38 @@
       <node ref="J1" pin="15"/>
     </net>
     <net code="20" name="GNDA">
-      <node ref="R6" pin="1"/>
+      <node ref="R8" pin="1"/>
       <node ref="J8" pin="1"/>
-      <node ref="R7" pin="2"/>
+      <node ref="R9" pin="2"/>
     </net>
     <net code="21" name="/DB-15 interconnects/Modules/Audio switch/BT_R">
-      <node ref="R10" pin="2"/>
-      <node ref="J7" pin="12"/>
       <node ref="J3" pin="8"/>
+      <node ref="R12" pin="2"/>
+      <node ref="J7" pin="12"/>
     </net>
     <net code="22" name="/DB-15 interconnects/Modules/Audio switch/BT_L">
-      <node ref="R3" pin="2"/>
+      <node ref="R5" pin="2"/>
       <node ref="J3" pin="4"/>
       <node ref="J7" pin="3"/>
     </net>
     <net code="23" name="/DB-15 interconnects/Modules/Audio switch/LINE_L">
+      <node ref="R14" pin="1"/>
       <node ref="J8" pin="2"/>
-      <node ref="R12" pin="1"/>
       <node ref="J3" pin="2"/>
     </net>
     <net code="24" name="/DB-15 interconnects/Modules/Audio switch/LINE_R">
-      <node ref="R11" pin="1"/>
+      <node ref="R13" pin="1"/>
       <node ref="J8" pin="3"/>
       <node ref="J3" pin="10"/>
     </net>
     <net code="25" name="/DB-15 interconnects/Modules/Line In/JACK_SENSE">
-      <node ref="R13" pin="1"/>
       <node ref="J8" pin="4"/>
+      <node ref="R15" pin="1"/>
       <node ref="IC1" pin="7"/>
     </net>
     <net code="26" name="/DB-15 interconnects/Modules/Audio switch/LINE_TRG">
       <node ref="IC1" pin="9"/>
-      <node ref="R17" pin="2"/>
+      <node ref="R19" pin="2"/>
       <node ref="J3" pin="5"/>
       <node ref="J3" pin="7"/>
     </net>
@@ -1158,103 +1192,108 @@
       <node ref="J5" pin="17"/>
     </net>
     <net code="31" name="/DB-15 interconnects/Modules/Bluetooth Module/PWR_EN">
-      <node ref="J5" pin="19"/>
       <node ref="IC1" pin="14"/>
+      <node ref="J5" pin="19"/>
     </net>
     <net code="32" name="/DB-15 interconnects/Modules/Bluetooth Module/RESET">
-      <node ref="J5" pin="1"/>
-      <node ref="P2" pin="5"/>
-      <node ref="IC1" pin="11"/>
       <node ref="IC1" pin="1"/>
+      <node ref="IC1" pin="11"/>
       <node ref="SW1" pin="2"/>
+      <node ref="P2" pin="5"/>
+      <node ref="J5" pin="1"/>
     </net>
     <net code="33" name="/DB-15 interconnects/Modules/Bluetooth Module/EVENT">
       <node ref="IC1" pin="6"/>
       <node ref="J5" pin="2"/>
     </net>
     <net code="34" name="/DB-15 interconnects/Modules/Audio switch/BT_TRG">
-      <node ref="J4" pin="5"/>
-      <node ref="J4" pin="7"/>
-      <node ref="U1" pin="6"/>
       <node ref="IC1" pin="8"/>
-      <node ref="R18" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="J4" pin="7"/>
+      <node ref="J4" pin="5"/>
+      <node ref="R20" pin="2"/>
     </net>
     <net code="35" name="Net-(J3-Pad3)">
       <node ref="J3" pin="3"/>
       <node ref="J4" pin="2"/>
     </net>
     <net code="36" name="VCC">
-      <node ref="C19" pin="1"/>
-      <node ref="IC1" pin="20"/>
-      <node ref="C15" pin="1"/>
-      <node ref="P2" pin="2"/>
-      <node ref="R14" pin="2"/>
-      <node ref="J7" pin="5"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C4" pin="1"/>
       <node ref="U1" pin="5"/>
-      <node ref="J5" pin="20"/>
+      <node ref="C19" pin="1"/>
       <node ref="J4" pin="1"/>
+      <node ref="IC1" pin="20"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J5" pin="20"/>
       <node ref="C3" pin="1"/>
       <node ref="U2" pin="2"/>
-      <node ref="R13" pin="2"/>
-      <node ref="C18" pin="1"/>
+      <node ref="R15" pin="2"/>
       <node ref="J7" pin="9"/>
+      <node ref="J7" pin="5"/>
       <node ref="C2" pin="1"/>
       <node ref="J3" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="C1" pin="1"/>
     </net>
     <net code="37" name="Net-(J3-Pad9)">
-      <node ref="J3" pin="9"/>
       <node ref="J4" pin="10"/>
+      <node ref="J3" pin="9"/>
     </net>
-    <net code="38" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_L-">
+    <net code="38" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_L+">
+      <node ref="C7" pin="1"/>
+      <node ref="J5" pin="33"/>
+    </net>
+    <net code="39" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_BIAS">
+      <node ref="R4" pin="2"/>
+      <node ref="J5" pin="32"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="40" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_R-">
+      <node ref="C6" pin="2"/>
+      <node ref="J5" pin="36"/>
+    </net>
+    <net code="41" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_L-">
       <node ref="J5" pin="35"/>
       <node ref="C8" pin="2"/>
     </net>
-    <net code="39" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_R+">
-      <node ref="C9" pin="1"/>
+    <net code="42" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_R+">
       <node ref="J5" pin="34"/>
+      <node ref="C9" pin="1"/>
     </net>
-    <net code="40" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_L+">
-      <node ref="J5" pin="33"/>
-      <node ref="C7" pin="1"/>
-    </net>
-    <net code="41" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_BIAS">
-      <node ref="R1" pin="2"/>
-      <node ref="C5" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="J5" pin="32"/>
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="42" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/L+">
-      <node ref="C14" pin="1"/>
-      <node ref="J5" pin="40"/>
-    </net>
-    <net code="43" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/R+">
-      <node ref="C12" pin="1"/>
-      <node ref="J5" pin="39"/>
-    </net>
-    <net code="44" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/L-">
+    <net code="43" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/L-">
       <node ref="J5" pin="38"/>
       <node ref="C16" pin="1"/>
+    </net>
+    <net code="44" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/L+">
+      <node ref="C14" pin="1"/>
+      <node ref="J5" pin="40"/>
     </net>
     <net code="45" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/R-">
       <node ref="J5" pin="37"/>
       <node ref="C10" pin="1"/>
     </net>
-    <net code="46" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_R-">
-      <node ref="J5" pin="36"/>
-      <node ref="C6" pin="2"/>
+    <net code="46" name="Net-(D2-Pad1)">
+      <node ref="J5" pin="30"/>
+      <node ref="D2" pin="1"/>
     </net>
-    <net code="47" name="Net-(J5-Pad25)">
-      <node ref="J5" pin="25"/>
+    <net code="47" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="2"/>
     </net>
-    <net code="48" name="Net-(J5-Pad22)">
-      <node ref="J5" pin="22"/>
+    <net code="48" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R2" pin="2"/>
     </net>
-    <net code="49" name="Net-(J5-Pad13)">
-      <node ref="J5" pin="13"/>
+    <net code="49" name="Net-(D1-Pad1)">
+      <node ref="J5" pin="31"/>
+      <node ref="D1" pin="1"/>
     </net>
     <net code="50" name="Net-(J5-Pad23)">
       <node ref="J5" pin="23"/>
@@ -1265,183 +1304,190 @@
     <net code="52" name="Net-(J5-Pad24)">
       <node ref="J5" pin="24"/>
     </net>
-    <net code="53" name="Net-(J5-Pad12)">
-      <node ref="J5" pin="12"/>
+    <net code="53" name="Net-(J5-Pad25)">
+      <node ref="J5" pin="25"/>
     </net>
     <net code="54" name="Net-(J5-Pad26)">
       <node ref="J5" pin="26"/>
     </net>
-    <net code="55" name="Net-(J5-Pad27)">
+    <net code="55" name="Net-(J5-Pad13)">
+      <node ref="J5" pin="13"/>
+    </net>
+    <net code="56" name="Net-(J5-Pad27)">
       <node ref="J5" pin="27"/>
     </net>
-    <net code="56" name="Net-(J5-Pad18)">
+    <net code="57" name="Net-(J5-Pad18)">
       <node ref="J5" pin="18"/>
     </net>
-    <net code="57" name="Net-(J5-Pad3)">
-      <node ref="J5" pin="3"/>
-    </net>
-    <net code="58" name="Net-(J5-Pad4)">
-      <node ref="J5" pin="4"/>
-    </net>
-    <net code="59" name="Net-(J5-Pad30)">
-      <node ref="J5" pin="30"/>
-    </net>
-    <net code="60" name="Net-(J5-Pad11)">
-      <node ref="J5" pin="11"/>
-    </net>
-    <net code="61" name="Net-(J5-Pad31)">
-      <node ref="J5" pin="31"/>
-    </net>
-    <net code="62" name="Net-(J5-Pad28)">
+    <net code="58" name="Net-(J5-Pad28)">
       <node ref="J5" pin="28"/>
     </net>
-    <net code="63" name="Net-(J5-Pad29)">
+    <net code="59" name="Net-(J5-Pad29)">
       <node ref="J5" pin="29"/>
     </net>
-    <net code="64" name="/DB-15 interconnects/Modules/Bluetooth Module/VOL+">
-      <node ref="J5" pin="5"/>
+    <net code="60" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/R+">
+      <node ref="C12" pin="1"/>
+      <node ref="J5" pin="39"/>
+    </net>
+    <net code="61" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="62" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="63" name="Net-(J5-Pad11)">
+      <node ref="J5" pin="11"/>
+    </net>
+    <net code="64" name="Net-(J5-Pad12)">
+      <node ref="J5" pin="12"/>
+    </net>
+    <net code="65" name="Net-(J5-Pad22)">
+      <node ref="J5" pin="22"/>
+    </net>
+    <net code="66" name="/DB-15 interconnects/Modules/Bluetooth Module/VOL+">
       <node ref="P1" pin="5"/>
+      <node ref="J5" pin="5"/>
     </net>
-    <net code="65" name="/DB-15 interconnects/Modules/Bluetooth Module/NEXT">
-      <node ref="J5" pin="6"/>
+    <net code="67" name="/DB-15 interconnects/Modules/Bluetooth Module/NEXT">
       <node ref="P1" pin="4"/>
+      <node ref="J5" pin="6"/>
     </net>
-    <net code="66" name="/DB-15 interconnects/Modules/Bluetooth Module/PLAY">
-      <node ref="J5" pin="7"/>
+    <net code="68" name="/DB-15 interconnects/Modules/Bluetooth Module/PLAY">
       <node ref="P1" pin="3"/>
+      <node ref="J5" pin="7"/>
     </net>
-    <net code="67" name="/DB-15 interconnects/Modules/Bluetooth Module/PREV">
-      <node ref="J5" pin="8"/>
+    <net code="69" name="/DB-15 interconnects/Modules/Bluetooth Module/PREV">
       <node ref="P1" pin="2"/>
+      <node ref="J5" pin="8"/>
     </net>
-    <net code="68" name="/DB-15 interconnects/Modules/Bluetooth Module/VOL-">
-      <node ref="J5" pin="9"/>
+    <net code="70" name="/DB-15 interconnects/Modules/Bluetooth Module/VOL-">
       <node ref="P1" pin="1"/>
+      <node ref="J5" pin="9"/>
     </net>
-    <net code="69" name="Net-(J8-Pad5)">
+    <net code="71" name="Net-(J8-Pad5)">
       <node ref="J8" pin="5"/>
     </net>
-    <net code="70" name="Net-(C17-Pad1)">
+    <net code="72" name="Net-(C17-Pad1)">
+      <node ref="D3" pin="1"/>
       <node ref="U2" pin="3"/>
-      <node ref="D1" pin="1"/>
       <node ref="C17" pin="1"/>
     </net>
-    <net code="71" name="/DB-15 interconnects/Modules/Microcontroller/LED2">
+    <net code="73" name="/DB-15 interconnects/Modules/Microcontroller/LED2">
+      <node ref="R18" pin="2"/>
       <node ref="IC1" pin="16"/>
-      <node ref="R16" pin="2"/>
     </net>
-    <net code="72" name="/DB-15 interconnects/Modules/Microcontroller/MOSI">
+    <net code="74" name="/DB-15 interconnects/Modules/Microcontroller/MOSI">
       <node ref="P2" pin="4"/>
       <node ref="IC1" pin="17"/>
     </net>
-    <net code="73" name="/DB-15 interconnects/Modules/Microcontroller/MISO">
+    <net code="75" name="/DB-15 interconnects/Modules/Microcontroller/MISO">
       <node ref="P2" pin="1"/>
       <node ref="IC1" pin="18"/>
     </net>
-    <net code="74" name="/DB-15 interconnects/Modules/Microcontroller/SCK">
-      <node ref="P2" pin="3"/>
+    <net code="76" name="/DB-15 interconnects/Modules/Microcontroller/SCK">
       <node ref="IC1" pin="19"/>
+      <node ref="P2" pin="3"/>
     </net>
-    <net code="75" name="/DB-15 interconnects/Modules/Microcontroller/LED1">
+    <net code="77" name="/DB-15 interconnects/Modules/Microcontroller/LED1">
+      <node ref="R17" pin="2"/>
       <node ref="IC1" pin="15"/>
-      <node ref="R15" pin="2"/>
     </net>
-    <net code="76" name="Net-(D6-Pad2)">
-      <node ref="D6" pin="2"/>
-      <node ref="R18" pin="1"/>
-    </net>
-    <net code="77" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-      <node ref="R14" pin="1"/>
-    </net>
-    <net code="78" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2"/>
-      <node ref="R15" pin="1"/>
+    <net code="78" name="Net-(D8-Pad2)">
+      <node ref="R20" pin="1"/>
+      <node ref="D8" pin="2"/>
     </net>
     <net code="79" name="Net-(D4-Pad2)">
-      <node ref="R16" pin="1"/>
       <node ref="D4" pin="2"/>
+      <node ref="R16" pin="1"/>
     </net>
     <net code="80" name="Net-(D5-Pad2)">
       <node ref="R17" pin="1"/>
       <node ref="D5" pin="2"/>
     </net>
-    <net code="81" name="Net-(C21-Pad1)">
-      <node ref="C21" pin="1"/>
+    <net code="81" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="82" name="Net-(D7-Pad2)">
+      <node ref="R19" pin="1"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="83" name="Net-(C21-Pad1)">
       <node ref="IC1" pin="5"/>
       <node ref="Y1" pin="2"/>
+      <node ref="C21" pin="1"/>
     </net>
-    <net code="82" name="Net-(C20-Pad1)">
+    <net code="84" name="Net-(C20-Pad1)">
+      <node ref="IC1" pin="4"/>
       <node ref="Y1" pin="1"/>
       <node ref="C20" pin="1"/>
-      <node ref="IC1" pin="4"/>
     </net>
-    <net code="83" name="Net-(C8-Pad1)">
+    <net code="85" name="Net-(C8-Pad1)">
+      <node ref="R3" pin="1"/>
       <node ref="J6" pin="2"/>
       <node ref="C8" pin="1"/>
-      <node ref="R1" pin="1"/>
     </net>
-    <net code="84" name="Net-(C6-Pad1)">
+    <net code="86" name="Net-(C6-Pad1)">
       <node ref="J6" pin="3"/>
-      <node ref="R2" pin="1"/>
       <node ref="C6" pin="1"/>
+      <node ref="R4" pin="1"/>
     </net>
-    <net code="85" name="Net-(J6-Pad5)">
+    <net code="87" name="Net-(J6-Pad5)">
       <node ref="J6" pin="5"/>
     </net>
-    <net code="86" name="Net-(J6-Pad4)">
+    <net code="88" name="Net-(J6-Pad4)">
       <node ref="J6" pin="4"/>
     </net>
-    <net code="87" name="Net-(J7-Pad11)">
+    <net code="89" name="Net-(J7-Pad11)">
       <node ref="J7" pin="11"/>
     </net>
-    <net code="88" name="Net-(C13-Pad2)">
+    <net code="90" name="Net-(C13-Pad2)">
       <node ref="C13" pin="2"/>
       <node ref="J7" pin="7"/>
     </net>
-    <net code="89" name="Net-(C13-Pad1)">
+    <net code="91" name="Net-(C13-Pad1)">
       <node ref="J7" pin="8"/>
       <node ref="C13" pin="1"/>
     </net>
-    <net code="90" name="Net-(J7-Pad2)">
-      <node ref="R4" pin="2"/>
-      <node ref="R3" pin="1"/>
+    <net code="92" name="Net-(J7-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="1"/>
       <node ref="J7" pin="2"/>
     </net>
-    <net code="91" name="Net-(C10-Pad2)">
-      <node ref="R4" pin="1"/>
+    <net code="93" name="Net-(C10-Pad2)">
       <node ref="C10" pin="2"/>
+      <node ref="R6" pin="1"/>
     </net>
-    <net code="92" name="Net-(C16-Pad2)">
+    <net code="94" name="Net-(C16-Pad2)">
+      <node ref="R11" pin="1"/>
       <node ref="C16" pin="2"/>
-      <node ref="R9" pin="1"/>
     </net>
-    <net code="93" name="Net-(C11-Pad1)">
+    <net code="95" name="Net-(C11-Pad1)">
       <node ref="J7" pin="6"/>
       <node ref="C11" pin="1"/>
     </net>
-    <net code="94" name="Net-(C12-Pad2)">
-      <node ref="R5" pin="1"/>
+    <net code="96" name="Net-(C12-Pad2)">
+      <node ref="R7" pin="1"/>
       <node ref="C12" pin="2"/>
     </net>
-    <net code="95" name="Net-(C14-Pad2)">
-      <node ref="R8" pin="1"/>
+    <net code="97" name="Net-(C14-Pad2)">
+      <node ref="R10" pin="1"/>
       <node ref="C14" pin="2"/>
     </net>
-    <net code="96" name="Net-(J7-Pad13)">
+    <net code="98" name="Net-(J7-Pad13)">
+      <node ref="R11" pin="2"/>
       <node ref="J7" pin="13"/>
-      <node ref="R10" pin="1"/>
-      <node ref="R9" pin="2"/>
+      <node ref="R12" pin="1"/>
     </net>
-    <net code="97" name="Net-(J7-Pad14)">
-      <node ref="R7" pin="1"/>
+    <net code="99" name="Net-(J7-Pad14)">
       <node ref="J7" pin="14"/>
-      <node ref="R8" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R10" pin="2"/>
     </net>
-    <net code="98" name="Net-(J7-Pad1)">
-      <node ref="R6" pin="2"/>
+    <net code="100" name="Net-(J7-Pad1)">
+      <node ref="R8" pin="2"/>
       <node ref="J7" pin="1"/>
-      <node ref="R5" pin="2"/>
+      <node ref="R7" pin="2"/>
     </net>
   </nets>
 </export>
