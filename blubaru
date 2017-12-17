@@ -31,5 +31,5 @@ R3 R4 ,2,"2k2","Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal",
 R12 R5 R8 R9 ,4,"8.2k","Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf"
 SW1 ,1,"SW_Push","blubaru:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS","https://www.ckswitches.com/media/1471/pts645.pdf"
 U1 ,1,"DG419","Housings_DIP:DIP-8_W7.62mm","http://www.vishay.com/docs/70051/dg417.pdf"
-U2 ,1,"LD1117V33","TO_SOT_Packages_THT:TO-220_Horizontal","http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf"
+U2 ,1,"LD1117V33","blubaru:TO-220_Horizontal","http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf"
 Y1 ,1,"11.0592MHz","Crystals:Crystal_HC49-4H_Vertical","http://www.ecsxtal.com/store/pdf/hc-49usx.pdf"

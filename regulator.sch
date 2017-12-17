@@ -117,7 +117,7 @@ U 1 1 5949FB36
 P 5500 4100
 F 0 "U2" H 5500 4350 50  0000 C CNN
 F 1 "LD1117V33" H 5500 4300 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Horizontal" H 5500 4200 50  0001 C CNN
+F 2 "blubaru:TO-220_Horizontal" H 5500 4200 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" H 5500 4100 50  0001 C CNN
 	1    5500 4100
 	1    0    0    -1  

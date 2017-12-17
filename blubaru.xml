@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jbebel/blubaru/blubaru.sch</source>
-    <date>Sat 16 Dec 2017 08:36:16 PM PST</date>
+    <date>Sat 16 Dec 2017 09:32:37 PM PST</date>
     <tool>Eeschema 4.0.7+dfsg1-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -504,7 +504,7 @@
     </comp>
     <comp ref="U2">
       <value>LD1117V33</value>
-      <footprint>TO_SOT_Packages_THT:TO-220_Horizontal</footprint>
+      <footprint>blubaru:TO-220_Horizontal</footprint>
       <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf</datasheet>
       <libsource lib="blubaru-cache" part="LD1117S33TR"/>
       <sheetpath names="/DB-15 interconnects/Modules/Voltage Regulator/" tstamps="/58B10FE0/58B1273D/597565F8/"/>
@@ -1034,11 +1034,11 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="analog_switches">
-      <uri>/usr/share/kicad/library/analog_switches.lib</uri>
-    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="analog_switches">
+      <uri>/usr/share/kicad/library/analog_switches.lib</uri>
     </library>
     <library logical="blubaru">
       <uri>/home/jbebel/blubaru/library/blubaru.lib</uri>

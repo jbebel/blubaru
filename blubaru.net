@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/jbebel/blubaru/blubaru.sch)
-    (date "Sat 16 Dec 2017 08:36:13 PM PST")
+    (date "Sat 16 Dec 2017 09:32:20 PM PST")
     (tool "Eeschema 4.0.7+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -435,7 +435,7 @@
       (tstamp 59484E96))
     (comp (ref U2)
       (value LD1117V33)
-      (footprint TO_SOT_Packages_THT:TO-220_Horizontal)
+      (footprint blubaru:TO-220_Horizontal)
       (datasheet http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf)
       (libsource (lib blubaru-cache) (part LD1117S33TR))
       (sheetpath (names "/DB-15 interconnects/Modules/Voltage Regulator/") (tstamps /58B10FE0/58B1273D/597565F8/))
@@ -872,10 +872,10 @@
         (pin (num 9) (name COM2) (type BiDi))
         (pin (num 10) (name NO2) (type BiDi)))))
   (libraries
-    (library (logical analog_switches)
-      (uri /usr/share/kicad/library/analog_switches.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical analog_switches)
+      (uri /usr/share/kicad/library/analog_switches.lib))
     (library (logical blubaru)
       (uri /home/jbebel/blubaru/library/blubaru.lib))
     (library (logical switches)
