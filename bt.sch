@@ -292,8 +292,9 @@ U 1 1 5A165420
 P 7150 4850
 F 0 "D1" H 7150 4950 50  0000 C CNN
 F 1 "B LED" H 7150 4750 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 7150 4850 50  0001 C CNN
+F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 7150 4850 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LVBC-D.pdf" H 7150 4850 50  0001 C CNN
+F 4 "https://www.bivar.com/portals/0/products/H-10XC-X.pdf" H 7150 4850 60  0001 C CNN "Holder datasheet"
 	1    7150 4850
 	1    0    0    -1  
 $EndComp
@@ -303,8 +304,9 @@ U 1 1 5A16549D
 P 7150 5150
 F 0 "D2" H 7150 5250 50  0000 C CNN
 F 1 "R LED" H 7150 5050 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 7150 5150 50  0001 C CNN
+F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 7150 5150 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LSECK-J3.pdf" H 7150 5150 50  0001 C CNN
+F 4 "https://www.bivar.com/portals/0/products/H-10XC-X.pdf" H 7150 5150 60  0001 C CNN "Holder datasheet"
 	1    7150 5150
 	1    0    0    -1  
 $EndComp

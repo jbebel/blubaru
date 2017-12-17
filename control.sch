@@ -70,8 +70,9 @@ U 1 1 59385827
 P 8200 2700
 F 0 "D6" H 8200 2800 50  0000 C CNN
 F 1 "Y LED" H 8200 2600 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 2700 50  0001 C CNN
+F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 2700 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LZGCK.pdf" H 8200 2700 50  0001 C CNN
+F 4 "https://www.bivar.com/portals/0/products/H-10XC-X.pdf" H 8200 2700 60  0001 C CNN "holder datasheet"
 	1    8200 2700
 	-1   0    0    1   
 $EndComp
@@ -111,8 +112,9 @@ U 1 1 5975729B
 P 8200 3000
 F 0 "D7" H 8200 3100 50  0000 C CNN
 F 1 "G LED" H 8200 2900 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 3000 50  0001 C CNN
+F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 3000 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LVBC-D.pdf" H 8200 3000 50  0001 C CNN
+F 4 "https://www.bivar.com/portals/0/products/H-10XC-X.pdf" H 8200 3000 60  0001 C CNN "Holder datasheet"
 	1    8200 3000
 	-1   0    0    1   
 $EndComp
@@ -133,7 +135,7 @@ U 1 1 59F28BD2
 P 4950 4700
 F 0 "IC1" H 3800 5700 50  0000 C CNN
 F 1 "ATTINY4313-P" H 5900 3800 50  0000 C CNN
-F 2 "blubaru:DIP-20_W7.62mm_Socket" H 4950 4700 50  0000 C CIN
+F 2 "Housings_DIP:DIP-20_W7.62mm_Socket" H 4950 4700 50  0000 C CIN
 F 3 "http://www.atmel.com/images/doc8246.pdf" H 4950 4700 50  0001 C CNN
 F 4 "http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" H 4950 4700 60  0001 C CNN "Socket"
 	1    4950 4700
@@ -228,7 +230,7 @@ U 1 1 59F2968A
 P 3050 3900
 F 0 "SW1" H 3100 4000 50  0000 L CNN
 F 1 "SW_Push" H 3050 3840 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 3050 4100 50  0001 C CNN
+F 2 "blubaru:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 3050 4100 50  0001 C CNN
 F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 3050 4100 50  0000 C CNN
 	1    3050 3900
 	1    0    0    -1  
@@ -367,8 +369,9 @@ U 1 1 59F2C4A1
 P 8200 3300
 F 0 "D8" H 8200 3400 50  0000 C CNN
 F 1 "B LED" H 8200 3200 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 3300 50  0001 C CNN
+F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 3300 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LVBC-D.pdf" H 8200 3300 50  0001 C CNN
+F 4 "https://www.bivar.com/portals/0/products/H-10XC-X.pdf" H 8200 3300 60  0001 C CNN "Holder datasheet"
 	1    8200 3300
 	-1   0    0    1   
 $EndComp
@@ -378,8 +381,9 @@ U 1 1 59F2C6B4
 P 8200 2400
 F 0 "D5" H 8200 2500 50  0000 C CNN
 F 1 "O LED" H 8200 2300 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 2400 50  0001 C CNN
+F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 2400 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LSECK-J4.pdf" H 8200 2400 50  0001 C CNN
+F 4 "https://www.bivar.com/portals/0/products/H-10XC-X.pdf" H 8200 2400 60  0001 C CNN "Holder datasheet"
 	1    8200 2400
 	-1   0    0    1   
 $EndComp
@@ -422,8 +426,9 @@ U 1 1 59F2C86B
 P 8200 2150
 F 0 "D4" H 8200 2250 50  0000 C CNN
 F 1 "R LED" H 8200 2050 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 2150 50  0001 C CNN
+F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 2150 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LSECK-J3.pdf" H 8200 2150 50  0001 C CNN
+F 4 "https://www.bivar.com/portals/0/products/H-10XC-X.pdf" H 8200 2150 60  0001 C CNN "Holder datasheet"
 	1    8200 2150
 	-1   0    0    1   
 $EndComp
