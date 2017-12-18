@@ -1,4 +1,4 @@
-(module LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm (layer F.Cu) (tedit 5A35C504)
+(module LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm (layer F.Cu) (tedit 5A374A26)
   (descr "LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins")
   (tags "LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins")
   (fp_text reference REF** (at 1.27 -2.54) (layer F.SilkS)
@@ -9,7 +9,6 @@
   )
   (fp_line (start 0 2.667) (end 0 0.9652) (layer F.SilkS) (width 0.12))
   (fp_line (start 2.54 2.667) (end 2.54 0.9652) (layer F.SilkS) (width 0.12))
-  (fp_line (start 1.27 -3.81) (end 1.27 10.16) (layer F.Fab) (width 0.0508))
   (fp_line (start -0.889 4.699) (end -0.889 -1.651) (layer F.Fab) (width 0.0508))
   (fp_line (start 3.429 -1.651) (end 3.429 4.699) (layer F.Fab) (width 0.0508))
   (fp_line (start -0.889 -1.651) (end 3.429 -1.651) (layer F.Fab) (width 0.0508))
