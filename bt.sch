@@ -134,7 +134,7 @@ P 3100 3600
 F 0 "P1" H 3100 3950 50  0000 C CNN
 F 1 "CONN_01X06" V 3200 3600 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 3100 3600 50  0001 C CNN
-F 3 "http://www.chipquik.com/datasheets/HDR100IMP40M-G-V-TH.pdf" H 3100 3600 50  0000 C CNN
+F 3 "http://www.chipquik.com/datasheets/HDR100IMP40M-G-V-TH.pdf" H 3100 3600 50  0001 C CNN
 	1    3100 3600
 	-1   0    0    1   
 $EndComp

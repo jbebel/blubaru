@@ -46,185 +46,181 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 4750 3650 2    60   ~ 0
-MIC_R-
 Text Label 4750 3850 2    60   ~ 0
+MIC_R-
+Text Label 4750 4100 2    60   ~ 0
 MIC_R+
-Text Label 4750 3750 2    60   ~ 0
+Text Label 4750 4650 2    60   ~ 0
 MIC_L-
-Text Label 4750 3950 2    60   ~ 0
+Text Label 4750 4400 2    60   ~ 0
 MIC_L+
-Text Label 4750 4050 2    60   ~ 0
+Text Label 3500 4250 2    60   ~ 0
 MIC_BIAS
 $Comp
 L C C8
 U 1 1 589D21D3
-P 5500 3750
-F 0 "C8" V 5550 3800 50  0000 L CNN
-F 1 "0.047uF" V 5450 3800 50  0000 L CNN
-F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 5538 3600 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 5500 3750 50  0001 C CNN
-	1    5500 3750
+P 4900 4650
+F 0 "C8" V 4950 4700 50  0000 L CNN
+F 1 "0.047uF" V 4850 4700 50  0000 L CNN
+F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 4938 4500 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4900 4650 50  0001 C CNN
+	1    4900 4650
 	0    1    1    0   
 $EndComp
 $Comp
 L C C7
 U 1 1 589D223D
-P 5150 4100
-F 0 "C7" H 5175 4200 50  0000 L CNN
-F 1 "0.047uF" H 5175 4000 50  0000 L CNN
-F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 5188 3950 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 5150 4100 50  0001 C CNN
-	1    5150 4100
-	1    0    0    -1  
+P 4900 4400
+F 0 "C7" V 4950 4450 50  0000 L CNN
+F 1 "0.047uF" V 4850 4450 50  0000 L CNN
+F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 4938 4250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4900 4400 50  0001 C CNN
+	1    4900 4400
+	0    1    1    0   
 $EndComp
 $Comp
 L C C9
 U 1 1 589D230D
-P 5500 4100
-F 0 "C9" H 5525 4200 50  0000 L CNN
-F 1 "0.047uF" H 5525 4000 50  0000 L CNN
-F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 5538 3950 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 5500 4100 50  0001 C CNN
-	1    5500 4100
-	1    0    0    -1  
+P 4900 4100
+F 0 "C9" V 4950 4150 50  0000 L CNN
+F 1 "0.047uF" V 4850 4150 50  0000 L CNN
+F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 4938 3950 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4900 4100 50  0001 C CNN
+	1    4900 4100
+	0    1    1    0   
 $EndComp
 $Comp
 L C C5
 U 1 1 589D2382
-P 4900 4500
-F 0 "C5" H 4925 4600 50  0000 L CNN
-F 1 "1uF" H 4925 4400 50  0000 L CNN
-F 2 "blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm" H 4938 4350 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4900 4500 50  0001 C CNN
-	1    4900 4500
+P 3650 4500
+F 0 "C5" H 3675 4600 50  0000 L CNN
+F 1 "1uF" H 3675 4400 50  0000 L CNN
+F 2 "blubaru:C_Disc_D5.0mm_W3.2mm_P2.50mm" H 3688 4350 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 3650 4500 50  0001 C CNN
+	1    3650 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C6
 U 1 1 589D23FA
-P 5150 3650
-F 0 "C6" V 5200 3700 50  0000 L CNN
-F 1 "0.047uF" V 5100 3700 50  0000 L CNN
-F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 5188 3500 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 5150 3650 50  0001 C CNN
-	1    5150 3650
+P 4900 3850
+F 0 "C6" V 4950 3900 50  0000 L CNN
+F 1 "0.047uF" V 4850 3900 50  0000 L CNN
+F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 4938 3700 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4900 3850 50  0001 C CNN
+	1    4900 3850
 	0    1    1    0   
 $EndComp
 $Comp
 L R R3
 U 1 1 589D2492
-P 5750 4000
-F 0 "R3" V 5830 4000 50  0000 C CNN
-F 1 "2k2" V 5750 4000 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5680 4000 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5750 4000 50  0001 C CNN
-	1    5750 4000
+P 5750 4450
+F 0 "R3" V 5830 4450 50  0000 C CNN
+F 1 "2k2" V 5750 4450 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5680 4450 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5750 4450 50  0001 C CNN
+	1    5750 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R4
 U 1 1 589D2525
-P 5950 3950
-F 0 "R4" V 6030 3950 50  0000 C CNN
-F 1 "2k2" V 5950 3950 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5880 3950 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5950 3950 50  0001 C CNN
-	1    5950 3950
+P 5750 4050
+F 0 "R4" V 5830 4050 50  0000 C CNN
+F 1 "2k2" V 5750 4050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5680 4050 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5750 4050 50  0001 C CNN
+	1    5750 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR022
 U 1 1 589D259B
-P 4900 4750
-F 0 "#PWR022" H 4900 4500 50  0001 C CNN
-F 1 "GND" H 4900 4600 50  0000 C CNN
-F 2 "" H 4900 4750 50  0000 C CNN
-F 3 "" H 4900 4750 50  0000 C CNN
-	1    4900 4750
+P 3650 4750
+F 0 "#PWR022" H 3650 4500 50  0001 C CNN
+F 1 "GND" H 3650 4600 50  0000 C CNN
+F 2 "" H 3650 4750 50  0000 C CNN
+F 3 "" H 3650 4750 50  0000 C CNN
+	1    3650 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR023
 U 1 1 589E6671
-P 6250 4300
-F 0 "#PWR023" H 6250 4050 50  0001 C CNN
-F 1 "GND" H 6250 4150 50  0000 C CNN
-F 2 "" H 6250 4300 50  0000 C CNN
-F 3 "" H 6250 4300 50  0000 C CNN
-	1    6250 4300
+P 6400 4750
+F 0 "#PWR023" H 6400 4500 50  0001 C CNN
+F 1 "GND" H 6400 4600 50  0000 C CNN
+F 2 "" H 6400 4750 50  0000 C CNN
+F 3 "" H 6400 4750 50  0000 C CNN
+	1    6400 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 3650 5000 3650
+	4300 3850 4750 3850
 Wire Wire Line
-	4300 3750 5350 3750
+	4300 4650 4750 4650
 Wire Wire Line
-	4300 3850 5500 3850
+	3050 4250 5750 4250
 Wire Wire Line
-	4300 3950 5150 3950
+	3650 4650 3650 4750
 Wire Wire Line
-	4300 4050 4900 4050
+	3650 4250 3650 4350
+Connection ~ 3650 4250
+Connection ~ 5350 4250
 Wire Wire Line
-	4900 4650 4900 4750
-Wire Wire Line
-	4900 4050 4900 4350
-Wire Wire Line
-	5500 3850 5500 3950
-Connection ~ 4900 4250
-Connection ~ 5150 4250
-Connection ~ 5500 4250
-Wire Wire Line
-	5650 3750 6150 3750
+	5050 4650 6150 4650
 Connection ~ 5750 4250
 Wire Wire Line
-	5300 3650 6250 3650
+	5050 3850 6150 3850
 Wire Wire Line
-	5750 3750 5750 3850
+	5750 3850 5750 3900
 Wire Wire Line
-	5750 4250 5750 4150
+	5750 4200 5750 4300
+Connection ~ 5750 3850
+Connection ~ 5750 4650
 Wire Wire Line
-	5950 3650 5950 3800
+	6150 4250 6400 4250
 Wire Wire Line
-	5950 4250 5950 4100
-Connection ~ 5950 4250
-Connection ~ 5950 3650
-Connection ~ 5750 3750
+	6150 3850 6150 4050
 Wire Wire Line
-	4900 4250 5950 4250
-Wire Wire Line
-	6150 3750 6150 3950
-Wire Wire Line
-	6150 3950 6400 3950
-Wire Wire Line
-	6250 3650 6250 3750
-Wire Wire Line
-	6250 3750 6400 3750
-Wire Wire Line
-	6400 4150 6250 4150
-Wire Wire Line
-	6250 4150 6250 4300
-NoConn ~ 6400 3850
-NoConn ~ 6400 4050
-Text HLabel 4300 3650 0    60   Output ~ 0
-MIC_R-
-Text HLabel 4300 3750 0    60   Output ~ 0
-MIC_L-
+	6150 4050 6400 4050
+NoConn ~ 6400 4150
+NoConn ~ 6400 4350
 Text HLabel 4300 3850 0    60   Output ~ 0
+MIC_R-
+Text HLabel 4300 4650 0    60   Output ~ 0
+MIC_L-
+Text HLabel 4300 4100 0    60   Output ~ 0
 MIC_R+
-Text HLabel 4300 3950 0    60   Output ~ 0
+Text HLabel 4300 4400 0    60   Output ~ 0
 MIC_L+
-Text HLabel 4300 4050 0    60   Output ~ 0
+Text HLabel 3050 4250 0    60   Output ~ 0
 MIC_BIAS
 $Comp
 L JACK_TRS_5PINS J6
 U 1 1 58BF91C1
-P 6800 3950
-F 0 "J6" H 6800 4300 50  0000 C CNN
-F 1 "JACK_TRS_5PINS" H 6750 3650 50  0000 C CNN
-F 2 "blubaru:sj1-353xng" H 6900 3800 50  0001 C CNN
-F 3 "http://www.cui.com/product/resource/sj1-353xng.pdf" H 6900 3800 50  0001 C CNN
-	1    6800 3950
+P 6800 4250
+F 0 "J6" H 6800 4600 50  0000 C CNN
+F 1 "JACK_TRS_5PINS" H 6750 3950 50  0000 C CNN
+F 2 "blubaru:sj1-353xng" H 6900 4100 50  0001 C CNN
+F 3 "http://www.cui.com/product/resource/sj1-353xng.pdf" H 6900 4100 50  0001 C CNN
+	1    6800 4250
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	6150 4650 6150 4250
+Wire Wire Line
+	5750 4600 5750 4650
+Wire Wire Line
+	4300 4100 4750 4100
+Wire Wire Line
+	4300 4400 4750 4400
+Wire Wire Line
+	5050 4100 5350 4100
+Wire Wire Line
+	5350 4100 5350 4400
+Wire Wire Line
+	5350 4400 5050 4400
+Wire Wire Line
+	6400 4450 6400 4750
 $EndSCHEMATC
