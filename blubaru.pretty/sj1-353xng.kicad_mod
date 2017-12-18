@@ -27,7 +27,7 @@
   (pad 3 thru_hole rect (at 7.9 -2 45) (size 2.4 2.4) (drill 1.9) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 2.4 -2) (size 2.4 3) (drill 1.9) (layers *.Cu *.Mask))
   (pad 1 thru_hole oval (at 0 0) (size 2.4 3) (drill 1.9) (layers *.Cu *.Mask))
-  (model ../../../../../home/jbebel/blubaru/packages3d/sj1-3535ng.wrl
+  (model ${KIPRJMOD}/packages3d/sj1-3535ng.wrl
     (at (xyz 0.147 0.005 0.175))
     (scale (xyz 3.56 3.56 3.56))
     (rotate (xyz 180 0 180))
