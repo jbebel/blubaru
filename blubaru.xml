@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jbebel/blubaru/blubaru.sch</source>
-    <date>Sat 16 Dec 2017 09:32:37 PM PST</date>
+    <date>Sun 17 Dec 2017 08:22:22 PM PST</date>
     <tool>Eeschema 4.0.7+dfsg1-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -504,7 +504,7 @@
     </comp>
     <comp ref="U2">
       <value>LD1117V33</value>
-      <footprint>blubaru:TO-220_Horizontal</footprint>
+      <footprint>TO_SOT_Packages_THT:TO-220_Vertical</footprint>
       <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf</datasheet>
       <libsource lib="blubaru-cache" part="LD1117S33TR"/>
       <sheetpath names="/DB-15 interconnects/Modules/Voltage Regulator/" tstamps="/58B10FE0/58B1273D/597565F8/"/>
@@ -558,7 +558,7 @@
     </comp>
     <comp ref="IC1">
       <value>ATTINY4313-P</value>
-      <footprint>Housings_DIP:DIP-20_W7.62mm_Socket</footprint>
+      <footprint>blubaru:DIP-20_W7.62mm_Socket</footprint>
       <datasheet>http://www.atmel.com/images/doc8246.pdf</datasheet>
       <fields>
         <field name="Socket">http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf</field>
@@ -1034,17 +1034,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
-    <library logical="analog_switches">
-      <uri>/usr/share/kicad/library/analog_switches.lib</uri>
-    </library>
     <library logical="blubaru">
       <uri>/home/jbebel/blubaru/library/blubaru.lib</uri>
     </library>
     <library logical="switches">
       <uri>/usr/share/kicad/library/switches.lib</uri>
+    </library>
+    <library logical="analog_switches">
+      <uri>/usr/share/kicad/library/analog_switches.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="blubaru-cache">
       <uri>/home/jbebel/blubaru/blubaru-cache.lib</uri>

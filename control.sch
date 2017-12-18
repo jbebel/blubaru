@@ -135,7 +135,7 @@ U 1 1 59F28BD2
 P 4950 4700
 F 0 "IC1" H 3800 5700 50  0000 C CNN
 F 1 "ATTINY4313-P" H 5900 3800 50  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_Socket" H 4950 4700 50  0000 C CIN
+F 2 "blubaru:DIP-20_W7.62mm_Socket" H 4950 4700 50  0000 C CIN
 F 3 "http://www.atmel.com/images/doc8246.pdf" H 4950 4700 50  0001 C CNN
 F 4 "http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" H 4950 4700 60  0001 C CNN "Socket"
 	1    4950 4700
