@@ -57,10 +57,10 @@ MIC_L+
 Text Label 3500 4250 2    60   ~ 0
 MIC_BIAS
 $Comp
-L C C8
+L C C9
 U 1 1 589D21D3
 P 4900 4650
-F 0 "C8" V 4950 4700 50  0000 L CNN
+F 0 "C9" V 4950 4700 50  0000 L CNN
 F 1 "0.047uF" V 4850 4700 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 4938 4500 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4900 4650 50  0001 C CNN
@@ -68,10 +68,10 @@ F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4900 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C7
+L C C8
 U 1 1 589D223D
 P 4900 4400
-F 0 "C7" V 4950 4450 50  0000 L CNN
+F 0 "C8" V 4950 4450 50  0000 L CNN
 F 1 "0.047uF" V 4850 4450 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 4938 4250 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4900 4400 50  0001 C CNN
@@ -79,10 +79,10 @@ F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4900 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C9
+L C C7
 U 1 1 589D230D
 P 4900 4100
-F 0 "C9" V 4950 4150 50  0000 L CNN
+F 0 "C7" V 4950 4150 50  0000 L CNN
 F 1 "0.047uF" V 4850 4150 50  0000 L CNN
 F 2 "blubaru:C_Disc_D4.0mm_W2.6mm_P2.50mm" H 4938 3950 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4900 4100 50  0001 C CNN
@@ -112,10 +112,10 @@ F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4900 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L R R4
 U 1 1 589D2492
 P 5750 4450
-F 0 "R3" V 5830 4450 50  0000 C CNN
+F 0 "R4" V 5830 4450 50  0000 C CNN
 F 1 "2k2" V 5750 4450 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5680 4450 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5750 4450 50  0001 C CNN
@@ -123,10 +123,10 @@ F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5750 4450 50  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L R R3
 U 1 1 589D2525
 P 5750 4050
-F 0 "R4" V 5830 4050 50  0000 C CNN
+F 0 "R3" V 5830 4050 50  0000 C CNN
 F 1 "2k2" V 5750 4050 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5680 4050 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5750 4050 50  0001 C CNN

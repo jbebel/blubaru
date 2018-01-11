@@ -65,26 +65,26 @@ EVENT
 Text HLabel 6800 5200 2    60   Output ~ 0
 BT_TRG
 $Comp
-L LED D6
+L LED D3
 U 1 1 59385827
-P 8200 2700
-F 0 "D6" H 8200 2800 50  0000 C CNN
-F 1 "Y LED" H 8200 2600 50  0000 C CNN
-F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 2700 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LZGCK.pdf" H 8200 2700 50  0001 C CNN
-F 4 "https://www.bivar.com/portals/0/products/H-10XC-X.pdf" H 8200 2700 60  0001 C CNN "holder datasheet"
-	1    8200 2700
+P 8200 2750
+F 0 "D3" H 8200 2850 50  0000 C CNN
+F 1 "Y LED" H 8200 2650 50  0000 C CNN
+F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 2750 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LZGCK.pdf" H 8200 2750 50  0001 C CNN
+F 4 "https://www.bivar.com/portals/0/products/H-10XC-X.pdf" H 8200 2750 60  0001 C CNN "holder datasheet"
+	1    8200 2750
 	-1   0    0    1   
 $EndComp
 $Comp
 L R R18
 U 1 1 5939E4C5
-P 7800 2700
-F 0 "R18" V 7880 2700 50  0000 C CNN
-F 1 "750" V 7800 2700 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7730 2700 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-CF_CFM.pdf" H 7800 2700 50  0001 C CNN
-	1    7800 2700
+P 7800 2750
+F 0 "R18" V 7880 2750 50  0000 C CNN
+F 1 "750" V 7800 2750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7730 2750 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-CF_CFM.pdf" H 7800 2750 50  0001 C CNN
+	1    7800 2750
 	0    1    1    0   
 $EndComp
 Text HLabel 6800 5300 2    60   Output ~ 0
@@ -96,33 +96,33 @@ JACK_SENSE
 Wire Wire Line
 	6300 5100 6800 5100
 $Comp
-L R R19
+L R R20
 U 1 1 5975727A
-P 7800 3000
-F 0 "R19" V 7880 3000 50  0000 C CNN
-F 1 "330" V 7800 3000 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7730 3000 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-CF_CFM.pdf" H 7800 3000 50  0001 C CNN
-	1    7800 3000
+P 7800 3350
+F 0 "R20" V 7880 3350 50  0000 C CNN
+F 1 "330" V 7800 3350 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7730 3350 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-CF_CFM.pdf" H 7800 3350 50  0001 C CNN
+	1    7800 3350
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D7
+L LED D5
 U 1 1 5975729B
-P 8200 3000
-F 0 "D7" H 8200 3100 50  0000 C CNN
-F 1 "G LED" H 8200 2900 50  0000 C CNN
-F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 3000 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LVBC-D.pdf" H 8200 3000 50  0001 C CNN
-F 4 "https://www.bivar.com/portals/0/products/H-10XC-X.pdf" H 8200 3000 60  0001 C CNN "Holder datasheet"
-	1    8200 3000
+P 8200 3350
+F 0 "D5" H 8200 3450 50  0000 C CNN
+F 1 "G LED" H 8200 3250 50  0000 C CNN
+F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 3350 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LVBC-D.pdf" H 8200 3350 50  0001 C CNN
+F 4 "https://www.bivar.com/portals/0/products/H-10XC-X.pdf" H 8200 3350 60  0001 C CNN "Holder datasheet"
+	1    8200 3350
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR039
+L GND #PWR040
 U 1 1 597572DC
 P 8700 3500
-F 0 "#PWR039" H 8700 3250 50  0001 C CNN
+F 0 "#PWR040" H 8700 3250 50  0001 C CNN
 F 1 "GND" H 8700 3350 50  0000 C CNN
 F 2 "" H 8700 3500 50  0001 C CNN
 F 3 "" H 8700 3500 50  0001 C CNN
@@ -188,10 +188,10 @@ Wire Wire Line
 	2750 4400 3150 4400
 Connection ~ 2750 4400
 $Comp
-L GND #PWR040
+L GND #PWR041
 U 1 1 59F295BF
 P 2750 4650
-F 0 "#PWR040" H 2750 4400 50  0001 C CNN
+F 0 "#PWR041" H 2750 4400 50  0001 C CNN
 F 1 "GND" H 2750 4500 50  0000 C CNN
 F 2 "" H 2750 4650 50  0000 C CNN
 F 3 "" H 2750 4650 50  0000 C CNN
@@ -199,10 +199,10 @@ F 3 "" H 2750 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L GND #PWR042
 U 1 1 59F295E5
 P 4950 5800
-F 0 "#PWR041" H 4950 5550 50  0001 C CNN
+F 0 "#PWR042" H 4950 5550 50  0001 C CNN
 F 1 "GND" H 4950 5650 50  0000 C CNN
 F 2 "" H 4950 5800 50  0000 C CNN
 F 3 "" H 4950 5800 50  0000 C CNN
@@ -212,10 +212,10 @@ $EndComp
 Wire Wire Line
 	4950 5700 4950 5800
 $Comp
-L VCC #PWR042
+L VCC #PWR043
 U 1 1 59F29632
 P 4950 3400
-F 0 "#PWR042" H 4950 3250 50  0001 C CNN
+F 0 "#PWR043" H 4950 3250 50  0001 C CNN
 F 1 "VCC" H 4950 3550 50  0000 C CNN
 F 2 "" H 4950 3400 50  0000 C CNN
 F 3 "" H 4950 3400 50  0000 C CNN
@@ -254,10 +254,10 @@ $EndComp
 Wire Wire Line
 	2700 2500 2700 2450
 $Comp
-L GND #PWR043
+L GND #PWR044
 U 1 1 59F2A079
 P 2700 2850
-F 0 "#PWR043" H 2700 2600 50  0001 C CNN
+F 0 "#PWR044" H 2700 2600 50  0001 C CNN
 F 1 "GND" H 2700 2700 50  0000 C CNN
 F 2 "" H 2700 2850 50  0000 C CNN
 F 3 "" H 2700 2850 50  0000 C CNN
@@ -278,10 +278,10 @@ F 3 "http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf" H 8450 3
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR044
+L VCC #PWR045
 U 1 1 59F2A6EF
 P 8800 4450
-F 0 "#PWR044" H 8800 4300 50  0001 C CNN
+F 0 "#PWR045" H 8800 4300 50  0001 C CNN
 F 1 "VCC" H 8800 4600 50  0000 C CNN
 F 2 "" H 8800 4450 50  0000 C CNN
 F 3 "" H 8800 4450 50  0000 C CNN
@@ -289,10 +289,10 @@ F 3 "" H 8800 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR045
+L GND #PWR046
 U 1 1 59F2A72F
 P 8800 4750
-F 0 "#PWR045" H 8800 4500 50  0001 C CNN
+F 0 "#PWR046" H 8800 4500 50  0001 C CNN
 F 1 "GND" H 8800 4600 50  0000 C CNN
 F 2 "" H 8800 4750 50  0000 C CNN
 F 3 "" H 8800 4750 50  0000 C CNN
@@ -308,7 +308,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 4700 8800 4750
 Text HLabel 6800 5400 2    60   Output ~ 0
-RESET
+BT_RESET
 Wire Wire Line
 	6300 3900 6800 3900
 Text HLabel 6800 4100 2    60   Output ~ 0
@@ -359,54 +359,54 @@ Text Label 7900 4500 0    60   ~ 0
 MISO
 Text Label 7900 4700 0    60   ~ 0
 RESET
-Text Label 3300 3900 0    60   ~ 0
+Text Label 3350 3900 0    60   ~ 0
 RESET
 Text Label 9000 4600 2    60   ~ 0
 MOSI
 $Comp
-L LED D8
+L LED D2
 U 1 1 59F2C4A1
-P 8200 3300
-F 0 "D8" H 8200 3400 50  0000 C CNN
-F 1 "B LED" H 8200 3200 50  0000 C CNN
-F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 3300 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LVBC-D.pdf" H 8200 3300 50  0001 C CNN
-F 4 "https://www.bivar.com/portals/0/products/H-10XC-X.pdf" H 8200 3300 60  0001 C CNN "Holder datasheet"
-	1    8200 3300
+P 8200 2450
+F 0 "D2" H 8200 2550 50  0000 C CNN
+F 1 "B LED" H 8200 2350 50  0000 C CNN
+F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 2450 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LVBC-D.pdf" H 8200 2450 50  0001 C CNN
+F 4 "https://www.bivar.com/portals/0/products/H-10XC-X.pdf" H 8200 2450 60  0001 C CNN "Holder datasheet"
+	1    8200 2450
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D5
+L LED D4
 U 1 1 59F2C6B4
-P 8200 2400
-F 0 "D5" H 8200 2500 50  0000 C CNN
-F 1 "O LED" H 8200 2300 50  0000 C CNN
-F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 2400 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LSECK-J4.pdf" H 8200 2400 50  0001 C CNN
-F 4 "https://www.bivar.com/portals/0/products/H-10XC-X.pdf" H 8200 2400 60  0001 C CNN "Holder datasheet"
-	1    8200 2400
+P 8200 3050
+F 0 "D4" H 8200 3150 50  0000 C CNN
+F 1 "O LED" H 8200 2950 50  0000 C CNN
+F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 3050 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LSECK-J4.pdf" H 8200 3050 50  0001 C CNN
+F 4 "https://www.bivar.com/portals/0/products/H-10XC-X.pdf" H 8200 3050 60  0001 C CNN "Holder datasheet"
+	1    8200 3050
 	-1   0    0    1   
-$EndComp
-$Comp
-L R R20
-U 1 1 59F2C711
-P 7800 3300
-F 0 "R20" V 7880 3300 50  0000 C CNN
-F 1 "330" V 7800 3300 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7730 3300 50  0001 C CNN
-F 3 "" H 7800 3300 50  0000 C CNN
-	1    7800 3300
-	0    1    1    0   
 $EndComp
 $Comp
 L R R17
+U 1 1 59F2C711
+P 7800 2450
+F 0 "R17" V 7880 2450 50  0000 C CNN
+F 1 "330" V 7800 2450 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7730 2450 50  0001 C CNN
+F 3 "" H 7800 2450 50  0000 C CNN
+	1    7800 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R19
 U 1 1 59F2C754
-P 7800 2400
-F 0 "R17" V 7880 2400 50  0000 C CNN
-F 1 "750" V 7800 2400 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7730 2400 50  0001 C CNN
-F 3 "" H 7800 2400 50  0000 C CNN
-	1    7800 2400
+P 7800 3050
+F 0 "R19" V 7880 3050 50  0000 C CNN
+F 1 "750" V 7800 3050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7730 3050 50  0001 C CNN
+F 3 "" H 7800 3050 50  0000 C CNN
+	1    7800 3050
 	0    1    1    0   
 $EndComp
 $Comp
@@ -421,10 +421,10 @@ F 3 "" H 7800 2150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D4
+L LED D1
 U 1 1 59F2C86B
 P 8200 2150
-F 0 "D4" H 8200 2250 50  0000 C CNN
+F 0 "D1" H 8200 2250 50  0000 C CNN
 F 1 "R LED" H 8200 2050 50  0000 C CNN
 F 2 "blubaru:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 8200 2150 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LSECK-J3.pdf" H 8200 2150 50  0001 C CNN
@@ -437,42 +437,44 @@ Wire Wire Line
 Wire Wire Line
 	8700 2150 8700 3500
 Wire Wire Line
-	8350 2400 8700 2400
-Connection ~ 8700 2400
+	8700 2450 8700 3050
 Wire Wire Line
-	8350 2700 8700 2700
-Connection ~ 8700 2700
+	8700 3050 8350 3050
+Connection ~ 8700 3050
 Wire Wire Line
-	8350 3000 8700 3000
-Connection ~ 8700 3000
+	8350 2750 8700 2750
+Connection ~ 8700 2750
 Wire Wire Line
-	8350 3300 8700 3300
-Connection ~ 8700 3300
+	8350 3350 8700 3350
+Connection ~ 8700 3350
+Wire Wire Line
+	8350 2450 8700 2450
+Connection ~ 8700 2450
 Wire Wire Line
 	7950 2150 8050 2150
 Wire Wire Line
-	7950 2400 8050 2400
+	7950 3050 8050 3050
 Wire Wire Line
-	7950 2700 8050 2700
+	7950 2750 8050 2750
 Wire Wire Line
-	7950 3000 8050 3000
+	7950 3350 8050 3350
 Wire Wire Line
-	7950 3300 8050 3300
+	7950 2450 8050 2450
 Wire Wire Line
 	7250 2150 7650 2150
 Wire Wire Line
-	7650 2400 7250 2400
+	7650 3050 7250 3050
 Wire Wire Line
-	7650 2700 7250 2700
+	7650 2750 7250 2750
 Wire Wire Line
-	7650 3000 7250 3000
+	7650 3350 7250 3350
 Wire Wire Line
-	7650 3300 7250 3300
+	7650 2450 7250 2450
 $Comp
-L VCC #PWR046
+L VCC #PWR047
 U 1 1 59F2CDFF
 P 7250 2050
-F 0 "#PWR046" H 7250 1900 50  0001 C CNN
+F 0 "#PWR047" H 7250 1900 50  0001 C CNN
 F 1 "VCC" H 7250 2200 50  0000 C CNN
 F 2 "" H 7250 2050 50  0000 C CNN
 F 3 "" H 7250 2050 50  0000 C CNN
@@ -481,19 +483,19 @@ F 3 "" H 7250 2050 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	7250 2050 7250 2150
-Text Label 7250 3000 0    60   ~ 0
+Text Label 7250 3350 0    60   ~ 0
 LINE_TRG
-Text Label 7250 3300 0    60   ~ 0
+Text Label 7250 2450 0    60   ~ 0
 BT_TRG
-Text Label 7250 2400 0    60   ~ 0
+Text Label 7250 3050 0    60   ~ 0
 LED1
-Text Label 7250 2700 0    60   ~ 0
+Text Label 7250 2750 0    60   ~ 0
 LED2
 $Comp
-L VCC #PWR047
+L VCC #PWR048
 U 1 1 59F2D1EA
 P 2700 2450
-F 0 "#PWR047" H 2700 2300 50  0001 C CNN
+F 0 "#PWR048" H 2700 2300 50  0001 C CNN
 F 1 "VCC" H 2700 2600 50  0000 C CNN
 F 2 "" H 2700 2450 50  0000 C CNN
 F 3 "" H 2700 2450 50  0000 C CNN
