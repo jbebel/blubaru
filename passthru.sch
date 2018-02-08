@@ -241,4 +241,5 @@ F 3 "" H 5600 3450 50  0001 C CNN
 $EndComp
 Text Label 5500 1750 2    60   ~ 0
 R
+Connection ~ 5650 5150
 $EndSCHEMATC

@@ -231,7 +231,7 @@ P 3050 3900
 F 0 "SW1" H 3100 4000 50  0000 L CNN
 F 1 "SW_Push" H 3050 3840 50  0000 C CNN
 F 2 "blubaru:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 3050 4100 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 3050 4100 50  0000 C CNN
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 3050 4100 50  0001 C CNN
 	1    3050 3900
 	1    0    0    -1  
 $EndComp

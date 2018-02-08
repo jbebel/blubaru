@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jbebel/blubaru/blubaru.sch</source>
-    <date>Wed 10 Jan 2018 10:41:51 PM EST</date>
+    <date>Sat 20 Jan 2018 11:26:55 PM EST</date>
     <tool>Eeschema 4.0.7+dfsg1-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1034,26 +1034,26 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
-    <library logical="analog_switches">
-      <uri>/usr/share/kicad/library/analog_switches.lib</uri>
+    <library logical="blubaru-cache">
+      <uri>/home/jbebel/blubaru/blubaru-cache.lib</uri>
     </library>
     <library logical="blubaru">
       <uri>/home/jbebel/blubaru/library/blubaru.lib</uri>
     </library>
+    <library logical="analog_switches">
+      <uri>/usr/share/kicad/library/analog_switches.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
     <library logical="switches">
       <uri>/usr/share/kicad/library/switches.lib</uri>
-    </library>
-    <library logical="blubaru-cache">
-      <uri>/home/jbebel/blubaru/blubaru-cache.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="/DB-15 interconnects/4_OUT">
-      <node ref="J2" pin="4"/>
       <node ref="J4" pin="3"/>
+      <node ref="J2" pin="4"/>
     </net>
     <net code="2" name="/DB-15 interconnects/2_OUT">
       <node ref="J2" pin="2"/>
@@ -1064,19 +1064,19 @@
       <node ref="U1" pin="1"/>
     </net>
     <net code="4" name="GND">
-      <node ref="J3" pin="6"/>
       <node ref="C11" pin="2"/>
+      <node ref="J3" pin="6"/>
       <node ref="C15" pin="2"/>
-      <node ref="J4" pin="6"/>
       <node ref="C5" pin="2"/>
       <node ref="J6" pin="1"/>
       <node ref="IC1" pin="10"/>
-      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="3"/>
       <node ref="C1" pin="2"/>
       <node ref="J7" pin="4"/>
       <node ref="C2" pin="2"/>
-      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="7"/>
       <node ref="J7" pin="10"/>
+      <node ref="J4" pin="6"/>
       <node ref="D2" pin="1"/>
       <node ref="D4" pin="1"/>
       <node ref="P1" pin="6"/>
@@ -1096,16 +1096,16 @@
       <node ref="D5" pin="1"/>
       <node ref="D3" pin="1"/>
       <node ref="C21" pin="2"/>
-      <node ref="J1" pin="14"/>
       <node ref="J2" pin="14"/>
+      <node ref="J1" pin="14"/>
     </net>
     <net code="5" name="/DB-15 interconnects/3_IN">
       <node ref="J2" pin="3"/>
       <node ref="J1" pin="3"/>
     </net>
     <net code="6" name="/DB-15 interconnects/8_IN">
-      <node ref="J1" pin="8"/>
       <node ref="J2" pin="8"/>
+      <node ref="J1" pin="8"/>
     </net>
     <net code="7" name="/DB-15 interconnects/7_IN">
       <node ref="J1" pin="7"/>
@@ -1116,11 +1116,14 @@
       <node ref="U1" pin="2"/>
     </net>
     <net code="9" name="/DB-15 interconnects/13_IN">
-      <node ref="J1" pin="13"/>
       <node ref="J2" pin="13"/>
+      <node ref="J1" pin="13"/>
     </net>
-    <net code="10" name="/DB-15 interconnects/5_IN">
+    <net code="10" name="GNDA">
+      <node ref="R9" pin="1"/>
       <node ref="J2" pin="5"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J8" pin="1"/>
       <node ref="J1" pin="5"/>
     </net>
     <net code="11" name="/DB-15 interconnects/12_IN">
@@ -1132,25 +1135,25 @@
       <node ref="J1" pin="4"/>
     </net>
     <net code="13" name="/DB-15 interconnects/11_IN">
-      <node ref="J1" pin="11"/>
       <node ref="J2" pin="11"/>
+      <node ref="J1" pin="11"/>
     </net>
     <net code="14" name="/DB-15 interconnects/10_IN">
-      <node ref="J2" pin="10"/>
       <node ref="J1" pin="10"/>
+      <node ref="J2" pin="10"/>
     </net>
     <net code="15" name="/DB-15 interconnects/2_IN">
-      <node ref="J1" pin="2"/>
       <node ref="J4" pin="8"/>
+      <node ref="J1" pin="2"/>
     </net>
     <net code="16" name="+BATT">
       <node ref="D8" pin="2"/>
-      <node ref="J1" pin="9"/>
       <node ref="J2" pin="9"/>
+      <node ref="J1" pin="9"/>
     </net>
     <net code="17" name="/DB-15 interconnects/1_IN">
-      <node ref="J2" pin="1"/>
       <node ref="J1" pin="1"/>
+      <node ref="J2" pin="1"/>
     </net>
     <net code="18" name="Net-(J2-Pad15)">
       <node ref="J2" pin="15"/>
@@ -1158,91 +1161,86 @@
     <net code="19" name="Net-(J1-Pad15)">
       <node ref="J1" pin="15"/>
     </net>
-    <net code="20" name="GNDA">
-      <node ref="R9" pin="2"/>
-      <node ref="R8" pin="1"/>
-      <node ref="J8" pin="1"/>
-    </net>
-    <net code="21" name="/DB-15 interconnects/Modules/Audio switch/BT_R">
+    <net code="20" name="/DB-15 interconnects/Modules/Audio switch/BT_R">
+      <node ref="J7" pin="12"/>
       <node ref="R12" pin="2"/>
       <node ref="J3" pin="8"/>
-      <node ref="J7" pin="12"/>
     </net>
-    <net code="22" name="/DB-15 interconnects/Modules/Audio switch/BT_L">
+    <net code="21" name="/DB-15 interconnects/Modules/Audio switch/BT_L">
       <node ref="R5" pin="2"/>
-      <node ref="J7" pin="3"/>
       <node ref="J3" pin="4"/>
+      <node ref="J7" pin="3"/>
     </net>
-    <net code="23" name="/DB-15 interconnects/Modules/Audio switch/LINE_L">
+    <net code="22" name="/DB-15 interconnects/Modules/Audio switch/LINE_L">
+      <node ref="J3" pin="2"/>
       <node ref="J8" pin="2"/>
       <node ref="R14" pin="1"/>
-      <node ref="J3" pin="2"/>
     </net>
-    <net code="24" name="/DB-15 interconnects/Modules/Audio switch/LINE_R">
+    <net code="23" name="/DB-15 interconnects/Modules/Audio switch/LINE_R">
       <node ref="J3" pin="10"/>
-      <node ref="J8" pin="3"/>
       <node ref="R13" pin="1"/>
+      <node ref="J8" pin="3"/>
     </net>
-    <net code="25" name="/DB-15 interconnects/Modules/Line In/JACK_SENSE">
-      <node ref="J8" pin="4"/>
+    <net code="24" name="/DB-15 interconnects/Modules/Line In/JACK_SENSE">
       <node ref="R15" pin="1"/>
       <node ref="IC1" pin="7"/>
+      <node ref="J8" pin="4"/>
     </net>
-    <net code="26" name="/DB-15 interconnects/Modules/Audio switch/LINE_TRG">
-      <node ref="J3" pin="7"/>
+    <net code="25" name="/DB-15 interconnects/Modules/Audio switch/LINE_TRG">
       <node ref="J3" pin="5"/>
-      <node ref="R20" pin="2"/>
+      <node ref="J3" pin="7"/>
       <node ref="IC1" pin="9"/>
+      <node ref="R20" pin="2"/>
     </net>
-    <net code="27" name="/DB-15 interconnects/Modules/Bluetooth Module/UART_RX">
+    <net code="26" name="/DB-15 interconnects/Modules/Bluetooth Module/UART_RX">
       <node ref="J5" pin="16"/>
       <node ref="IC1" pin="3"/>
     </net>
-    <net code="28" name="/DB-15 interconnects/Modules/Bluetooth Module/UART_TX">
+    <net code="27" name="/DB-15 interconnects/Modules/Bluetooth Module/UART_TX">
       <node ref="IC1" pin="2"/>
       <node ref="J5" pin="15"/>
     </net>
-    <net code="29" name="/DB-15 interconnects/Modules/Bluetooth Module/CMD">
-      <node ref="IC1" pin="12"/>
+    <net code="28" name="/DB-15 interconnects/Modules/Bluetooth Module/CMD">
       <node ref="J5" pin="10"/>
+      <node ref="IC1" pin="12"/>
     </net>
-    <net code="30" name="/DB-15 interconnects/Modules/Bluetooth Module/9600">
+    <net code="29" name="/DB-15 interconnects/Modules/Bluetooth Module/9600">
       <node ref="IC1" pin="13"/>
       <node ref="J5" pin="17"/>
     </net>
-    <net code="31" name="/DB-15 interconnects/Modules/Bluetooth Module/PWR_EN">
-      <node ref="IC1" pin="14"/>
+    <net code="30" name="/DB-15 interconnects/Modules/Bluetooth Module/PWR_EN">
       <node ref="J5" pin="19"/>
+      <node ref="IC1" pin="14"/>
     </net>
-    <net code="32" name="/DB-15 interconnects/Modules/Microcontroller/BT_RESET">
-      <node ref="J5" pin="1"/>
+    <net code="31" name="/DB-15 interconnects/Modules/Microcontroller/BT_RESET">
       <node ref="IC1" pin="11"/>
+      <node ref="J5" pin="1"/>
     </net>
-    <net code="33" name="/DB-15 interconnects/Modules/Bluetooth Module/EVENT">
-      <node ref="J5" pin="2"/>
+    <net code="32" name="/DB-15 interconnects/Modules/Bluetooth Module/EVENT">
       <node ref="IC1" pin="6"/>
+      <node ref="J5" pin="2"/>
     </net>
-    <net code="34" name="/DB-15 interconnects/Modules/Audio switch/BT_TRG">
-      <node ref="J4" pin="5"/>
-      <node ref="IC1" pin="8"/>
-      <node ref="J4" pin="7"/>
+    <net code="33" name="/DB-15 interconnects/Modules/Audio switch/BT_TRG">
       <node ref="U1" pin="6"/>
       <node ref="R17" pin="2"/>
+      <node ref="J4" pin="7"/>
+      <node ref="J4" pin="5"/>
+      <node ref="IC1" pin="8"/>
     </net>
-    <net code="35" name="Net-(J3-Pad3)">
+    <net code="34" name="Net-(J3-Pad3)">
       <node ref="J3" pin="3"/>
       <node ref="J4" pin="2"/>
     </net>
-    <net code="36" name="VCC">
-      <node ref="C18" pin="1"/>
-      <node ref="C19" pin="1"/>
-      <node ref="J7" pin="5"/>
-      <node ref="J7" pin="9"/>
+    <net code="35" name="VCC">
       <node ref="U2" pin="2"/>
-      <node ref="IC1" pin="20"/>
-      <node ref="R16" pin="2"/>
+      <node ref="C18" pin="1"/>
       <node ref="C15" pin="1"/>
+      <node ref="J7" pin="9"/>
+      <node ref="J7" pin="5"/>
+      <node ref="IC1" pin="20"/>
+      <node ref="C19" pin="1"/>
       <node ref="P2" pin="2"/>
+      <node ref="R16" pin="2"/>
       <node ref="C3" pin="1"/>
       <node ref="J4" pin="1"/>
       <node ref="U1" pin="5"/>
@@ -1255,22 +1253,22 @@
       <node ref="J5" pin="20"/>
       <node ref="R15" pin="2"/>
     </net>
-    <net code="37" name="Net-(J3-Pad9)">
+    <net code="36" name="Net-(J3-Pad9)">
       <node ref="J4" pin="10"/>
       <node ref="J3" pin="9"/>
     </net>
-    <net code="38" name="+12V">
+    <net code="37" name="+12V">
       <node ref="U1" pin="4"/>
       <node ref="U1" pin="8"/>
       <node ref="U2" pin="3"/>
       <node ref="C17" pin="1"/>
       <node ref="D8" pin="1"/>
     </net>
-    <net code="39" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_L+">
+    <net code="38" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_L+">
       <node ref="J5" pin="33"/>
       <node ref="C8" pin="2"/>
     </net>
-    <net code="40" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_BIAS">
+    <net code="39" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_BIAS">
       <node ref="C8" pin="1"/>
       <node ref="C7" pin="1"/>
       <node ref="C5" pin="1"/>
@@ -1278,236 +1276,236 @@
       <node ref="J5" pin="32"/>
       <node ref="R3" pin="2"/>
     </net>
-    <net code="41" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_R-">
+    <net code="40" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_R-">
       <node ref="C6" pin="2"/>
       <node ref="J5" pin="36"/>
     </net>
-    <net code="42" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_L-">
+    <net code="41" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_L-">
       <node ref="C9" pin="2"/>
       <node ref="J5" pin="35"/>
     </net>
-    <net code="43" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_R+">
+    <net code="42" name="/DB-15 interconnects/Modules/Bluetooth Module/Microphone/MIC_R+">
       <node ref="C7" pin="2"/>
       <node ref="J5" pin="34"/>
     </net>
-    <net code="44" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/L-">
+    <net code="43" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/L-">
       <node ref="J5" pin="38"/>
       <node ref="C16" pin="1"/>
     </net>
-    <net code="45" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/L+">
+    <net code="44" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/L+">
       <node ref="J5" pin="40"/>
       <node ref="C14" pin="1"/>
     </net>
-    <net code="46" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/R-">
+    <net code="45" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/R-">
       <node ref="C10" pin="1"/>
       <node ref="J5" pin="37"/>
     </net>
-    <net code="47" name="Net-(D7-Pad1)">
+    <net code="46" name="Net-(D7-Pad1)">
       <node ref="D7" pin="1"/>
       <node ref="J5" pin="30"/>
     </net>
-    <net code="48" name="Net-(D6-Pad2)">
+    <net code="47" name="Net-(D6-Pad2)">
       <node ref="R1" pin="2"/>
       <node ref="D6" pin="2"/>
     </net>
-    <net code="49" name="Net-(D7-Pad2)">
+    <net code="48" name="Net-(D7-Pad2)">
       <node ref="D7" pin="2"/>
       <node ref="R2" pin="2"/>
     </net>
-    <net code="50" name="Net-(D6-Pad1)">
+    <net code="49" name="Net-(D6-Pad1)">
       <node ref="D6" pin="1"/>
       <node ref="J5" pin="31"/>
     </net>
-    <net code="51" name="Net-(J5-Pad23)">
+    <net code="50" name="Net-(J5-Pad23)">
       <node ref="J5" pin="23"/>
     </net>
-    <net code="52" name="Net-(J5-Pad14)">
+    <net code="51" name="Net-(J5-Pad14)">
       <node ref="J5" pin="14"/>
     </net>
-    <net code="53" name="Net-(J5-Pad24)">
+    <net code="52" name="Net-(J5-Pad24)">
       <node ref="J5" pin="24"/>
     </net>
-    <net code="54" name="Net-(J5-Pad25)">
+    <net code="53" name="Net-(J5-Pad25)">
       <node ref="J5" pin="25"/>
     </net>
-    <net code="55" name="Net-(J5-Pad26)">
+    <net code="54" name="Net-(J5-Pad26)">
       <node ref="J5" pin="26"/>
     </net>
-    <net code="56" name="Net-(J5-Pad13)">
+    <net code="55" name="Net-(J5-Pad13)">
       <node ref="J5" pin="13"/>
     </net>
-    <net code="57" name="Net-(J5-Pad27)">
+    <net code="56" name="Net-(J5-Pad27)">
       <node ref="J5" pin="27"/>
     </net>
-    <net code="58" name="Net-(J5-Pad18)">
+    <net code="57" name="Net-(J5-Pad18)">
       <node ref="J5" pin="18"/>
     </net>
-    <net code="59" name="Net-(J5-Pad28)">
+    <net code="58" name="Net-(J5-Pad28)">
       <node ref="J5" pin="28"/>
     </net>
-    <net code="60" name="Net-(J5-Pad29)">
+    <net code="59" name="Net-(J5-Pad29)">
       <node ref="J5" pin="29"/>
     </net>
-    <net code="61" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/R+">
+    <net code="60" name="/DB-15 interconnects/Modules/Bluetooth Module/Line Driver/R+">
       <node ref="J5" pin="39"/>
       <node ref="C12" pin="1"/>
     </net>
-    <net code="62" name="Net-(J5-Pad3)">
+    <net code="61" name="Net-(J5-Pad3)">
       <node ref="J5" pin="3"/>
     </net>
-    <net code="63" name="Net-(J5-Pad4)">
+    <net code="62" name="Net-(J5-Pad4)">
       <node ref="J5" pin="4"/>
     </net>
-    <net code="64" name="Net-(J5-Pad11)">
+    <net code="63" name="Net-(J5-Pad11)">
       <node ref="J5" pin="11"/>
     </net>
-    <net code="65" name="Net-(J5-Pad12)">
+    <net code="64" name="Net-(J5-Pad12)">
       <node ref="J5" pin="12"/>
     </net>
-    <net code="66" name="Net-(J5-Pad22)">
+    <net code="65" name="Net-(J5-Pad22)">
       <node ref="J5" pin="22"/>
     </net>
-    <net code="67" name="/DB-15 interconnects/Modules/Bluetooth Module/VOL+">
+    <net code="66" name="/DB-15 interconnects/Modules/Bluetooth Module/VOL+">
       <node ref="J5" pin="5"/>
       <node ref="P1" pin="5"/>
     </net>
-    <net code="68" name="/DB-15 interconnects/Modules/Bluetooth Module/NEXT">
+    <net code="67" name="/DB-15 interconnects/Modules/Bluetooth Module/NEXT">
       <node ref="J5" pin="6"/>
       <node ref="P1" pin="4"/>
     </net>
-    <net code="69" name="/DB-15 interconnects/Modules/Bluetooth Module/PLAY">
+    <net code="68" name="/DB-15 interconnects/Modules/Bluetooth Module/PLAY">
       <node ref="J5" pin="7"/>
       <node ref="P1" pin="3"/>
     </net>
-    <net code="70" name="/DB-15 interconnects/Modules/Bluetooth Module/PREV">
+    <net code="69" name="/DB-15 interconnects/Modules/Bluetooth Module/PREV">
       <node ref="P1" pin="2"/>
       <node ref="J5" pin="8"/>
     </net>
-    <net code="71" name="/DB-15 interconnects/Modules/Bluetooth Module/VOL-">
+    <net code="70" name="/DB-15 interconnects/Modules/Bluetooth Module/VOL-">
       <node ref="P1" pin="1"/>
       <node ref="J5" pin="9"/>
     </net>
-    <net code="72" name="Net-(J8-Pad5)">
+    <net code="71" name="Net-(J8-Pad5)">
       <node ref="J8" pin="5"/>
     </net>
-    <net code="73" name="/DB-15 interconnects/Modules/Microcontroller/MOSI">
+    <net code="72" name="/DB-15 interconnects/Modules/Microcontroller/MOSI">
       <node ref="P2" pin="4"/>
       <node ref="IC1" pin="17"/>
     </net>
-    <net code="74" name="/DB-15 interconnects/Modules/Microcontroller/MISO">
+    <net code="73" name="/DB-15 interconnects/Modules/Microcontroller/MISO">
       <node ref="IC1" pin="18"/>
       <node ref="P2" pin="1"/>
     </net>
-    <net code="75" name="/DB-15 interconnects/Modules/Microcontroller/SCK">
-      <node ref="P2" pin="3"/>
+    <net code="74" name="/DB-15 interconnects/Modules/Microcontroller/SCK">
       <node ref="IC1" pin="19"/>
+      <node ref="P2" pin="3"/>
     </net>
-    <net code="76" name="/DB-15 interconnects/Modules/Microcontroller/LED2">
+    <net code="75" name="/DB-15 interconnects/Modules/Microcontroller/LED2">
       <node ref="R18" pin="2"/>
       <node ref="IC1" pin="16"/>
     </net>
-    <net code="77" name="/DB-15 interconnects/Modules/Microcontroller/RESET">
+    <net code="76" name="/DB-15 interconnects/Modules/Microcontroller/RESET">
       <node ref="IC1" pin="1"/>
       <node ref="P2" pin="5"/>
       <node ref="SW1" pin="2"/>
     </net>
-    <net code="78" name="Net-(D2-Pad2)">
+    <net code="77" name="Net-(D2-Pad2)">
       <node ref="D2" pin="2"/>
       <node ref="R17" pin="1"/>
     </net>
-    <net code="79" name="/DB-15 interconnects/Modules/Microcontroller/LED1">
+    <net code="78" name="/DB-15 interconnects/Modules/Microcontroller/LED1">
       <node ref="IC1" pin="15"/>
       <node ref="R19" pin="2"/>
     </net>
-    <net code="80" name="Net-(D1-Pad2)">
+    <net code="79" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2"/>
       <node ref="R16" pin="1"/>
     </net>
-    <net code="81" name="Net-(D4-Pad2)">
+    <net code="80" name="Net-(D4-Pad2)">
       <node ref="R19" pin="1"/>
       <node ref="D4" pin="2"/>
     </net>
-    <net code="82" name="Net-(D3-Pad2)">
+    <net code="81" name="Net-(D3-Pad2)">
       <node ref="R18" pin="1"/>
       <node ref="D3" pin="2"/>
     </net>
-    <net code="83" name="Net-(D5-Pad2)">
+    <net code="82" name="Net-(D5-Pad2)">
       <node ref="R20" pin="1"/>
       <node ref="D5" pin="2"/>
     </net>
-    <net code="84" name="Net-(C21-Pad1)">
+    <net code="83" name="Net-(C21-Pad1)">
       <node ref="C21" pin="1"/>
       <node ref="Y1" pin="2"/>
       <node ref="IC1" pin="5"/>
     </net>
-    <net code="85" name="Net-(C20-Pad1)">
+    <net code="84" name="Net-(C20-Pad1)">
       <node ref="Y1" pin="1"/>
       <node ref="C20" pin="1"/>
       <node ref="IC1" pin="4"/>
     </net>
-    <net code="86" name="Net-(C6-Pad1)">
+    <net code="85" name="Net-(C6-Pad1)">
       <node ref="J6" pin="3"/>
       <node ref="C6" pin="1"/>
       <node ref="R3" pin="1"/>
     </net>
-    <net code="87" name="Net-(C9-Pad1)">
+    <net code="86" name="Net-(C9-Pad1)">
       <node ref="R4" pin="2"/>
       <node ref="C9" pin="1"/>
       <node ref="J6" pin="2"/>
     </net>
-    <net code="88" name="Net-(J6-Pad5)">
+    <net code="87" name="Net-(J6-Pad5)">
       <node ref="J6" pin="5"/>
     </net>
-    <net code="89" name="Net-(J6-Pad4)">
+    <net code="88" name="Net-(J6-Pad4)">
       <node ref="J6" pin="4"/>
     </net>
-    <net code="90" name="Net-(J7-Pad11)">
+    <net code="89" name="Net-(J7-Pad11)">
       <node ref="J7" pin="11"/>
     </net>
-    <net code="91" name="Net-(C13-Pad2)">
+    <net code="90" name="Net-(C13-Pad2)">
       <node ref="J7" pin="7"/>
       <node ref="C13" pin="2"/>
     </net>
-    <net code="92" name="Net-(C13-Pad1)">
+    <net code="91" name="Net-(C13-Pad1)">
       <node ref="J7" pin="8"/>
       <node ref="C13" pin="1"/>
     </net>
-    <net code="93" name="Net-(J7-Pad2)">
+    <net code="92" name="Net-(J7-Pad2)">
       <node ref="R5" pin="1"/>
       <node ref="R6" pin="2"/>
       <node ref="J7" pin="2"/>
     </net>
-    <net code="94" name="Net-(C10-Pad2)">
+    <net code="93" name="Net-(C10-Pad2)">
       <node ref="C10" pin="2"/>
       <node ref="R6" pin="1"/>
     </net>
-    <net code="95" name="Net-(C14-Pad2)">
+    <net code="94" name="Net-(C14-Pad2)">
       <node ref="R10" pin="1"/>
       <node ref="C14" pin="2"/>
     </net>
-    <net code="96" name="Net-(C11-Pad1)">
+    <net code="95" name="Net-(C11-Pad1)">
       <node ref="C11" pin="1"/>
       <node ref="J7" pin="6"/>
     </net>
-    <net code="97" name="Net-(C16-Pad2)">
+    <net code="96" name="Net-(C16-Pad2)">
       <node ref="C16" pin="2"/>
       <node ref="R11" pin="1"/>
     </net>
-    <net code="98" name="Net-(C12-Pad2)">
+    <net code="97" name="Net-(C12-Pad2)">
       <node ref="C12" pin="2"/>
       <node ref="R7" pin="1"/>
     </net>
-    <net code="99" name="Net-(J7-Pad13)">
+    <net code="98" name="Net-(J7-Pad13)">
       <node ref="J7" pin="13"/>
       <node ref="R12" pin="1"/>
       <node ref="R11" pin="2"/>
     </net>
-    <net code="100" name="Net-(J7-Pad14)">
+    <net code="99" name="Net-(J7-Pad14)">
       <node ref="J7" pin="14"/>
       <node ref="R10" pin="2"/>
-      <node ref="R9" pin="1"/>
+      <node ref="R9" pin="2"/>
     </net>
-    <net code="101" name="Net-(J7-Pad1)">
+    <net code="100" name="Net-(J7-Pad1)">
       <node ref="R7" pin="2"/>
       <node ref="J7" pin="1"/>
       <node ref="R8" pin="2"/>

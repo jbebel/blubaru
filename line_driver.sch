@@ -165,12 +165,12 @@ $Comp
 L R R9
 U 1 1 59179241
 P 5750 3650
-F 0 "R9" V 5830 3650 50  0000 C CNN
+F 0 "R9" V 5670 3650 50  0000 C CNN
 F 1 "8.2k" V 5750 3650 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5680 3650 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RNF_RNMF.pdf" H 5750 3650 50  0001 C CNN
 	1    5750 3650
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R10
