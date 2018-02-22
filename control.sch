@@ -58,11 +58,11 @@ Text HLabel 6800 4800 2    60   Input ~ 0
 UART_TX
 Text HLabel 6800 4900 2    60   Output ~ 0
 UART_RX
-Text HLabel 6800 3900 2    60   Output ~ 0
-CMD
-Text HLabel 6800 5000 2    60   Input ~ 0
-EVENT
 Text HLabel 6800 5200 2    60   Output ~ 0
+CMD
+Text HLabel 6800 5100 2    60   Input ~ 0
+EVENT
+Text HLabel 6800 4000 2    60   Output ~ 0
 BT_TRG
 $Comp
 L LED D3
@@ -87,11 +87,11 @@ F 3 "https://www.seielect.com/Catalog/SEI-CF_CFM.pdf" H 7800 2750 50  0001 C CNN
 	1    7800 2750
 	0    1    1    0   
 $EndComp
-Text HLabel 6800 5300 2    60   Output ~ 0
+Text HLabel 6800 4100 2    60   Output ~ 0
 LINE_TRG
 Wire Wire Line
 	6300 4200 6800 4200
-Text HLabel 6800 5100 2    60   Input ~ 0
+Text HLabel 6800 3900 2    60   Input ~ 0
 JACK_SENSE
 Wire Wire Line
 	6300 5100 6800 5100
@@ -307,17 +307,17 @@ Wire Wire Line
 	8700 4700 8800 4700
 Wire Wire Line
 	8800 4700 8800 4750
-Text HLabel 6800 5400 2    60   Output ~ 0
+Text HLabel 6800 5000 2    60   Output ~ 0
 BT_RESET
 Wire Wire Line
 	6300 3900 6800 3900
-Text HLabel 6800 4100 2    60   Output ~ 0
+Text HLabel 6800 5400 2    60   Output ~ 0
 PWR_EN
 Wire Wire Line
 	6300 4000 6800 4000
 Wire Wire Line
 	6300 4100 6800 4100
-Text HLabel 6800 4000 2    60   Output ~ 0
+Text HLabel 6800 5300 2    60   Output ~ 0
 9600
 Wire Wire Line
 	6300 4300 6800 4300
@@ -325,13 +325,13 @@ Wire Wire Line
 	6300 5300 6800 5300
 Wire Wire Line
 	6300 5400 6800 5400
-Text Label 6600 4200 2    60   ~ 0
-LED1
 Text Label 6600 4300 2    60   ~ 0
+LED1
+Text Label 6600 4200 2    60   ~ 0
 LED2
-Text Label 6650 5200 2    60   ~ 0
+Text Label 6650 4000 2    60   ~ 0
 BT_TRG
-Text Label 6700 5300 2    60   ~ 0
+Text Label 6700 4100 2    60   ~ 0
 LINE_TRG
 Wire Wire Line
 	6300 4400 6800 4400
