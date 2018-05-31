@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7+dfsg1-1)
 
   (general
-    (links 0)
+    (links 159)
     (no_connects 0)
-    (area 111.684999 65.184999 191.845001 144.855001)
+    (area 106.060457 58.732599 197.469543 149.6174)
     (thickness 1.6002)
     (drawings 7)
     (tracks 590)
@@ -18,17 +18,17 @@
   )
 
   (layers
-    (0 Top signal hide)
+    (0 Top signal)
     (31 Bottom signal)
-    (36 B.SilkS user)
+    (36 B.SilkS user hide)
     (37 F.SilkS user)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
     (40 Dwgs.User user hide)
     (41 Cmts.User user hide)
     (44 Edge.Cuts user)
-    (46 B.CrtYd user hide)
-    (47 F.CrtYd user hide)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
     (48 B.Fab user hide)
     (49 F.Fab user hide)
   )
